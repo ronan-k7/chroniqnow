@@ -16,14 +16,14 @@ export default function Footer() {
         <div className="block md:hidden h-px bg-gray-300 w-4/5 mx-auto mb-6" />
 
         <div className="flex flex-col  md:flex-row md:flex-wrap md:justify-center gap-y-4 gap-x-6 text-center md:text-left text-sm">
-          <Link href="/">HOME</Link>
-      <Link href="/business">BUSINESS</Link>
-      <Link href="/health">HEALTH</Link>
-      <Link href="/politics">POLITICS</Link>
-      <Link href="/science">SCIENCE</Link>
-      <Link href="/sports">SPORTS</Link>
-      <Link href="/technology">TECHNOLOGY</Link>
-      <Link href="/puerto-rico">PUERTO RICO</Link>
+          <Link href="/" title="Home">HOME</Link>
+          <Link href="/business" title="Business">BUSINESS</Link>
+          <Link href="/health" title="Health">HEALTH</Link>
+          <Link href="/politics" title="Politics">POLITICS</Link>
+          <Link href="/science" title="Science">SCIENCE</Link>
+          <Link href="/sports" title="Sports">SPORTS</Link>
+          <Link href="/technology" title="Technology">TECHNOLOGY</Link>
+          <Link href="/puerto-rico" title="Puerto Rico">PUERTO RICO</Link>
         </div>
       </div>
     </footer>

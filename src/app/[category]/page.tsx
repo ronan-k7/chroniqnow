@@ -63,7 +63,6 @@ export async function generateMetadata({
   const ogImage =
     latest?.image || "https://www.chroniqnow.com/images/chroniqnow-logo.webp";
 
-  // FIXED: remove hyphen and capitalize
   const capitalized = category
     .replace(/-/g, " ")
     .replace(/\b\w/g, (c) => c.toUpperCase());
@@ -137,7 +136,6 @@ export default async function CategoryPage({
   const otherPageArticles = pageArticles.slice(1);
   const bottomArticles = pageArticles.slice(7);
 
-  // FIXED: remove hyphen and capitalize
   const capitalized = category
     .replace(/-/g, " ")
     .replace(/\b\w/g, (c) => c.toUpperCase());
@@ -217,82 +215,29 @@ export default async function CategoryPage({
           </p>
         </div>
 
+        {/*
+          ── DOM ORDER: desktop FIRST, mobile SECOND ──────────────────────────
+          Both layouts are always present in the HTML. Crawlers and screen
+          readers traverse the DOM top-to-bottom, so the layout that contains
+          the H2 must come first.
 
+          Reading order for bots:  H1 → H2 (desktop featured) → H3s → H4s
+          Visual order is unchanged — Tailwind hidden/block classes handle that.
+          ─────────────────────────────────────────────────────────────────────
+        */}
 
-        {/* mobile layout */}
-        <div className="block lg:hidden space-y-6">
-          <Link
-            title={featuredArticle.title}
-            href={`/${category}/${featuredArticle.slug}`}
-            className="flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
-          >
-            <div className="w-full h-64 overflow-hidden">
-              <Image
-                src={featuredArticle.image}
-                title={featuredArticle.title}
-                alt={featuredArticle.title}
-                width={1200}
-                height={400}
-                className="w-full h-full object-cover"
-                fetchPriority="high"
-                loading="eager"
-              />
-            </div>
-
-            <div className="p-2">
-              <h2 className="text-xl font-bold">{featuredArticle.title}</h2>
-              <p className="mt-2 text-sm text-gray-800">
-                {featuredArticle.shortdescription}
-              </p>
-            </div>
-            <div className="w-full bg-white border-t border-gray-100 text-red-600 text-center py-2 font-semibold">
-              {featuredArticle.date}
-            </div>
-          </Link>
-
-          <div className="space-y-4">
-            {otherPageArticles.map((item, i) => (
-              <Link
-                key={item.slug + i}
-                title={item.title}
-                href={`/${category}/${item.slug}`}
-                className="flex items-center overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
-              >
-                <div className="w-24 h-24 flex-shrink-0 overflow-hidden ">
-                  <Image
-                    src={item.image}
-                    title={item.title}
-                    alt={item.title}
-                    width={96}
-                    height={96}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-
-                <div className="flex-1 ml-4">
-                  <h2 className="text-base font-bold text-gray-900 line-clamp-2">
-                    {item.title}
-                  </h2>
-                  <p className="mt-1 text-sm text-red-600 font-semibold">
-                    {item.date}
-                  </p>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-
-        {/* desktop layout */}
+        {/* ── DESKTOP LAYOUT (first in DOM) ── H2 for featured, H3 for all others */}
         <div className="hidden lg:grid grid-cols-1 lg:grid-cols-5 gap-y-5 lg:gap-x-5">
           {/* left grid */}
           <div className="col-span-1 lg:col-span-3 grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 gap-6">
-            {/* small card */}
+
+            {/* small card — h3 */}
             <Link
               title={otherPageArticles[0].title}
               href={`/${category}/${otherPageArticles[0].slug}`}
               className="flex flex-col overflow-hidden shadow-xs hover:shadow-lg transition-shadow"
             >
-              <div className="w-24 h-20 lg:w-full lg:h-full overflow-hidden ">
+              <div className="w-24 h-20 lg:w-full lg:h-full overflow-hidden">
                 <Image
                   src={otherPageArticles[0].image}
                   alt={otherPageArticles[0].title}
@@ -302,24 +247,23 @@ export default async function CategoryPage({
                   className="object-cover w-full h-full"
                 />
               </div>
-
               <div className="p-3">
-                <h2 className="text-sm lg:text-base font-bold leading-snug tracking-tight">
+                <h3 className="text-sm lg:text-base font-bold leading-snug tracking-tight">
                   {otherPageArticles[0].title}
-                </h2>
+                </h3>
               </div>
               <div className="w-full bg-white border shadow-sm border-gray-100 text-red-600 text-center py-2 font-semibold">
                 {otherPageArticles[0].date}
               </div>
             </Link>
 
-            {/* featured */}
+            {/* featured card — ✅ the ONE h2 on the page, first in DOM */}
             <Link
               title={featuredArticle.title}
               href={`/${category}/${featuredArticle.slug}`}
               className="flex flex-col row-span-2 col-span-2 overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
             >
-              <div className="w-full  overflow-hidden ">
+              <div className="w-full overflow-hidden">
                 <Image
                   src={featuredArticle.image}
                   alt={featuredArticle.title}
@@ -331,7 +275,6 @@ export default async function CategoryPage({
                   loading="eager"
                 />
               </div>
-
               <div className="p-4 sm:p-6 flex-1 flex flex-col justify-start gap-4">
                 <h2 className="text-xl sm:text-3xl font-bold leading-snug tracking-tight">
                   {featuredArticle.title}
@@ -345,13 +288,13 @@ export default async function CategoryPage({
               </div>
             </Link>
 
-            {/* second small */}
+            {/* second small card — h3 */}
             <Link
               title={otherPageArticles[1].title}
               href={`/${category}/${otherPageArticles[1].slug}`}
               className="flex flex-col overflow-hidden shadow-xs hover:shadow-lg transition-shadow"
             >
-              <div className="w-24 h-20 lg:w-full lg:h-full overflow-hidden ">
+              <div className="w-24 h-20 lg:w-full lg:h-full overflow-hidden">
                 <Image
                   src={otherPageArticles[1].image}
                   alt={otherPageArticles[1].title}
@@ -361,11 +304,10 @@ export default async function CategoryPage({
                   className="w-full h-full object-cover"
                 />
               </div>
-
               <div className="p-3">
-                <h2 className="text-sm lg:text-base font-bold leading-snug tracking-tight">
+                <h3 className="text-sm lg:text-base font-bold leading-snug tracking-tight">
                   {otherPageArticles[1].title}
-                </h2>
+                </h3>
               </div>
               <div className="w-full bg-white border shadow-sm border-gray-100 text-red-600 text-center py-2 font-semibold">
                 {otherPageArticles[1].date}
@@ -373,7 +315,7 @@ export default async function CategoryPage({
             </Link>
           </div>
 
-          {/* right grid */}
+          {/* right grid — h3 */}
           <div className="col-span-1 lg:col-span-2 space-y-6">
             {otherPageArticles.slice(2, 6).map((item, i) => (
               <Link
@@ -383,9 +325,9 @@ export default async function CategoryPage({
                 className="flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
               >
                 <div className="flex items-center justify-between h-40">
-                  <h2 className="text-base font-bold text-gray-900 line-clamp-4 p-2 mt-0 leading-snug tracking-tight">
+                  <h3 className="text-base font-bold text-gray-900 line-clamp-4 p-2 mt-0 leading-snug tracking-tight">
                     {item.title}
-                  </h2>
+                  </h3>
                   <div className="w-60 h-full flex-shrink-0 overflow-hidden">
                     <Image
                       src={item.image}
@@ -405,7 +347,69 @@ export default async function CategoryPage({
           </div>
         </div>
 
-        {/* bottom grid */}
+        {/* ── MOBILE LAYOUT (second in DOM) ── all H3, sits after the H2 above */}
+        <div className="block lg:hidden space-y-6">
+          <Link
+            title={featuredArticle.title}
+            href={`/${category}/${featuredArticle.slug}`}
+            className="flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
+          >
+            <div className="w-full h-64 overflow-hidden">
+              <Image
+                src={featuredArticle.image}
+                title={featuredArticle.title}
+                alt={featuredArticle.title}
+                width={1200}
+                height={400}
+                className="w-full h-full object-cover"
+                fetchPriority="high"
+                loading="eager"
+              />
+            </div>
+            <div className="p-2">
+              {/* H3 — H2 already appeared in the desktop block above */}
+              <h3 className="text-xl font-bold">{featuredArticle.title}</h3>
+              <p className="mt-2 text-sm text-gray-800">
+                {featuredArticle.shortdescription}
+              </p>
+            </div>
+            <div className="w-full bg-white border-t border-gray-100 text-red-600 text-center py-2 font-semibold">
+              {featuredArticle.date}
+            </div>
+          </Link>
+
+          <div className="space-y-4">
+            {otherPageArticles.map((item, i) => (
+              <Link
+                key={item.slug + i}
+                title={item.title}
+                href={`/${category}/${item.slug}`}
+                className="flex items-center overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
+              >
+                <div className="w-24 h-24 flex-shrink-0 overflow-hidden">
+                  <Image
+                    src={item.image}
+                    title={item.title}
+                    alt={item.title}
+                    width={96}
+                    height={96}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="flex-1 ml-4">
+                  <h3 className="text-base font-bold text-gray-900 line-clamp-2">
+                    {item.title}
+                  </h3>
+                  <p className="mt-1 text-sm text-red-600 font-semibold">
+                    {item.date}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* bottom grid — h4 (unchanged) */}
         {bottomArticles.length > 0 && (
           <section className="hidden lg:block mt-12">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">

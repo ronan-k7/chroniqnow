@@ -64,6 +64,9 @@ export default function Home() {
         "@type": "WebPage",
         headline: "Home",
         url: metadata.metadataBase?.toString() ?? "https://www.chroniqnow.com/",
+        // --- ADD THIS LINE ---
+        isAccessibleForFree: "True", 
+        // ---------------------
         keywords: [
           "chroniq now",
           "global news",
@@ -99,6 +102,7 @@ export default function Home() {
       },
     ],
   };
+
   return (
     <>
       <script
