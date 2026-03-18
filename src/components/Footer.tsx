@@ -10,7 +10,7 @@ export default function Footer() {
           </Link>
         </div>
         <p className="text-xs text-gray-600 text-center mb-6">
-          © 2025 Chroniq Now Media LLC. All Rights Reserved.
+          © 2026 Chroniq Now Media LLC. All Rights Reserved.
         </p>
 
         <div className="block md:hidden h-px bg-gray-300 w-4/5 mx-auto mb-6" />

@@ -9,23 +9,52 @@ import LoadMoreArticles from "@/components/LoadMoreArticles";
 import type { Article } from "@/types/homepage";
 import type { Metadata } from "next";
 
+/* ─────────────────────────────────────────────────────────────────────────────
+   HELPERS
+───────────────────────────────────────────────────────────────────────────── */
+
+/** Returns a valid ISO string, or today's date as fallback if the value is missing/malformed */
+function safeISOString(value: string | undefined | null): string {
+  if (!value) return new Date().toISOString();
+  const d = new Date(value);
+  return isNaN(d.getTime()) ? new Date().toISOString() : d.toISOString();
+}
+
+function capitalize(slug: string) {
+  return slug
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+async function loadArticles(category: string): Promise<Article[] | null> {
+  const dataPath = path.join(process.cwd(), "src", "data", `${category}.json`);
+  try {
+    const raw = await fs.readFile(dataPath, "utf8");
+    return JSON.parse(raw) as Article[];
+  } catch {
+    return null;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   STATIC PARAMS
+───────────────────────────────────────────────────────────────────────────── */
+
 export async function generateStaticParams(): Promise<{ category: string }[]> {
   const dataDir = path.join(process.cwd(), "src", "data");
-
-  let files: string[] = [];
-
   try {
-    files = await fs.readdir(dataDir);
+    const files = await fs.readdir(dataDir);
+    return files
+      .filter((f) => f.endsWith(".json"))
+      .map((f) => ({ category: f.replace(".json", "") }));
   } catch {
     return [];
   }
-
-  return files
-    .filter((file) => file.endsWith(".json"))
-    .map((file) => ({
-      category: file.replace(".json", ""),
-    }));
 }
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   METADATA  (corrected)
+───────────────────────────────────────────────────────────────────────────── */
 
 export async function generateMetadata({
   params,
@@ -33,56 +62,63 @@ export async function generateMetadata({
   params: Promise<{ category: string }>;
 }): Promise<Metadata> {
   const { category } = await params;
-  const dataPath = path.join(process.cwd(), "src", "data", `${category}.json`);
+  const articles = await loadArticles(category);
 
-  let raw: string;
-  try {
-    raw = await fs.readFile(dataPath, "utf8");
-  } catch {
+  const capitalized = capitalize(category);
+
+  /* ── Fallback when the data file is missing ── */
+  if (!articles || articles.length === 0) {
     return {
-      title: "Chroniq Now",
-      description: "Chroniq Now - Global News Hub",
+      title: "Chroniq Now – Global News Hub",
+      description:
+        "Chroniq Now delivers breaking news, in-depth analysis, and exclusive stories on global politics, business, science, and culture.",
       metadataBase: new URL("https://www.chroniqnow.com"),
-      robots: { index: true, follow: true },
+      robots: { index: false, follow: false },
     };
   }
 
-  let articles: Article[];
-  try {
-    articles = JSON.parse(raw) as Article[];
-  } catch {
-    articles = [];
-  }
-
-  const sorted = articles.slice().sort((a, b) => {
-    return new Date(b.date).getTime() - new Date(a.date).getTime();
-  });
-
+  const sorted = articles
+    .slice()
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
   const latest = sorted[0];
 
   const ogImage =
-    latest?.image || "https://www.chroniqnow.com/images/chroniqnow-logo.webp";
+    latest?.image ?? "https://www.chroniqnow.com/images/chroniqnow-logo.webp";
 
-  const capitalized = category
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (c) => c.toUpperCase());
-
-  const title = `${capitalized} News - Chroniq Now: Global ${capitalized} Headlines`;
-
-  const description = `Get the latest ${capitalized} news from Chroniq Now. We offer breaking updates, in-depth analysis, and exclusive stories on global politics, business, and culture.`;
+  const title = `${capitalized} News – Chroniq Now: Global ${capitalized} Headlines`;
+  const description = `Get the latest ${capitalized} news from Chroniq Now — breaking updates, in-depth analysis, and exclusive stories on global ${capitalized.toLowerCase()} developments.`;
+  const canonical = `https://www.chroniqnow.com/${category}`;
 
   return {
+    metadataBase: new URL("https://www.chroniqnow.com"),
+
     title,
     description,
-    metadataBase: new URL("https://www.chroniqnow.com"),
-    alternates: {
-      canonical: `https://www.chroniqnow.com/${category}`,
-    },
+
+    /* ── keywords (minor signal; keeps Bing happy) ── */
+    keywords: [
+      `${capitalized.toLowerCase()} news`,
+      `latest ${capitalized.toLowerCase()} updates`,
+      `${capitalized.toLowerCase()} headlines`,
+      "global news",
+      "breaking news",
+      "Chroniq Now",
+    ],
+
+    /* ── authors ── */
+    authors: [{ name: "Chroniq Now", url: "https://www.chroniqnow.com" }],
+
+    /* ── canonical ── */
+    alternates: { canonical },
+
+    /* ── Open Graph ── */
     openGraph: {
+      type: "website",
+      locale: "en_US",
+      siteName: "Chroniq Now",
+      url: canonical,
       title,
       description,
-      url: `https://www.chroniqnow.com/${category}`,
-      siteName: "Chroniq Now",
       images: [
         {
           url: ogImage,
@@ -91,23 +127,36 @@ export async function generateMetadata({
           alt: `${capitalized} news – Chroniq Now`,
         },
       ],
-      type: "website",
-      locale: "en_US",
     },
+
+    /* ── Twitter / X ── */
     twitter: {
       card: "summary_large_image",
       site: "@ChroniqNow",
+      creator: "@ChroniqNow",
       title,
       description,
       images: [ogImage],
     },
+
+    /* ── Robots — no need to repeat inside googleBot if values are identical ── */
     robots: {
       index: true,
       follow: true,
-      googleBot: { index: true, follow: true },
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-snippet": -1,
+        "max-image-preview": "large",
+        "max-video-preview": -1,
+      },
     },
   };
 }
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   PAGE COMPONENT
+───────────────────────────────────────────────────────────────────────────── */
 
 export default async function CategoryPage({
   params,
@@ -115,83 +164,185 @@ export default async function CategoryPage({
   params: Promise<{ category: string }>;
 }) {
   const { category } = await params;
-  const dataPath = path.join(process.cwd(), "src", "data", `${category}.json`);
+  const articles = await loadArticles(category);
 
-  let raw: string;
-  try {
-    raw = await fs.readFile(dataPath, "utf8");
-  } catch {
-    return notFound();
-  }
-
-  let articles: Article[];
-  try {
-    articles = JSON.parse(raw) as Article[];
-  } catch {
-    return notFound();
-  }
+  if (!articles) return notFound();
 
   const pageArticles = articles.slice(0, 11);
   const featuredArticle = pageArticles[0];
   const otherPageArticles = pageArticles.slice(1);
   const bottomArticles = pageArticles.slice(7);
 
-  const capitalized = category
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (c) => c.toUpperCase());
+  const capitalized = capitalize(category);
+  const canonical = `https://www.chroniqnow.com/${category}`;
 
-  const jsonLd = {
+  /* ── latest date for dateModified — guarded against malformed date strings ── */
+  const latestDate =
+    articles.length > 0
+      ? articles
+          .slice()
+          .sort(
+            (a, b) =>
+              (isNaN(new Date(b.date).getTime()) ? 0 : new Date(b.date).getTime()) -
+              (isNaN(new Date(a.date).getTime()) ? 0 : new Date(a.date).getTime())
+          )[0].date
+      : undefined;
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+     JSON-LD  (3 separate scripts — Google recommends splitting schema types)
+
+     1. CollectionPage   — describes this category listing page
+     2. BreadcrumbList   — powers breadcrumb rich results in SERP
+     3. ItemList         — tells Google which articles are listed (key for GSC)
+  ═══════════════════════════════════════════════════════════════════════════ */
+
+  /** 1. CollectionPage */
+  const collectionPageJsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    headline: `${capitalized} News - Chroniq Now`,
-    url: `https://www.chroniqnow.com/${category}`,
-    keywords: [
-      `${capitalized.toLowerCase()} news`,
-      `latest ${capitalized.toLowerCase()} updates`,
-      "global news",
-      "news portal",
-    ],
+    "@id": `${canonical}#webpage`,
+    name: `${capitalized} News – Chroniq Now`,
+    headline: `${capitalized} News – Chroniq Now: Global ${capitalized} Headlines`,
+    description: `Get the latest ${capitalized.toLowerCase()} news from Chroniq Now — breaking updates, in-depth analysis, and exclusive stories.`,
+    url: canonical,
+    inLanguage: "en-US",
     isPartOf: {
-      "@type": ["CreativeWork", "Product"],
-      name: "Chroniq Now - Global News Hub",
-      productID: "chroniqnow.com:standard",
+      "@type": "WebSite",
+      "@id": "https://www.chroniqnow.com/#website",
+      name: "Chroniq Now",
+      url: "https://www.chroniqnow.com",
+    },
+    dateModified: safeISOString(latestDate),
+    image: {
+      "@type": "ImageObject",
+      url:
+        featuredArticle?.image ??
+        "https://www.chroniqnow.com/images/chroniqnow-logo.webp",
+      width: 1200,
+      height: 630,
     },
     publisher: {
       "@type": "Organization",
+      "@id": "https://www.chroniqnow.com/#organization",
       name: "Chroniq Now",
+      url: "https://www.chroniqnow.com",
       logo: {
         "@type": "ImageObject",
         url: "https://www.chroniqnow.com/images/chroniqnow-logo.webp",
+        width: 512,
+        height: 512,
       },
       sameAs: [
         "https://x.com/ChroniqNow",
         "https://www.instagram.com/chroniqnow/",
       ],
     },
+    /* keywords as an array — valid on CollectionPage */
+    keywords: [
+      `${capitalized.toLowerCase()} news`,
+      `latest ${capitalized.toLowerCase()} updates`,
+      "global news",
+      "breaking news",
+      "Chroniq Now",
+    ],
+    breadcrumb: { "@id": `${canonical}#breadcrumb` },
+    mainEntity: { "@id": `${canonical}#itemlist` },
   };
+
+  /** 2. BreadcrumbList — required for breadcrumb rich results */
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": `${canonical}#breadcrumb`,
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.chroniqnow.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: capitalized,
+        item: canonical,
+      },
+    ],
+  };
+
+  /** 3. ItemList — article listing (helps Google index individual articles faster) */
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": `${canonical}#itemlist`,
+    name: `${capitalized} News Articles`,
+    url: canonical,
+    numberOfItems: pageArticles.length,
+    itemListOrder: "https://schema.org/ItemListOrderDescending",
+    itemListElement: pageArticles.map((article, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${canonical}/${article.slug}`,
+      name: article.title,
+      image: article.image,
+    })),
+  };
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     JSX
+  ───────────────────────────────────────────────────────────────────────── */
 
   return (
     <>
+      {/* ── Structured Data ── */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          __html: JSON.stringify(collectionPageJsonLd).replace(/</g, "\\u003c"),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(itemListJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
+
       <Navbar />
 
-      <main className=" p-2 sm:p-20 py-8">
+      <main className="p-2 sm:p-20 py-8">
         <nav aria-label="Breadcrumb" className="mb-2 text-sm">
-          <ol className="flex items-center">
-            <li>
-              <Link title="Home" href="/" className="text-red-600 uppercase">
-                HOME
+          <ol className="flex items-center" itemScope itemType="https://schema.org/BreadcrumbList">
+            <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+              <Link
+                title="Home"
+                href="/"
+                className="text-red-600 uppercase"
+                itemProp="item"
+              >
+                <span itemProp="name">HOME</span>
               </Link>
+              <meta itemProp="position" content="1" />
             </li>
             <li>
               <span className="mx-2 text-gray-500">»</span>
             </li>
-            <li className="uppercase text-gray-900 text-md">{capitalized}</li>
+            <li
+              className="uppercase text-gray-900 text-md"
+              itemProp="itemListElement"
+              itemScope
+              itemType="https://schema.org/ListItem"
+            >
+              <span itemProp="name">{capitalized}</span>
+              <meta itemProp="item" content={canonical} />
+              <meta itemProp="position" content="2" />
+            </li>
           </ol>
         </nav>
 
@@ -205,8 +356,8 @@ export default async function CategoryPage({
         <div className="mb-10 space-y-4 text-gray-700 leading-relaxed">
           <p>
             Follow the most important <strong>{capitalized} news</strong>{" "}
-            stories as they break, with trusted reporting and analysis that
-            cuts through the noise.
+            stories as they break, with trusted reporting and analysis that cuts
+            through the noise.
           </p>
           <p>
             Our dedicated <strong>{capitalized}</strong> coverage keeps you
@@ -230,7 +381,6 @@ export default async function CategoryPage({
         <div className="hidden lg:grid grid-cols-1 lg:grid-cols-5 gap-y-5 lg:gap-x-5">
           {/* left grid */}
           <div className="col-span-1 lg:col-span-3 grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 gap-6">
-
             {/* small card — h3 */}
             <Link
               title={otherPageArticles[0].title}
@@ -251,9 +401,6 @@ export default async function CategoryPage({
                 <h3 className="text-sm lg:text-base font-bold leading-snug tracking-tight">
                   {otherPageArticles[0].title}
                 </h3>
-              </div>
-              <div className="w-full bg-white border shadow-sm border-gray-100 text-red-600 text-center py-2 font-semibold">
-                {otherPageArticles[0].date}
               </div>
             </Link>
 
@@ -283,9 +430,6 @@ export default async function CategoryPage({
                   {featuredArticle.shortdescription}
                 </p>
               </div>
-              <div className="w-full bg-white border shadow-sm border-gray-100 text-red-600 text-center py-2 font-semibold">
-                {featuredArticle.date}
-              </div>
             </Link>
 
             {/* second small card — h3 */}
@@ -308,9 +452,6 @@ export default async function CategoryPage({
                 <h3 className="text-sm lg:text-base font-bold leading-snug tracking-tight">
                   {otherPageArticles[1].title}
                 </h3>
-              </div>
-              <div className="w-full bg-white border shadow-sm border-gray-100 text-red-600 text-center py-2 font-semibold">
-                {otherPageArticles[1].date}
               </div>
             </Link>
           </div>
@@ -338,9 +479,6 @@ export default async function CategoryPage({
                       className="w-full h-full object-cover"
                     />
                   </div>
-                </div>
-                <div className="w-full bg-white p-2 border shadow-sm border-gray-100 text-red-600 text-left py-2 font-semibold">
-                  {item.date}
                 </div>
               </Link>
             ))}
@@ -373,9 +511,6 @@ export default async function CategoryPage({
                 {featuredArticle.shortdescription}
               </p>
             </div>
-            <div className="w-full bg-white border-t border-gray-100 text-red-600 text-center py-2 font-semibold">
-              {featuredArticle.date}
-            </div>
           </Link>
 
           <div className="space-y-4">
@@ -400,16 +535,13 @@ export default async function CategoryPage({
                   <h3 className="text-base font-bold text-gray-900 line-clamp-2">
                     {item.title}
                   </h3>
-                  <p className="mt-1 text-sm text-red-600 font-semibold">
-                    {item.date}
-                  </p>
                 </div>
               </Link>
             ))}
           </div>
         </div>
 
-        {/* bottom grid — h4 (unchanged) */}
+        {/* bottom grid — h4 */}
         {bottomArticles.length > 0 && (
           <section className="hidden lg:block mt-12">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
@@ -434,9 +566,6 @@ export default async function CategoryPage({
                     <h4 className="text-base font-bold text-gray-900 leading-snug tracking-tight">
                       {item.title}
                     </h4>
-                  </div>
-                  <div className="w-full bg-white border-t border-gray-100 text-red-600 text-center py-2 font-semibold">
-                    {item.date}
                   </div>
                 </Link>
               ))}

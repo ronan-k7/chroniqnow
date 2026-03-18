@@ -43,9 +43,9 @@ export default function LoadMoreArticles({ articles, category }: Props) {
               <h3 className="text-base font-bold text-gray-900 line-clamp-2 leading-snug tracking-tight">
                 {item.title}
               </h3>
-              <p className="mt-1 text-sm text-red-600 font-semibold">
+              {/*<p className="mt-1 text-sm text-red-600 font-semibold">
                 {item.date}
-              </p>
+              </p>*/}
             </div>
           </Link>
         ))}
@@ -75,9 +75,9 @@ export default function LoadMoreArticles({ articles, category }: Props) {
                 {item.title}
               </h3>
             </div>
-            <div className="w-full bg-white border-t border-gray-100 text-red-600 text-center py-2 font-semibold">
+            {/*<div className="w-full bg-white border-t border-gray-100 text-red-600 text-center py-2 font-semibold">
               {item.date}
-            </div>
+            </div>*/}
           </Link>
         ))}
       </div>

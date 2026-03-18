@@ -121,10 +121,10 @@ export default function HomeSection1({
                   className="relative z-10 flex bg-white shadow-md hover:shadow-lg transition-shadow overflow-hidden"
                 >
                   <div className="flex flex-col justify-start gap-2 p-4 w-full">
-                    <p className="text-sm font-semibold text-red-500 flex items-center">
+                    {/*<p className="text-sm font-semibold text-red-500 flex items-center">
                       <span className="w-2 h-2 bg-red-500 rounded-full inline-block mr-2" />
-                      {item.date}
-                    </p>
+                      {item.date} 
+                    </p>*/}
                     <h3 className="text-[15px] font-semibold leading-snug tracking-tight">
                       {item.title}
                     </h3>
