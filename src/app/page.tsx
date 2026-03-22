@@ -6,12 +6,10 @@ export const metadata: Metadata = {
   description:
     "Chroniq Now - your trusted source for breaking global news, in-depth analysis and up-to-the-minute coverage of politics, business, culture and more.",
   authors: [{ name: "Chroniq Now Team", url: "https://www.chroniqnow.com" }],
-  publisher: "Chroniq Now",
   metadataBase: new URL("https://www.chroniqnow.com"),
   alternates: {
-    canonical: "https://www.chroniqnow.com/",
+    canonical: "/",
   },
-
   openGraph: {
     title: "Chroniq Now: Breaking Global News & Headlines Daily",
     description:
@@ -20,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Chroniq Now",
     images: [
       {
-        url: "https://www.chroniqnow.com/images/ChroniqNow-logo.webp",
+        url: "/images/ChroniqNow-logo.webp",
         width: 1200,
         height: 630,
         alt: "Chroniq Now Logo",
@@ -29,16 +27,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
   },
-
   twitter: {
     card: "summary_large_image",
     title: "Chroniq Now: Breaking Global News & Headlines Daily",
     description:
       "Chroniq Now - your trusted source for breaking global news, in-depth analysis and up-to-the-minute coverage of politics, business, culture and more.",
     site: "@ChroniqNow",
-    images: ["https://www.chroniqnow.com/images/ChroniqNow-logo.webp"],
+    images: ["/images/ChroniqNow-logo.webp"],
   },
-
   robots: {
     index: true,
     follow: true,
@@ -52,53 +48,46 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  const siteTitle = "Chroniq Now: Breaking Global News & Headlines Daily";
+  const siteUrl = "https://www.chroniqnow.com";
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "WebSite",
-        name: metadata.title,
-        url: metadata.metadataBase?.toString() ?? "https://www.chroniqnow.com/",
+        "@id": `${siteUrl}/#website`,
+        name: "Chroniq Now",
+        url: siteUrl,
+        publisher: { "@id": `${siteUrl}/#organization` },
       },
       {
         "@type": "WebPage",
-        headline: "Home",
-        url: metadata.metadataBase?.toString() ?? "https://www.chroniqnow.com/",
-        // --- ADD THIS LINE ---
-        isAccessibleForFree: "True", 
-        // ---------------------
-        keywords: [
-          "chroniq now",
-          "global news",
-          "breaking news",
-          "world headlines",
-        ],
-        isPartOf: {
-          "@type": ["CreativeWork", "Product"],
-          name: metadata.title,
-          productID: "chroniqnow.com:standard",
-        },
-        publisher: {
-          "@type": "NewsMediaOrganization",
-          name: metadata.publisher,
-          logo: {
-            "@type": "ImageObject",
-            url: "https://www.chroniqnow.com/images/chroniqnow-logo.webp",
-          },
-          sameAs: [
-            "https://x.com/ChroniqNow",
-            "https://www.instagram.com/chroniqnow/",
-          ],
-        },
+        "@id": `${siteUrl}/#webpage`,
+        url: siteUrl,
+        name: siteTitle,
+        isPartOf: { "@id": `${siteUrl}/#website` },
+        about: { "@id": `${siteUrl}/#organization` },
+        description: metadata.description,
+        breadcrumb: { "@id": `${siteUrl}/#breadcrumb` },
+        inLanguage: "en-US",
+        isAccessibleForFree: "True",
       },
       {
         "@type": "NewsMediaOrganization",
-        name: metadata.publisher,
-        url: metadata.metadataBase?.toString() ?? "https://www.chroniqnow.com/",
+        "@id": `${siteUrl}/#organization`,
+        name: "Chroniq Now",
+        url: siteUrl,
         logo: {
           "@type": "ImageObject",
-          url: "https://www.chroniqnow.com/images/chroniqnow-logo.webp",
+          url: `${siteUrl}/images/chroniqnow-logo.webp`,
+          width: 512,
+          height: 512,
         },
+        sameAs: [
+          "https://x.com/ChroniqNow",
+          "https://www.instagram.com/chroniqnow/",
+        ],
       },
     ],
   };
@@ -108,7 +97,7 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd).replace(/</g, "\u003c"),
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
         }}
       />
       <HomaPage />

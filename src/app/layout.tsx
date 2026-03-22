@@ -1,3 +1,4 @@
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -11,16 +12,32 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+/* ─── GLOBAL METADATA ─── */
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.chroniqnow.com"),
+  title: {
+    template: "%s | Chroniq Now",
+    default: "Chroniq Now | Breaking Global News and Headlines Daily",
+  },
+  description: "Chroniq Now delivers breaking news, in-depth analysis, and up-to-the-minute coverage of global events.",
+};
+
+/* ─── VIEWPORT CONFIGURATION ─── */
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#ffffff",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        suppressHydrationWarning
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased font-sans`}
       >
         {children}
       </body>
