@@ -24,6 +24,8 @@ export default function Footer() {
           <Link href="/sports" title="Sports">SPORTS</Link>
           <Link href="/technology" title="Technology">TECHNOLOGY</Link>
           <Link href="/puerto-rico" title="Puerto Rico">PUERTO RICO</Link>
+          <Link href="/about" title="Puerto Rico">ABOUT</Link>
+          <Link href="/privacy-policy" title="Puerto Rico">PRIVACY POLICY</Link>
         </div>
       </div>
     </footer>

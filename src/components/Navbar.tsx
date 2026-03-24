@@ -42,12 +42,12 @@ export default function Navbar() {
 
         <Link href="/" title="Chroniq Now" className="mx-auto md:mx-0">
           {isHome ? (
-            <h1 className="text-2xl md:text-5xl font-bold text-red-600 uppercase leading-none">
-              chroniq now
+            <h1 className="text-2xl md:text-5xl font-black text-red-700 uppercase leading-none tracking-tighter">
+              Chroniq<span className="text-red-600 font-medium ml-1">Now</span>
             </h1>
           ) : (
-            <span className="text-2xl md:text-5xl font-bold text-red-600 uppercase leading-none">
-              chroniq now
+            <span className="text-2xl md:text-5xl font-black text-red-700 uppercase leading-none tracking-tighter">
+              Chroniq<span className="text-red-600 font-medium ml-1">Now</span>
             </span>
           )}
         </Link>

@@ -6,25 +6,25 @@
     <description>Chroniq Now - your trusted source for breaking global news, in-depth analysis and up-to-the-minute coverage of politics, business, culture and more.</description>
     <language>en-US</language>
     <copyright>© Chroniq Now 2026. All rights reserved</copyright>
-    <lastBuildDate>Sun, 22 Mar 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 12:00:00 GMT</lastBuildDate>
     <generator>Static HTML RSS Feed</generator>
     <managingEditor>chroniqnow@chroniqnow.com (Chroniq Now Editor)</managingEditor>
     <webMaster>chroniqnow@chroniqnow.com (Chroniq Now Webmaster)</webMaster>
     <atom:link href="https://www.chroniqnow.com/rss.xml" rel="self" type="application/rss+xml"/>
 
     <item>
-      <title>Neuralink's Arbaugh to Headline 2026 Robotics Summit</title>
-      <link>https://www.chroniqnow.com/technology/neuralink-noland-arbaugh-2026-robotics-summit</link>
-      <guid isPermaLink="true">https://www.chroniqnow.com/technology/neuralink-noland-arbaugh-2026-robotics-summit</guid>
-      <pubDate>Sat, 21 Mar 2026 09:30:00 GMT</pubDate>
+      <title>NVIDIA's Flexible AI Factories Tackle U.S. Power Grid Crisis</title>
+      <link>https://www.chroniqnow.com/technology/nvidia-flexible-ai-factories-us-power-grid</link>
+      <guid isPermaLink="true">https://www.chroniqnow.com/technology/nvidia-flexible-ai-factories-us-power-grid</guid>
+      <pubDate>Tue, 24 Mar 2026 09:30:00 GMT</pubDate>
       <description><![CDATA[
-        Noland Arbaugh, Neuralink's first human patient, headlines the 2026 Robotics Summit and teases new thought-controlled tech milestones.<br><br>
+        NVIDIA and Emerald AI partner with AES and Constellation to deploy flexible AI factories as grid assets, tackling America's growing energy bottleneck.<br><br>
         <strong>Key points:</strong><br>
-        • Arbaugh will deliver a closing keynote at the Robotics Summit &amp; Expo (May 27–28, Boston), sharing his firsthand experience as Neuralink's first human implant patient.<br>
-        • A live demonstration is planned, including Arbaugh controlling a physical chess board — moving pieces using only his thoughts via the brain-computer interface.<br>
-        • The keynote will explore how the Neuralink N1 implant translates motor cortex signals into device control, and what it signals for the future of BCI-enabled robotics.<br>
-        • Arbaugh joins a high-profile speaker lineup that includes leaders from Boston Dynamics, Agility Robotics, General Motors, and Universal Robots.<br><br>
-        Read the full article: <a href="https://www.chroniqnow.com/technology/neuralink-noland-arbaugh-2026-robotics-summit">Neuralink's Arbaugh to Headline 2026 Robotics Summit</a>
+        • NVIDIA and Emerald AI announced a collaboration with six major energy firms — AES, Constellation, Invenergy, NextEra Energy, Nscale Energy & Power, and Vistra — to build a new class of AI factories that operate as flexible grid assets.<br>
+        • The factories use NVIDIA's Vera Rubin DSX reference design and the DSX Flex software library, allowing AI workloads to ramp power usage up or down in response to real-time grid conditions.<br>
+        • The initiative could unlock up to 100 GW of flexible capacity across the U.S. power system, helping address peak demand rather than requiring entirely new energy supply.<br>
+        • DSX Flex is set to be deployed at commercial scale later in 2026 at NVIDIA's Virginia AI Factory Research Center, one of the first power-flexible AI factories built to this standard.<br><br>
+        Read the full article: <a href="https://www.chroniqnow.com/technology/nvidia-flexible-ai-factories-us-power-grid">NVIDIA's Flexible AI Factories Tackle U.S. Power Grid Crisis</a>
       ]]></description>
       <category>Business</category>
       <category>Technology</category>
