@@ -6,25 +6,25 @@
     <description>Chroniq Now - your trusted source for breaking global news, in-depth analysis and up-to-the-minute coverage of politics, business, culture and more.</description>
     <language>en-US</language>
     <copyright>© Chroniq Now 2026. All rights reserved</copyright>
-    <lastBuildDate>Tue, 24 Mar 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 12:00:00 GMT</lastBuildDate>
     <generator>Static HTML RSS Feed</generator>
     <managingEditor>chroniqnow@chroniqnow.com (Chroniq Now Editor)</managingEditor>
     <webMaster>chroniqnow@chroniqnow.com (Chroniq Now Webmaster)</webMaster>
     <atom:link href="https://www.chroniqnow.com/rss.xml" rel="self" type="application/rss+xml"/>
 
     <item>
-      <title>NVIDIA's Flexible AI Factories Tackle U.S. Power Grid Crisis</title>
-      <link>https://www.chroniqnow.com/technology/nvidia-flexible-ai-factories-us-power-grid</link>
-      <guid isPermaLink="true">https://www.chroniqnow.com/technology/nvidia-flexible-ai-factories-us-power-grid</guid>
-      <pubDate>Tue, 24 Mar 2026 09:30:00 GMT</pubDate>
+      <title>Apple Business Launch: New All-in-One Platform for U.S. SMEs</title>
+      <link>https://www.chroniqnow.com/business/apple-business-launch-all-in-one-platform-us-smes</link>
+      <guid isPermaLink="true">https://www.chroniqnow.com/business/apple-business-launch-all-in-one-platform-us-smes</guid>
+      <pubDate>Thu, 26 Mar 2026 09:30:00 GMT</pubDate>
       <description><![CDATA[
-        NVIDIA and Emerald AI partner with AES and Constellation to deploy flexible AI factories as grid assets, tackling America's growing energy bottleneck.<br><br>
+        Apple officially debuts 'Apple Business,' a centralized platform for device management, professional email, and a new ad network integrated directly into Apple Maps.<br><br>
         <strong>Key points:</strong><br>
-        • NVIDIA and Emerald AI announced a collaboration with six major energy firms — AES, Constellation, Invenergy, NextEra Energy, Nscale Energy & Power, and Vistra — to build a new class of AI factories that operate as flexible grid assets.<br>
-        • The factories use NVIDIA's Vera Rubin DSX reference design and the DSX Flex software library, allowing AI workloads to ramp power usage up or down in response to real-time grid conditions.<br>
-        • The initiative could unlock up to 100 GW of flexible capacity across the U.S. power system, helping address peak demand rather than requiring entirely new energy supply.<br>
-        • DSX Flex is set to be deployed at commercial scale later in 2026 at NVIDIA's Virginia AI Factory Research Center, one of the first power-flexible AI factories built to this standard.<br><br>
-        Read the full article: <a href="https://www.chroniqnow.com/technology/nvidia-flexible-ai-factories-us-power-grid">NVIDIA's Flexible AI Factories Tackle U.S. Power Grid Crisis</a>
+        • Apple Business consolidates three existing services — Business Essentials, Business Manager, and Business Connect — into a single free platform launching April 14 in 200+ countries<br>
+        • Includes built-in Mobile Device Management (MDM) with zero-touch device deployment and pre-configured app and security policy "Blueprints"<br>
+        • Businesses can set up custom domain professional email, shared calendars, and a company directory natively through Apple's infrastructure for the first time<br>
+        • A new Apple Maps ad network, launching in the U.S. and Canada this summer, lets businesses bid for placements at the top of search results using a privacy-first model<br><br>
+        Read the full article: <a href="https://www.chroniqnow.com/business/apple-business-launch-all-in-one-platform-us-smes">Apple Business Launch: New All-in-One Platform for U.S. SMEs</a>
       ]]></description>
       <category>Business</category>
       <category>Technology</category>
