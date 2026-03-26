@@ -3,42 +3,55 @@
   <url>
     <loc>https://www.chroniqnow.com/</loc>
     <lastmod>2026-03-26</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.chroniqnow.com/politics/bribery-case-collapses-into-minor-campaign-finance-violation/</loc>
-    <lastmod>2025-07-16</lastmod>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.chroniqnow.com/politics/wanda-vazquez-julio-herrera-velutini-and-mark-rossini-from-federal-indictments-to-misdemeanor-plea-in-campaign-finance-case/</loc>
-    <lastmod>2025-07-21</lastmod>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.chroniqnow.com/puerto-rico/driven-advisors-bancredito-receivership-dispute-scrutiny/</loc>
-    <lastmod>2026-03-22</lastmod>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.chroniqnow.com/puerto-rico/ryan-marin-bancredito-fallout-scrutiny-liquidation-terms/</loc>
-    <lastmod>2026-03-22</lastmod>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.chroniqnow.com/sports/neymar-brazil-world-cup-hopes-santos-corinthians-performance/</loc>
-    <lastmod>2026-03-22</lastmod>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.chroniqnow.com/business/dell-workforce-cut-10-percent-fiscal-2026-ai-restructuring/</loc>
-    <lastmod>2026-03-18</lastmod>
-    <priority>1.0</priority>
+    <loc>https://www.chroniqnow.com/technology/nvidia-flexible-ai-factories-us-power-grid/</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.chroniqnow.com/technology/neuralink-noland-arbaugh-2026-robotics-summit/</loc>
     <lastmod>2026-03-21</lastmod>
-    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.chroniqnow.com/business/dell-workforce-cut-10-percent-fiscal-2026-ai-restructuring/</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.chroniqnow.com/puerto-rico/driven-advisors-bancredito-receivership-dispute-scrutiny/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.chroniqnow.com/puerto-rico/ryan-marin-bancredito-fallout-scrutiny-liquidation-terms/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.chroniqnow.com/sports/neymar-brazil-world-cup-hopes-santos-corinthians-performance/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.chroniqnow.com/politics/wanda-vazquez-julio-herrera-velutini-and-mark-rossini-from-federal-indictments-to-misdemeanor-plea-in-campaign-finance-case/</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.chroniqnow.com/politics/bribery-case-collapses-into-minor-campaign-finance-violation/</loc>
+    <lastmod>2025-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
-
