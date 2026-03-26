@@ -27,6 +27,18 @@ function capitalize(text: string) {
     .replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
+/** FIX #4: Format date for visible display on page */
+function formatDisplayDate(value: string | undefined | null): string {
+  if (!value) return "";
+  const d = new Date(value);
+  if (isNaN(d.getTime())) return "";
+  return d.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
 /* ─────────────────────────────────────────────────────────────────────────────
    TYPES
 ───────────────────────────────────────────────────────────────────────────── */
@@ -83,7 +95,7 @@ function buildMetadata({
     ],
 
     /* ── canonical & RSS ── */
-    alternates: { 
+    alternates: {
       canonical: url,
       types: {
         "application/rss+xml": "https://www.chroniqnow.com/rss.xml",
@@ -151,7 +163,9 @@ export async function generateMetadata({
     return buildMetadata({
       title: "Wanda Vázquez Bribery Case Ends in Minor Violation",
       description: article?.shortdescription,
-      image: article?.image ?? "https://www.chroniqnow.com/images/wanda-vazquez-press-conference.webp",
+      image:
+        article?.image ??
+        "https://www.chroniqnow.com/images/wanda-vazquez-press-conference.webp",
       category,
       slug,
       date: article?.date,
@@ -163,7 +177,8 @@ export async function generateMetadata({
   if (!article) {
     return {
       title: "Chroniq Now – Global News Hub",
-      description: "Chroniq Now delivers breaking news and in-depth analysis on global events.",
+      description:
+        "Chroniq Now delivers breaking news and in-depth analysis on global events.",
       metadataBase: new URL("https://www.chroniqnow.com"),
       robots: { index: false, follow: false },
     };
@@ -186,8 +201,16 @@ export async function generateMetadata({
 ───────────────────────────────────────────────────────────────────────────── */
 
 export async function generateStaticParams() {
-  const categories = ["business", "health", "politics", "science", "sports", "puerto-rico", "technology"];
-  const articles = categories.flatMap(cat => getArticlesByCategory(cat));
+  const categories = [
+    "business",
+    "health",
+    "politics",
+    "science",
+    "sports",
+    "puerto-rico",
+    "technology",
+  ];
+  const articles = categories.flatMap((cat) => getArticlesByCategory(cat));
 
   return articles.map((article) => ({
     category: article.category,
@@ -203,10 +226,10 @@ export default async function DetailPage({ params }: DetailPageProps) {
   const { category, detail: slug } = await params;
 
   const article = getArticleBySlug(slug);
-  
-  if (!article) {
-    notFound();
-  }
+
+  // FIX #1: Added `return` so TypeScript correctly narrows article type
+  // and execution fully stops — prevents potential runtime crashes
+  if (!article) return notFound();
 
   const latestArticles = getLatestArticles(10);
   const categoryArticles = getArticlesByCategory(category);
@@ -225,6 +248,8 @@ export default async function DetailPage({ params }: DetailPageProps) {
 
   const articleUrl = `https://www.chroniqnow.com/${category}/${slug}/`;
   const publishedISO = safeISOString(article.date);
+  // FIX #4: Compute visible display date
+  const displayDate = formatDisplayDate(article.date);
 
   /* ── JSON-LD Structured Data ── */
   const newsArticleJsonLd = {
@@ -245,7 +270,9 @@ export default async function DetailPage({ params }: DetailPageProps) {
     dateModified: publishedISO,
     author: {
       "@type": "Person",
-      "@id": `https://www.chroniqnow.com/our-team#${article.author?.toLowerCase().replace(/\s+/g, "-") ?? "team"}`,
+      "@id": `https://www.chroniqnow.com/our-team#${
+        article.author?.toLowerCase().replace(/\s+/g, "-") ?? "team"
+      }`,
       name: article.author ?? "Chroniq Now",
       url: "https://www.chroniqnow.com/our-team",
     },
@@ -268,14 +295,32 @@ export default async function DetailPage({ params }: DetailPageProps) {
     articleSection: capitalize(category),
   };
 
+  // FIX #2: Only ONE breadcrumb source — JSON-LD only.
+  // Removed inline microdata from JSX to prevent duplicate/conflicting schema
+  // that causes GSC structured data errors.
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "@id": `${articleUrl}#breadcrumb`,
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.chroniqnow.com" },
-      { "@type": "ListItem", position: 2, name: capitalize(category), item: `https://www.chroniqnow.com/${category}/` },
-      { "@type": "ListItem", position: 3, name: article.title, item: articleUrl },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.chroniqnow.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: capitalize(category),
+        item: `https://www.chroniqnow.com/${category}/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: article.title,
+        item: articleUrl,
+      },
     ],
   };
 
@@ -283,59 +328,72 @@ export default async function DetailPage({ params }: DetailPageProps) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(newsArticleJsonLd).replace(/</g, "\\u003c") }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(newsArticleJsonLd).replace(/</g, "\\u003c"),
+        }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c"),
+        }}
       />
 
       <Navbar />
 
       <main className="w-full p-2 sm:p-20 py-8">
         <div className="flex flex-col mb-8 gap-2 sm:pt-3">
-          {/* Breadcrumb Nav */}
+          {/* FIX #2 + #3: Breadcrumb is now clean semantic HTML (ol/li) with NO
+              microdata — structured data is handled entirely by JSON-LD above */}
           <nav
             aria-label="Breadcrumb"
             className="text-sm font-bold text-gray-500 mb-4 lg:mb-0 lg:mr-4"
-            itemScope
-            itemType="https://schema.org/BreadcrumbList"
           >
-            <span itemScope itemProp="itemListElement" itemType="https://schema.org/ListItem">
-              <Link title="Home" href="/" className="text-red-600" itemProp="item">
-                <span itemProp="name">HOME</span>
-              </Link>
-              <meta itemProp="position" content="1" />
-            </span>
-
-            <span className="mx-1">»</span>
-
-            <span itemScope itemProp="itemListElement" itemType="https://schema.org/ListItem">
-              <Link title={`${category} news`} href={`/${category}/`} className="text-red-600" itemProp="item">
-                <span itemProp="name">{category.replace(/-/g, " ").toUpperCase()}</span>
-              </Link>
-              <meta itemProp="position" content="2" />
-            </span>
-
-            <span className="mx-1">»</span>
-
-            <span itemScope itemProp="itemListElement" itemType="https://schema.org/ListItem">
-              <span itemProp="name">{article.title}</span>
-              <meta itemProp="item" content={articleUrl} />
-              <meta itemProp="position" content="3" />
-            </span>
+            <ol className="flex items-center flex-wrap gap-1">
+              <li>
+                <Link title="Home" href="/" className="text-red-600 hover:underline">
+                  HOME
+                </Link>
+              </li>
+              <li aria-hidden="true" className="mx-1">»</li>
+              <li>
+                <Link
+                  title={`${category} news`}
+                  href={`/${category}/`}
+                  className="text-red-600 hover:underline"
+                >
+                  {category.replace(/-/g, " ").toUpperCase()}
+                </Link>
+              </li>
+              <li aria-hidden="true" className="mx-1">»</li>
+              <li className="text-gray-900 line-clamp-1">{article.title}</li>
+            </ol>
           </nav>
 
-          <div className="flex space-x-4 items-center">
+          <div className="flex flex-wrap items-center gap-3">
             <Link title="go to author page" href="/our-team">
-              <span className="font-medium text-sm text-gray-600">{article.author}</span>
+              <span className="font-medium text-sm text-gray-600">
+                {article.author}
+              </span>
             </Link>
+            {/* FIX #4: Visible publish date — Google cross-checks page content
+                against schema datePublished for news indexing */}
+            {displayDate && (
+              <time
+                dateTime={publishedISO}
+                className="text-sm text-gray-400"
+              >
+                {displayDate}
+              </time>
+            )}
           </div>
         </div>
 
         <div className="flex flex-col lg:flex-row w-full">
           <article className="w-full lg:w-2/3 lg:pr-8 mb-12 lg:mb-0">
-            <h1 className="text-3xl sm:text-4xl font-bold mb-6">{article.title}</h1>
+            <h1 className="text-3xl sm:text-4xl font-bold mb-6">
+              {article.title}
+            </h1>
 
             <div className="w-full mb-6 overflow-hidden shadow-md">
               <Image
@@ -348,18 +406,27 @@ export default async function DetailPage({ params }: DetailPageProps) {
               />
             </div>
 
-            <p className="text-lg leading-relaxed mb-6 font-bold">{article.shortdescription}</p>
+            <p className="text-lg leading-relaxed mb-6 font-bold">
+              {article.shortdescription}
+            </p>
             {article.description && (
-              <p className="text-base leading-relaxed mb-4 whitespace-pre-line">{article.description}</p>
+              <p className="text-base leading-relaxed mb-4 whitespace-pre-line">
+                {article.description}
+              </p>
             )}
           </article>
 
           <aside className="w-full lg:w-1/3 sticky top-24 self-start">
-            <h2 className="text-xl font-semibold mb-4 border-b pb-2">Latest News</h2>
+            <h2 className="text-xl font-semibold mb-4 border-b pb-2">
+              Latest News
+            </h2>
             <ul className="space-y-4">
               {latestArticles.slice(0, 5).map((item) => (
                 <li key={item.slug}>
-                  <Link href={`/${item.category}/${item.slug}/`} className="flex items-center shadow-sm hover:bg-gray-50 transition">
+                  <Link
+                    href={`/${item.category}/${item.slug}/`}
+                    className="flex items-center shadow-sm hover:bg-gray-50 transition"
+                  >
                     <div className="w-20 h-20 flex-shrink-0 mr-3 overflow-hidden">
                       <Image
                         src={item.image}
@@ -369,7 +436,9 @@ export default async function DetailPage({ params }: DetailPageProps) {
                         className="object-cover w-full h-full"
                       />
                     </div>
-                    <span className="text-sm font-bold leading-snug">{item.title}</span>
+                    <span className="text-sm font-bold leading-snug">
+                      {item.title}
+                    </span>
                   </Link>
                 </li>
               ))}
@@ -377,29 +446,39 @@ export default async function DetailPage({ params }: DetailPageProps) {
           </aside>
         </div>
 
-        <section className="mt-12 w-full pb-3">
-          <h2 className="text-2xl font-semibold mb-6">More in {capitalize(category)}</h2>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {moreArticles.map((item) => (
-              <li key={item.slug}>
-                <Link href={`/${category}/${item.slug}/`} className="block shadow-sm hover:bg-gray-50 transition h-full">
-                  <div className="w-full h-48 overflow-hidden">
-                    <Image
-                      src={item.image}
-                      alt={item.title}
-                      width={400}
-                      height={250}
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
-                  <div className="p-4">
-                    <h3 className="text-lg font-bold leading-snug">{item.title}</h3>
-                  </div>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
+        {/* FIX #5: Only render "More in X" section if there are related articles */}
+        {moreArticles.length > 0 && (
+          <section className="mt-12 w-full pb-3">
+            <h2 className="text-2xl font-semibold mb-6">
+              More in {capitalize(category)}
+            </h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {moreArticles.map((item) => (
+                <li key={item.slug}>
+                  <Link
+                    href={`/${category}/${item.slug}/`}
+                    className="block shadow-sm hover:bg-gray-50 transition h-full"
+                  >
+                    <div className="w-full h-48 overflow-hidden">
+                      <Image
+                        src={item.image}
+                        alt={item.title}
+                        width={400}
+                        height={250}
+                        className="object-cover w-full h-full"
+                      />
+                    </div>
+                    <div className="p-4">
+                      <h3 className="text-lg font-bold leading-snug">
+                        {item.title}
+                      </h3>
+                    </div>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </main>
 
       <Footer />

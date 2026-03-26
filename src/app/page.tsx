@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/ChroniqNow-logo.webp",
-        width: 1200,
-        height: 630,
+        width: 512,
+        height: 512,
         alt: "Chroniq Now Logo",
       },
     ],
@@ -80,7 +80,7 @@ export default function Home() {
         url: siteUrl,
         logo: {
           "@type": "ImageObject",
-          url: `${siteUrl}/images/chroniqnow-logo.webp`,
+          url: `${siteUrl}/images/ChroniqNow-logo.webp`,
           width: 512,
           height: 512,
         },
@@ -89,9 +89,22 @@ export default function Home() {
           "https://www.instagram.com/chroniq.now/",
         ],
       },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${siteUrl}/#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: siteUrl,
+          },
+        ],
+      },
     ],
   };
 
+  
   return (
     <>
       <script
