@@ -14,7 +14,6 @@ import { notFound } from "next/navigation";
    HELPERS
 ───────────────────────────────────────────────────────────────────────────── */
 
-/** Returns a valid ISO string, or today's date as fallback if missing/malformed */
 function safeISOString(value: string | undefined | null): string {
   if (!value) return new Date().toISOString();
   const d = new Date(value);
@@ -27,7 +26,6 @@ function capitalize(text: string) {
     .replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-/** FIX #4: Format date for visible display on page */
 function formatDisplayDate(value: string | undefined | null): string {
   if (!value) return "";
   const d = new Date(value);
@@ -51,7 +49,7 @@ interface DetailPageProps {
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   METADATA — shared builder keeps the special-case and default in sync
+   METADATA
 ───────────────────────────────────────────────────────────────────────────── */
 
 function buildMetadata({
@@ -80,29 +78,21 @@ function buildMetadata({
     metadataBase: new URL("https://www.chroniqnow.com"),
     title,
     description: safeDescription,
-
-    /* ── keywords ── */
     keywords: [
       `${capitalized.toLowerCase()} news`,
       "breaking news",
       "Chroniq Now",
       ...(author ? [author] : []),
     ],
-
-    /* ── authors ── */
     authors: [
       { name: author ?? "Chroniq Now", url: "https://www.chroniqnow.com/our-team" },
     ],
-
-    /* ── canonical & RSS ── */
     alternates: {
       canonical: url,
       types: {
         "application/rss+xml": "https://www.chroniqnow.com/rss.xml",
       },
     },
-
-    /* ── Open Graph ── */
     openGraph: {
       type: "article",
       locale: "en_US",
@@ -123,8 +113,6 @@ function buildMetadata({
       section: capitalized,
       authors: [`https://www.chroniqnow.com/our-team`],
     },
-
-    /* ── Twitter / X ── */
     twitter: {
       card: "summary_large_image",
       site: "@ChroniqNow",
@@ -133,8 +121,6 @@ function buildMetadata({
       description: safeDescription,
       images: [image],
     },
-
-    /* ── Robots ── */
     robots: {
       index: true,
       follow: true,
@@ -155,7 +141,6 @@ export async function generateMetadata({
   const { category, detail: slug } = await params;
   const article = getArticleBySlug(slug);
 
-  /* ── Special-case override ── */
   if (
     category === "politics" &&
     slug === "bribery-case-collapses-into-minor-campaign-finance-violation"
@@ -173,7 +158,6 @@ export async function generateMetadata({
     });
   }
 
-  /* ── 404 fallback ── */
   if (!article) {
     return {
       title: "Chroniq Now – Global News Hub",
@@ -184,7 +168,6 @@ export async function generateMetadata({
     };
   }
 
-  /* ── Standard article metadata ── */
   return buildMetadata({
     title: article.title,
     description: article.shortdescription,
@@ -197,7 +180,7 @@ export async function generateMetadata({
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   STATIC PARAMS
+   STATIC PARAMS — THE FIX IS HERE
 ───────────────────────────────────────────────────────────────────────────── */
 
 export async function generateStaticParams() {
@@ -210,12 +193,23 @@ export async function generateStaticParams() {
     "puerto-rico",
     "technology",
   ];
+
   const articles = categories.flatMap((cat) => getArticlesByCategory(cat));
 
-  return articles.map((article) => ({
-    category: article.category,
-    detail: article.slug,
-  }));
+  // ✅ Filter out any article missing category or slug — these would cause
+  // Next.js to throw "missing param" with output: export
+  return articles
+    .filter(
+      (article) =>
+        typeof article.category === "string" &&
+        article.category.trim() !== "" &&
+        typeof article.slug === "string" &&
+        article.slug.trim() !== ""
+    )
+    .map((article) => ({
+      category: article.category,
+      detail: article.slug,
+    }));
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
@@ -227,14 +221,11 @@ export default async function DetailPage({ params }: DetailPageProps) {
 
   const article = getArticleBySlug(slug);
 
-  // FIX #1: Added `return` so TypeScript correctly narrows article type
-  // and execution fully stops — prevents potential runtime crashes
   if (!article) return notFound();
 
   const latestArticles = getLatestArticles(10);
   const categoryArticles = getArticlesByCategory(category);
 
-  /* ── Safe sort: treats malformed dates as 0 ── */
   const moreArticles = categoryArticles
     .filter((item) => item.slug !== slug)
     .sort((a, b) => {
@@ -248,10 +239,8 @@ export default async function DetailPage({ params }: DetailPageProps) {
 
   const articleUrl = `https://www.chroniqnow.com/${category}/${slug}/`;
   const publishedISO = safeISOString(article.date);
-  // FIX #4: Compute visible display date
   const displayDate = formatDisplayDate(article.date);
 
-  /* ── JSON-LD Structured Data ── */
   const newsArticleJsonLd = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
@@ -295,9 +284,6 @@ export default async function DetailPage({ params }: DetailPageProps) {
     articleSection: capitalize(category),
   };
 
-  // FIX #2: Only ONE breadcrumb source — JSON-LD only.
-  // Removed inline microdata from JSX to prevent duplicate/conflicting schema
-  // that causes GSC structured data errors.
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -343,8 +329,6 @@ export default async function DetailPage({ params }: DetailPageProps) {
 
       <main className="w-full p-2 sm:p-20 py-8">
         <div className="flex flex-col mb-8 gap-2 sm:pt-3">
-          {/* FIX #2 + #3: Breadcrumb is now clean semantic HTML (ol/li) with NO
-              microdata — structured data is handled entirely by JSON-LD above */}
           <nav
             aria-label="Breadcrumb"
             className="text-sm font-bold text-gray-500 mb-4 lg:mb-0 lg:mr-4"
@@ -376,13 +360,8 @@ export default async function DetailPage({ params }: DetailPageProps) {
                 {article.author}
               </span>
             </Link>
-            {/* FIX #4: Visible publish date — Google cross-checks page content
-                against schema datePublished for news indexing */}
             {displayDate && (
-              <time
-                dateTime={publishedISO}
-                className="text-sm text-gray-400"
-              >
+              <time dateTime={publishedISO} className="text-sm text-gray-400">
                 {displayDate}
               </time>
             )}
@@ -446,7 +425,6 @@ export default async function DetailPage({ params }: DetailPageProps) {
           </aside>
         </div>
 
-        {/* FIX #5: Only render "More in X" section if there are related articles */}
         {moreArticles.length > 0 && (
           <section className="mt-12 w-full pb-3">
             <h2 className="text-2xl font-semibold mb-6">
