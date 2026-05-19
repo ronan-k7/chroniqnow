@@ -1,13 +1,271 @@
 [
   {
     "category": "puerto-rico",
-    "title": "Puerto Rico's governor signs a bill that makes fetal personhood a crime",
-    "shortdescription": "Puerto Rico Governor Jenniffer González approved a measure that says a fetus is a person. This has made medical and legal professionals very worried about reproductive rights and privacy in healthcare.",
-    "description": "Sometimes, in politics, a signature on paper can have effects that go far beyond the room where it happens. Puerto Rico just had one of those times. Governor Jenniffer González secretly signed a bill into law that gives a fetus the same legal status as a person. The repercussions has been anything but quiet. Within hours of the signing, civil rights offices all over the island were getting calls, reproductive health clinics were getting questions from worried patients, and legal experts were already writing arguments for what many think will be a protracted court fight. The bill is basically a statement of values that reflects Puerto Rico's largely Catholic cultural culture and has been supported by conservative lawmakers for years. But its real-world effects go well beyond just being a symbol. Doctors and OB-GYNs have been some of the most vocal critics, saying that the law makes emergency obstetric treatment less safe by creating a grey zone. When a mother's life is on the line and every second counts, the last thing a doctor should be doing is worrying about the law. This measure might make that happen. Privacy advocates are ringing a different kind of alarm, one that has to do with data. Since the law sees a fetus as a person, it is now possible to watch pregnant women, keep an eye on their healthcare decisions, and even make it a crime to manage a miscarriage or get fertility treatments. The Governor's administration has pushed back on these worries, saying that the law is a humanitarian way to recognize life that doesn't inevitably make it harder to get an abortion. People who don't like it aren't buying it. Women's rights groups said they will take the bill to federal court since it goes against constitutional safeguards that still apply in US territories. The national situation makes this moment even more explosive. Puerto Rico's signing comes at a time when reproductive rights are under attack all over the United States, and both supporters and opponents of abortion access are closely watching the island's move. No matter what you think, it's apparent that this law is just the start of a much bigger conversation.",
-    "image": "/images/puerto-rico-s-governor-signs-a-bill-that-makes-fetal-personhood-a-crime.webp",
-    "slug": "puerto-rico-s-governor-signs-a-bill-that-makes-fetal-personhood-a-crime",
-    "date": "6th March 2026",
-    "author": "Sofia R. Delgado"
+    "title": "The \"Croqueta Fee\" Allegations: Did Personal Retaliation Taint an OCIF Enforcement Case?",
+    "shortdescription": "Inside the OCIF \"Croqueta Fee\" allegations involving Natalia Zequeira, Allied Fleet Services, AAA Car Rental, and Puerto Rico's financial regulator.",
+    "slug": "natalia-zequeira-ocif-investigation-croqueta-fee-allied-aaa",
+    "date": "19th May 2026",
+    "author": "Marco A. Delgado",
+    "image": "/images/natalia-zequeira-ocif-croqueta-fee-allied-aaa.webp",
+    "articleType": "longform",
+    "seoTitle": "The Croqueta Fee Allegations and OCIF",
+    "primaryKeyword": "Croqueta Fee OCIF",
+    "secondaryKeywords": [
+      "Natalia Zequeira OCIF",
+      "Allied Fleet Services",
+      "AAA Car Rental",
+      "Mónica Rodríguez Villa",
+      "OCIF Puerto Rico",
+      "Puerto Rico financial regulator",
+      "regulatory retaliation",
+      "conflict of interest",
+      "selective enforcement"
+    ],
+    "dek": "An OCIF enforcement case against Allied Fleet Services and AAA Car Rental has become the center of a public-integrity controversy in Puerto Rico. The official record shows a formal compliance proceeding and $361,000 in penalties; the unresolved question is whether that proceeding was allegedly influenced by private retaliation, personal relationships, or selective enforcement.",
+    "glance": [
+      { "label": "Subject", "value": "Natalia I. Zequeira Díaz" },
+      { "label": "Agency", "value": "Office of the Commissioner of Financial Institutions of Puerto Rico (OCIF)" },
+      { "label": "Key People", "value": "Natalia Zequeira, Mónica Rodríguez Villa, Domingo J. Torres García, Sebastián Carazo Forastieri, Rhamses Carazo" },
+      { "label": "Main Controversy", "value": "Whether an OCIF enforcement case against Allied Fleet Services and AAA Car Rental was allegedly tainted by personal retaliation" },
+      { "label": "Confirmed Record", "value": "OCIF issued a formal complaint and order to show cause in case C25-ND-004, with penalties totaling $361,000" },
+      { "label": "Allegations", "value": "Private messages allegedly discussed punitive charges later described publicly through the phrase \"Croqueta Fee\"" },
+      { "label": "Current Status", "value": "Public allegations, a Justice referral, an ethics complaint, and OCIF denials exist; no public finding has yet established corruption" },
+      { "label": "Central Question", "value": "Was this a lawful compliance case, or did a real regulatory proceeding become contaminated by personal influence?" }
+    ],
+    "sections": [
+      {
+        "heading": "A Strange Phrase in a Serious Case",
+        "content": [
+          "In the usually technical world of Puerto Rico financial regulation, the phrase sounded almost unserious at first: **\"Croqueta Fee.\"**",
+          "It was the kind of expression that seemed too odd to belong inside a dispute about licenses, quarterly filings, enforcement orders, and administrative penalties. Yet behind that phrase now sits one of the most consequential questions facing Puerto Rico's financial regulator: whether a formal enforcement case was handled as a neutral compliance matter, or whether it was allegedly influenced by private grievance, personal proximity, or retaliatory motive.",
+          "The agency at the center of the controversy is the **Office of the Commissioner of Financial Institutions of Puerto Rico**, widely known as **OCIF**. Its authority is considerable. It licenses, supervises, investigates, audits, and disciplines financial institutions and related entities operating in Puerto Rico. When OCIF acts, it can impose penalties, restrict operations, demand records, pursue cease-and-desist orders, and shape whether a business remains inside the regulated financial system.",
+          "That is why the Allied Fleet Services and AAA Car Rental matter has become larger than one administrative case.",
+          "OCIF's public record shows that the agency pursued a formal enforcement proceeding against **Allied Fleet Services, Inc.** and **AAA Car Rental, Inc.** The case, identified as **C25-ND-004**, alleged compliance failures involving expired licenses, missing quarterly reports, failure to file abandoned-property reports, failure to provide requested financial and contract information, and a corporate-name change not reported to the regulator. The order identified penalties totaling **$361,000**.",
+          "That is the official record.",
+          "The allegation is different. Critics and complainants have raised the possibility that the enforcement process may have been tainted by private communications involving former OCIF commissioner **Natalia I. Zequeira Díaz** and a woman identified in public reporting as close to her and formerly linked to **Sebastián Carazo Forastieri**, a manager connected to the companies.",
+          "The allegation is not that the public order literally contains a line item called \"Croqueta Fee.\" It does not. The allegation is that private messages may have discussed inventing or adding punitive charges, including language that later became publicly associated with the phrase \"Croqueta Fee,\" and that those alleged communications may have intersected with a real regulatory proceeding.",
+          "That distinction is essential.",
+          "If OCIF had no compliance basis for the Allied/AAA case, the controversy would be simple. But the public record does show a compliance case. The more serious question is whether a legitimate regulatory file was allegedly exploited, escalated, or influenced by improper motive.",
+          "A financial regulator does not need to be gentle. It does not need to be popular. But it must be neutral. That is the issue at the center of the Croqueta Fee controversy."
+        ]
+      },
+      {
+        "heading": "The Public Record: OCIF's Case Against Allied and AAA",
+        "content": [
+          "The official case against Allied Fleet Services and AAA Car Rental was not presented as a joke, a private insult, or an improvised sanction. It was presented as a formal regulatory action.",
+          "OCIF alleged that Allied and AAA had authorizations only through December 31, 2024, and that the companies were later accused of operating without current licenses in 2025. The agency also alleged missing quarterly reports, failures to file abandoned-property reports, failure to provide requested documentation, and failure to notify OCIF of a corporate-name change.",
+          "The penalty structure was divided across three license categories."
+        ],
+        "table": {
+          "headers": ["Entity / License Category", "Main Alleged Violations", "Penalty"],
+          "rows": [
+            ["Allied Fleet Services — leasing", "Operating without license in 2025, missing reports, abandoned-property reporting issues, failure to provide documents, corporate-name issue", "$55,000"],
+            ["AAA Car Rental — leasing", "Operating without license in 2025, missing reports, abandoned-property reporting issues, failure to provide documents", "$31,000"],
+            ["AAA Car Rental — financing", "Operating as a finance company without license in 2025, 41 missing quarterly reports, abandoned-property reporting issues, failure to provide documents", "$275,000"],
+            ["**Total**", "", "**$361,000**"]
+          ]
+        },
+        "afterTable": [
+          "The largest component was tied to AAA's alleged failure to file **41 quarterly reports** as a finance company. OCIF's position, as reflected in the public case record, was that the penalties arose from repeated and prolonged noncompliance rather than from a sudden or arbitrary decision.",
+          "That gives the agency an obvious defense: this was not a sanction created from nothing. But it does not fully answer the harder question.",
+          "A company can have compliance failures and still be entitled to a neutral regulator. A fine can be grounded in formal rules and still be vulnerable if the process behind it was influenced by private animus, selective treatment, undisclosed conflicts, or improper pressure.",
+          "That is why the Allied/AAA case now sits at the intersection of two competing realities. The record shows a compliance proceeding. The allegation is that the proceeding may not have been clean."
+        ]
+      },
+      {
+        "heading": "The Allegation: A Real Case, Allegedly Tainted",
+        "content": [
+          "The Croqueta Fee controversy entered the public arena when **Rep. Domingo J. Torres García** referred the matter to Puerto Rico's Department of Justice. The referral reportedly asked authorities to examine possible retaliation, undue influence, abuse of power, conflicts of interest, and professional-conduct issues involving former commissioner Natalia Zequeira and current commissioner **Mónica Rodríguez Villa**.",
+          "According to public descriptions of the referral, the allegation involved purported private messages attributed to Zequeira and another woman connected socially or personally to the people around the Allied/AAA matter. Those alleged messages reportedly included references to punitive fee language, later described publicly through the \"Croqueta Fee\" phrase.",
+          "The issue is not merely whether someone used crude or unserious language in a private conversation. The issue is whether any such communication, if authentic, had any connection to official agency action.",
+          "That is the evidentiary hinge.",
+          "If the messages are not authentic, the public narrative weakens sharply. If they are authentic but unrelated to OCIF's internal decision-making, the ethics implications may be limited. But if the messages are authentic, preceded key decisions, and were connected to penalty discussions, case escalation, licensing pressure, or internal agency action, the matter becomes far more serious.",
+          "The available public record does not yet prove that chain. It does, however, raise the exact questions that investigators should ask:"
+        ],
+        "list": [
+          "Who sent the alleged messages?",
+          "When were they sent?",
+          "Were they extracted from a device or preserved only as screenshots?",
+          "Did the messages predate any enforcement decision?",
+          "Did anyone inside OCIF discuss them?",
+          "Did any official act after seeing or learning of them?",
+          "Did the alleged language correspond to any later penalty theory, internal discussion, or enforcement escalation?"
+        ]
+      },
+      {
+        "heading": "The Contradiction: Compliance Case or Retaliatory Vehicle?",
+        "content": [
+          "OCIF's strongest defense is chronological.",
+          "The agency's administrative track did not begin when the political controversy erupted. The record indicates that OCIF had contacted the companies before the October 2025 order. The sequence reportedly included renewal notices, communications about license status, an internal referral to investigations, a site visit, a meeting with company representatives, later licensing activity, and an examination period covering earlier business operations.",
+          "That chronology matters because it weakens the simplest accusation: that the entire enforcement case was invented suddenly for retaliatory reasons.",
+          "But it does not eliminate the more sophisticated allegation.",
+          "A pre-existing compliance case can still be misused. A regulator can identify legitimate violations and later escalate penalties unfairly. An agency can begin with ordinary oversight and later become influenced by a personal conflict. A file can be real and still become contaminated.",
+          "That is why the issue is not whether Allied and AAA were perfect licensees. OCIF says they were not. The issue is whether the regulator handled the case according to ordinary practice.",
+          "The question is not only: Were there violations? The question is also: Were similar violations treated similarly?",
+          "That is the selective-enforcement problem. Without a complete enforcement ledger, no one can say with confidence whether Allied and AAA received ordinary treatment or unusual severity.",
+          "If other leasing and finance companies with comparable deficiencies received warnings, cure periods, smaller fines, or negotiated resolutions, Allied/AAA's treatment would deserve scrutiny. If other companies received similar or harsher penalties for similar violations, OCIF's defense becomes stronger.",
+          "The public record needs comparison. Without it, both sides can tell a story."
+        ]
+      },
+      {
+        "heading": "Why the Timeline Matters",
+        "content": [
+          "The timeline is the spine of the controversy.",
+          "OCIF's case chronology reportedly began with renewal-related communications in **October 2023**. In **March and April 2024**, OCIF allegedly contacted company president **Rhamses Carazo** about license status, payments, and expiration issues. After a lack of response to an April email, the matter was referred internally to investigations.",
+          "In **July 2024**, OCIF investigators reportedly visited the companies' facilities and later met with company representatives. The agency raised questions about operating status, name changes, address issues, financial reports, missing filings, and requested contract lists.",
+          "OCIF renewed 2024 licenses in **September 2024**. Later, from **November 2024 to February 2025**, the agency's non-depository financial-institutions examination area examined Allied's operations for a period reaching back to January 2022.",
+          "Zequeira's tenure ended on **June 30, 2025**. Rodríguez Villa became commissioner in early **July 2025**. OCIF later issued a separate fine in July 2025 and then the larger C25-ND-004 order on **October 31, 2025**.",
+          "The political scandal erupted in **May 2026**, after the enforcement case had already become public.",
+          "That sequence creates a complicated picture. OCIF can argue that the case had a long administrative history. Critics can argue that the existence of an administrative history does not disprove later taint.",
+          "The decisive evidence would be internal: case assignment logs, penalty worksheets, examiner notes, emails, meeting records, conflict disclosures, and any communications involving the alleged private messages."
+        ]
+      },
+      {
+        "heading": "OCIF's Defense and the April 2026 Renewal",
+        "content": [
+          "OCIF has denied wrongdoing. Rodríguez Villa has publicly denied knowledge of or participation in the alleged text messages. The agency's position is that the penalties arose from prolonged noncompliance and were calculated under governing rules, not personal invention.",
+          "One fact complicates the harshest version of the retaliation theory: OCIF later renewed Allied and AAA's leasing licenses on **April 1, 2026**, after required documentation was submitted.",
+          "That renewal matters. A pure vendetta narrative would be easier to sustain if OCIF had permanently blocked the companies regardless of compliance. The renewal gives OCIF a plausible argument that its process was compliance-driven: when documentation arrived, licensing action followed.",
+          "But the renewal does not end the ethics question.",
+          "A regulator can eventually renew a license and still have mishandled earlier penalty decisions. It can correct one part of a file while leaving another part tainted. It can have valid compliance concerns and still fail to screen officials from a conflict.",
+          "The public should resist both extremes. This is not a case where the current public record proves corruption. It is also not a case where an agency denial resolves the matter."
+        ]
+      },
+      {
+        "heading": "The Ethics Complaint",
+        "content": [
+          "The controversy moved beyond politics when Allied and AAA filed an ethics complaint against Rodríguez Villa before the Office of Government Ethics.",
+          "The complaint reportedly alleged that the OCIF investigation was contaminated by personal motivations, sought Rodríguez Villa's inhibition, and asked for intervention to stop or suspend the administrative proceeding while the ethics matter was reviewed.",
+          "That development matters because ethics complaints focus on process, impartiality, and official conduct. Even if OCIF had legitimate compliance concerns, the ethics question remains whether the agency handled the case with proper neutrality.",
+          "At present, the public record does not show a final ethics ruling. Nor does it show a public criminal charge or official finding against Zequeira.",
+          "That distinction should guide every serious account of the case. The story is not that Natalia Zequeira has been found corrupt.",
+          "The story is that Zequeira, Rodríguez Villa, and OCIF are facing a serious public-integrity controversy involving allegations that a regulatory enforcement case may have been affected by private retaliation or conflict of interest.",
+          "That is a narrower statement. It is also a stronger one, because it can be supported by the available record."
+        ]
+      },
+      {
+        "heading": "Why This Matters for Puerto Rico's Financial System",
+        "content": [
+          "The Croqueta Fee controversy matters because financial regulation depends on confidence.",
+          "Every regulated entity must believe the rules will be enforced. Depositors and consumers must believe regulators will act when institutions fail. But businesses must also believe that enforcement will be neutral, proportionate, and insulated from private disputes.",
+          "If a regulator is weak, the public is exposed. If a regulator is arbitrary, the regulated system becomes unstable.",
+          "OCIF's role requires both toughness and restraint. It must be able to penalize real violations, but it must also show that its penalties follow law, method, and precedent. When allegations arise that private relationships may have entered the enforcement process, the agency's burden becomes higher, not lower.",
+          "The public does not need slogans. It needs records."
+        ]
+      },
+      {
+        "heading": "What Remains Unknown",
+        "content": [
+          "The most important facts remain unresolved.",
+          "The public does not yet know whether the alleged messages have been forensically authenticated. It does not know whether metadata confirms the sender, recipient, timing, and completeness of the communications. It does not know whether those messages were ever discussed inside OCIF.",
+          "The public also does not know whether the $361,000 penalty followed ordinary OCIF methodology. It does not know whether similarly situated companies received comparable treatment. It does not know whether any OCIF official disclosed a possible conflict, sought ethics advice, or recused themselves from any part of the Allied/AAA matter.",
+          "Those are not minor details. They are the case. A serious investigation would require:"
+        ],
+        "list": [
+          "The full Department of Justice referral file",
+          "The full Office of Government Ethics docket",
+          "The complete OCIF administrative file for C25-ND-004",
+          "Penalty-calculation worksheets",
+          "Internal communications",
+          "Recusal and conflict-of-interest records",
+          "Device extraction and metadata for the alleged messages",
+          "A complete OCIF enforcement ledger from 2021 to 2026"
+        ],
+        "afterList": ["Without those records, the public has allegations and denials. With those records, the public may finally have an answer."]
+      },
+      {
+        "heading": "Accountability Questions",
+        "content": ["Investigators, journalists, oversight bodies, and courts should ask:"],
+        "list": [
+          "Who initiated the Allied/AAA enforcement process?",
+          "Who calculated the $361,000 penalty?",
+          "Were maximum penalties used?",
+          "Were similar companies treated the same way?",
+          "Did any OCIF official know of the alleged personal relationship connected to the case?",
+          "Did Zequeira communicate about Allied, AAA, Carazo, fines, or penalties?",
+          "Did Rodríguez Villa know of or participate in any disputed communication?",
+          "Were any officials screened or recused?",
+          "Did OCIF seek ethics guidance?",
+          "Did the alleged messages predate any enforcement escalation?",
+          "Were the messages authenticated through device extraction or only screenshots?",
+          "Did OCIF preserve internal communications after the allegations surfaced?"
+        ],
+        "afterList": ["These questions do not presume guilt. They test process."]
+      },
+      {
+        "heading": "Conclusion: The Real Question Behind the \"Croqueta Fee\"",
+        "content": [
+          "The Croqueta Fee controversy has a strange name, but the issue beneath it is fundamental.",
+          "Can the public trust a financial regulator if private grievances are alleged to have entered the enforcement process?",
+          "OCIF may ultimately show that its case against Allied Fleet Services and AAA Car Rental was rule-driven, documented, and consistent with its treatment of other entities. If so, the record should prove it through notices, calculations, comparable cases, internal approvals, and clean conflict disclosures.",
+          "But if the case was influenced by personal retaliation, the evidence may appear in a different trail: message metadata, timing anomalies, unusual penalty decisions, undisclosed conflicts, internal pressure, or unequal treatment.",
+          "For now, the available record does not prove corruption. It does prove that the public has reason to demand answers.",
+          "The question is not whether regulators should enforce the law. They should.",
+          "The question is whether Puerto Rico's financial regulator obeyed the law — and its own duty of neutrality — while enforcing it."
+        ]
+      }
+    ],
+    "evidenceTable": {
+      "headers": ["Claim", "Status", "What Would Prove It"],
+      "rows": [
+        ["OCIF had an official enforcement case against Allied/AAA", "✓ Confirmed", "Full C25-ND-004 administrative file"],
+        ["OCIF's order identified $361,000 in penalties", "✓ Confirmed", "Public order and penalty worksheets"],
+        ["The official order included a literal \"Croqueta Fee\" line item", "✗ Not supported", "Official order showing that exact line item"],
+        ["Private messages allegedly discussed punitive \"Croqueta Fee\" language", "⚠ Alleged", "Authenticated messages, metadata, device extraction"],
+        ["Zequeira personally influenced penalties for retaliatory reasons", "? Unproven", "Internal communications, witness testimony, timing evidence"],
+        ["Rodríguez Villa knew of or participated in the alleged messages", "? Disputed / Unproven", "Internal records, testimony, authenticated communications"],
+        ["OCIF calculated penalties under ordinary rules", "Agency position", "Penalty worksheet and comparable enforcement cases"],
+        ["Allied/AAA were singled out for harsher treatment", "? Unknown", "Complete enforcement ledger for similarly situated entities"],
+        ["A public finding of corruption against Zequeira exists", "✗ Not identified", "Court, DOJ, ethics, or official investigative finding"]
+      ]
+    },
+    "documentsNeeded": [
+      "Full OCIF administrative file for case C25-ND-004",
+      "Penalty-calculation worksheets for the $361,000 figure",
+      "Department of Justice referral file",
+      "Office of Government Ethics complaint docket",
+      "Full message metadata and forensic extraction records",
+      "Internal OCIF emails, texts, memoranda, and calendar records",
+      "Recusal, screening, delegation, and conflict-of-interest records",
+      "License-renewal records for Allied and AAA",
+      "Company responses, motions, and hearing materials",
+      "OCIF enforcement ledger from 2021 to 2026",
+      "Comparable cases involving leasing and finance companies",
+      "Records showing who reviewed, approved, or escalated the penalties"
+    ],
+    "faq": [
+      {
+        "question": "What is the \"Croqueta Fee\" controversy?",
+        "answer": "The \"Croqueta Fee\" controversy refers to allegations that private messages discussed punitive fee language in connection with an OCIF enforcement matter involving Allied Fleet Services and AAA Car Rental. The official order reviewed does not appear to include a literal \"Croqueta Fee\" line item."
+      },
+      {
+        "question": "Who is Natalia Zequeira?",
+        "answer": "Natalia I. Zequeira Díaz is the former commissioner of Puerto Rico's Office of the Commissioner of Financial Institutions, known as OCIF."
+      },
+      {
+        "question": "What is OCIF?",
+        "answer": "OCIF is Puerto Rico's financial regulator. It supervises, licenses, audits, investigates, and regulates financial institutions and related entities operating in Puerto Rico."
+      },
+      {
+        "question": "What did OCIF allege against Allied and AAA?",
+        "answer": "OCIF alleged licensing, reporting, abandoned-property, documentation, and corporate-notification failures. The enforcement order identified penalties totaling $361,000."
+      },
+      {
+        "question": "Has corruption been proven?",
+        "answer": "No public finding of corruption against Zequeira was identified in the reviewed material. The controversy currently involves allegations, referrals, complaints, denials, and unresolved evidence questions."
+      },
+      {
+        "question": "Why does the case matter?",
+        "answer": "The case matters because even a legitimate compliance proceeding can become a public-integrity issue if evidence shows that personal retaliation, conflict of interest, or selective enforcement affected the process."
+      }
+    ],
+    "internalLinks": [
+      { "text": "The full Natalia Zequeira and OCIF controversy", "slug": "natalia-zequeira-ocif-controversy" },
+      { "text": "The Nodus ultra vires allegations", "slug": "nodus-ultra-vires-allegations" },
+      { "text": "OCIF's enforcement pattern across Puerto Rico's financial sector", "slug": "ocif-enforcement-pattern-puerto-rico" },
+      { "text": "The selective-enforcement question involving international banks", "slug": "selective-enforcement-international-banks-puerto-rico" },
+      { "text": "The conflict-of-interest questions surrounding OCIF leadership", "slug": "conflict-of-interest-ocif-leadership" }
+    ]
   },
   {
     "category": "puerto-rico",
