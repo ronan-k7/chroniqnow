@@ -227,7 +227,9 @@ export default async function DetailPage({ params }: DetailPageProps) {
   const article = getArticleBySlug(slug);
   if (!article) return notFound();
 
-  const latestArticles = getLatestArticles(10);
+  const latestArticles = getLatestArticles(10).filter(
+  (item) => item.slug !== slug
+);
   const categoryArticles = getArticlesByCategory(category);
 
   const moreArticles = categoryArticles

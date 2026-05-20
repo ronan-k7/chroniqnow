@@ -37,7 +37,7 @@ export interface FAQ {
 
 export interface InternalLink {
   text: string;
-  slug: string;
+  url: string;
 }
 
 export interface LongFormArticleData {
@@ -336,13 +336,7 @@ function DocumentsNeeded({ docs }: { docs: string[] }) {
    INTERNAL LINKS
 ───────────────────────────────────────────────────────────────────────────── */
 
-function RelatedTopics({
-  links,
-  category,
-}: {
-  links: InternalLink[];
-  category: string;
-}) {
+function RelatedTopics({ links }: { links: InternalLink[] }) {
   return (
     <div className="mb-10">
       <h3 className="font-bold text-gray-900 mb-3 text-sm uppercase tracking-widest">
@@ -351,18 +345,21 @@ function RelatedTopics({
       <ul className="space-y-2">
         {links.map((link, i) => (
           <li key={i}>
-            <Link
-              href={`/${category}/${link.slug}/`}
+            <a
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-red-600 hover:underline text-sm font-medium"
             >
-              → {link.text}
-            </Link>
+              {'→'} {link.text}
+            </a>
           </li>
         ))}
       </ul>
     </div>
   );
 }
+
 
 /* ─────────────────────────────────────────────────────────────────────────────
    MAIN COMPONENT
@@ -489,7 +486,7 @@ export default function LongFormArticlePage({
 
           {/* ── Related topics ───────────────────────────────────────────── */}
           {article.internalLinks && article.internalLinks.length > 0 && (
-            <RelatedTopics links={article.internalLinks} category={article.category} />
+            <RelatedTopics links={article.internalLinks} />
           )}
 
           {/* ── FAQ ──────────────────────────────────────────────────────── */}
