@@ -9,12 +9,12 @@ export const dynamic = "force-static";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Chroniq Now’s privacy policy: what we collect, why we collect it, how we protect it, and your rights.",
+    "Learn how Chroniq Now collects, uses, and protects your personal information. We are committed to transparency and safeguarding reader privacy.",
   alternates: { canonical: "https://www.chroniqnow.com/privacy-policy" },
   openGraph: {
     title: "Privacy Policy",
     description:
-      "What we collect, why we collect it, how we protect it, and your rights.",
+      "Learn how Chroniq Now protects your privacy and handles personal information responsibly.",
     url: "https://www.chroniqnow.com/privacy-policy",
     type: "website",
   },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Privacy Policy",
     description:
-      "What we collect, why we collect it, how we protect it, and your rights.",
+      "How Chroniq Now safeguards privacy while delivering independent news.",
   },
 };
 
@@ -45,7 +45,7 @@ export default function PrivacyPolicyPage() {
               isPartOf: { "@id": "https://www.chroniqnow.com/#website" },
               inLanguage: "en",
               description:
-                "Chroniq Now’s privacy policy: what we collect, why we collect it, how we protect it, and your rights.",
+                "Learn how Chroniq Now collects, uses, and protects your personal information. We are committed to transparency and safeguarding reader privacy.",
               breadcrumb: {
                 "@id": "https://www.chroniqnow.com/privacy-policy#breadcrumb",
               },
@@ -115,171 +115,132 @@ export default function PrivacyPolicyPage() {
           ],
         })}
       </Script>
+
       <div className="bg-white min-h-screen overflow-x-hidden">
         <Navbar />
+
         <header className="px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 pb-8 sm:pb-12">
           <div className="mx-auto w-full max-w-6xl">
             <h1 className="mt-4 text-balance text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight">
               Privacy Policy
             </h1>
             <p className="mt-4 max-w-3xl text-pretty text-neutral-700 text-base sm:text-lg md:text-[1.15rem] leading-relaxed">
-              We believe you have a right to privacy. This page explains in
-              plain English what little information we collect from visitors to{" "}
-              <span className="font-semibold">Chroniq Now</span> and how we use
-              it. Our goal is to be as transparent as possible.
+              <span className="font-semibold">Chroniq Now</span> values reader
+              trust. We collect only limited information necessary to operate
+              our newsroom, communicate with readers, and improve our
+              journalism. This policy explains what we collect, why we collect
+              it, and how we protect it.
             </p>
           </div>
         </header>
 
         <main className="px-4 sm:px-6 lg:px-8">
-          <article className="mx-auto w-full max-w-6xl">
+          <article className="mx-auto w-full max-w-6xl space-y-0">
+
+            {/* Section 1 — Information We Collect */}
             <section
-              aria-labelledby="short-version"
+              aria-labelledby="what-we-collect"
+              className="rounded-2xl border border-sky-100 bg-sky-50/60 p-6 sm:p-8"
+            >
+              <h2
+                id="what-we-collect"
+                className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-sky-800"
+              >
+                Information We Collect
+              </h2>
+              <p className="mt-4 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-sky-900/90">
+                When you visit our website, basic technical data such as pages
+                viewed, device type, and browser information may be collected
+                automatically. This information helps us understand readership
+                patterns and improve site performance.
+              </p>
+              <p className="mt-3 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-sky-900/90">
+                If you contact us directly — for tips, corrections, or
+                inquiries — we collect only the information you choose to
+                provide, such as your name and email address.
+              </p>
+              <p className="mt-3 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-sky-900/90">
+                We do not collect unnecessary personal data, and we do not sell
+                or trade user information.
+              </p>
+            </section>
+
+            <div className="my-8 h-px w-full bg-neutral-200" />
+
+            {/* Section 2 — How Information Is Used */}
+            <section
+              aria-labelledby="how-we-use"
+              className="rounded-2xl border border-emerald-100 bg-emerald-50/60 p-6 sm:p-8"
+            >
+              <h2
+                id="how-we-use"
+                className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-emerald-800"
+              >
+                How Information Is Used
+              </h2>
+              <ul className="mt-4 space-y-2 list-disc list-inside text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-emerald-900/90">
+                <li>To keep the website operating smoothly and securely.</li>
+                <li>To understand which stories resonate with readers.</li>
+                <li>To respond to messages, tips, or correction requests.</li>
+                <li>To provide updates when readers request them.</li>
+              </ul>
+              <p className="mt-4 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-emerald-900/90">
+                We do not use personal data for advertising sales, profiling,
+                or promotional targeting.
+              </p>
+            </section>
+
+            <div className="my-8 h-px w-full bg-neutral-200" />
+
+            {/* Section 3 — Cookies and Analytics */}
+            <section
+              aria-labelledby="cookies-analytics"
               className="rounded-2xl border border-amber-100 bg-amber-50/60 p-6 sm:p-8"
             >
               <h2
-                id="short-version"
+                id="cookies-analytics"
                 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-amber-800"
               >
-                The Short Version
+                Cookies and Analytics
               </h2>
               <p className="mt-4 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-amber-900/90">
-                We are a news site, not a data company. We don&apos;t track you
-                personally, and we don&apos;t sell your information to anyone.
-                Ever. We only collect the bare minimum amount of anonymous data
-                we need to understand how our site is being used so we can make
-                it better.
+                We use cookies and analytics tools to understand how readers
+                interact with our content. You may disable cookies in your
+                browser without affecting access to our reporting.
+              </p>
+              <p className="mt-3 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-amber-900/90">
+                Third-party analytics services may process anonymized data
+                under their own privacy policies.
               </p>
             </section>
 
             <div className="my-8 h-px w-full bg-neutral-200" />
 
-            <section aria-labelledby="what-we-collect" className="space-y-6">
-              <h2
-                id="what-we-collect"
-                className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight"
-              >
-                What Information We Collect and Why
-              </h2>
-
-              <div className="rounded-2xl border border-sky-100 bg-sky-50/60 p-5 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-semibold text-sky-700">
-                  Website Analytics
-                </h3>
-                <p className="mt-2 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-sky-900/90">
-                  Like most websites, we use analytics tools (like{" "}
-                  <span className="font-medium">
-                    e.g., Google Analytics, Plausible, etc.
-                  </span>
-                  ) to see how many people are visiting our site, which articles
-                  are popular, and how people found us. This information is
-                  anonymous. It tells us things like &quot;1,000 people from
-                  this country read this story,&quot; but it absolutely does not
-                  tell us that <em>you</em> specifically read it. We use this
-                  data to help us figure out what kind of stories our audience
-                  is interested in.
-                </p>
-              </div>
-
-              <div className="rounded-2xl border border-rose-100 bg-rose-50/60 p-5 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-semibold text-rose-700">
-                  Cookies
-                </h3>
-                <p className="mt-2 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-rose-900/90">
-                  Cookies are small text files that your browser stores. Our
-                  site may use them for basic functions, like remembering if
-                  you&apos;ve dismissed a notice so we don&apos;t show it to you
-                  again. Our analytics tool also uses cookies to distinguish
-                  between different visitors anonymously. You can clear or block
-                  cookies in your browser settings at any time. It won&apos;t
-                  break our site.
-                </p>
-              </div>
-
-              <div className="rounded-2xl border border-emerald-100 bg-emerald-50/60 p-5 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-semibold text-emerald-700">
-                  Comments
-                </h3>
-                <p className="mt-2 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-emerald-900/90">
-                  If you choose to leave a comment on an article, we will
-                  collect the information you provide in the comment form (like
-                  your name and the comment itself), as well as your IP address
-                  to help with spam prevention. The name you provide will be
-                  publicly visible. We ask that you do not share sensitive
-                  personal information in the comments section.
-                </p>
-              </div>
-
-              <div className="rounded-2xl border border-indigo-100 bg-indigo-50/60 p-5 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-semibold text-indigo-700">
-                  Emails and Contact Forms
-                </h3>
-                <p className="mt-2 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-indigo-900/90">
-                  If you email us directly or use a contact form, we will
-                  obviously have the information you provide, like your email
-                  address and your name. We only use this information to respond
-                  to your inquiry. We will not add you to a mailing list without
-                  your explicit permission, and we will never sell or share your
-                  email address.
-                </p>
-              </div>
-            </section>
-
-            <div className="my-8 h-px w-full bg-neutral-200" />
-
+            {/* Section 4 — Data Protection */}
             <section
-              aria-labelledby="who-we-share"
+              aria-labelledby="data-protection"
               className="rounded-2xl border border-neutral-200 bg-white p-6 sm:p-8"
             >
               <h2
-                id="who-we-share"
+                id="data-protection"
                 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight"
               >
-                Who We Share Data With
+                Data Protection
               </h2>
               <p className="mt-4 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
-                Nobody.
+                We take reasonable technical and organizational measures to
+                protect information from unauthorized access. Because we limit
+                the data we collect, we also limit exposure and risk.
               </p>
-              <p className="mt-2 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
-                We do not sell, trade, or otherwise transfer your personal
-                information to outside parties. The only exception is if we are
-                required to do so by law. The anonymous analytics data is
-                processed by our analytics provider (e.g., Google, Plausible),
-                but they are also bound by strict privacy policies.
+              <p className="mt-3 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
+                Chroniq Now collects as little information as possible, uses it
+                only to support journalism, and never sells personal data.
               </p>
             </section>
 
             <div className="my-8 h-px w-full bg-neutral-200" />
 
-            <section
-              aria-labelledby="how-we-protect"
-              className="rounded-2xl border border-neutral-200 bg-white p-6 sm:p-8"
-            >
-              <h2
-                id="how-we-protect"
-                className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight"
-              >
-                How We Protect Your Information
-              </h2>
-              <p className="mt-4 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
-                We take security seriously. While no online service is 100%
-                secure, we use standard security measures (like SSL encryption
-                for our website) to help protect your information. For sensitive
-                communications, like a news tip, we strongly encourage you to
-                use our secure{" "}
-                <Link
-                  href="mailto:tips@chroniqnow.com"
-                  className="font-semibold underline underline-offset-4"
-                >
-                  tips@chroniqnow.com
-                </Link>{" "}
-                email and consider using an encrypted service for added
-                protection.
-              </p>
-            </section>
-
-            <div className="my-8 h-px w-full bg-neutral-200" />
-
+            {/* Section 5 — Your Rights and Choices */}
             <section
               aria-labelledby="your-rights"
               className="rounded-2xl border border-neutral-200 bg-white p-6 sm:p-8"
@@ -288,13 +249,12 @@ export default function PrivacyPolicyPage() {
                 id="your-rights"
                 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight"
               >
-                Your Rights
+                Your Rights and Choices
               </h2>
               <p className="mt-4 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
-                You have the right to your data. Since we don&apos;t collect
-                personal profiles of our readers, there isn&apos;t much for you
-                to request, but you can always contact us if you have questions
-                or concerns.
+                Depending on your jurisdiction, you may have rights to access,
+                correct, or request deletion of personal data. Requests can be
+                submitted using the contact below.
               </p>
 
               <div
@@ -314,7 +274,7 @@ export default function PrivacyPolicyPage() {
 
               <p className="mt-6 text-sm sm:text-[0.95rem] text-neutral-600">
                 This policy was last updated on{" "}
-                <span className="font-semibold">August 16, 2025</span>.
+                <span className="font-semibold">May 26, 2026</span>.
               </p>
             </section>
 
