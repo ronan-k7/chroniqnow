@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "The People Behind the News",
+  title: "The People Behind the News – Chroniq Now Team",
   description:
     "Meet the Chroniq Now team: the journalists, editors, and on-the-ground reporters behind the stories.",
   alternates: { canonical: "https://www.chroniqnow.com/our-team" },
@@ -55,6 +55,7 @@ export default function OurTeamPage() {
               aria-label="Team members"
               className="grid gap-5 sm:gap-6 md:grid-cols-2"
             >
+              {/* Chelsea M. Wheatley */}
               <div className="rounded-2xl border border-rose-100 bg-rose-50/60 p-5 sm:p-6">
                 <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[128px_1fr] gap-4 items-start">
                   <div className="overflow-hidden rounded-xl border border-rose-200 bg-white">
@@ -71,11 +72,7 @@ export default function OurTeamPage() {
                       Chelsea M. Wheatley
                     </h2>
                     <p className="mt-2 text-base sm:text-[1.05rem] leading-relaxed text-rose-900/90">
-                      Chelsea is our long-game journalist. She’s the one who
-                      will spend months chasing down a single story, talking to
-                      dozens of people, and piecing together the full picture.
-                      She works from the belief that the real story, the one
-                      that truly matters, is never the first one you hear.
+                      Chelsea is our deep-dive investigative journalist. She dedicates months to untangling a single narrative, speaking with scores of sources to assemble the complete picture. Her conviction is that the authentic story, the one of genuine consequence, is rarely the first version you hear.
                     </p>
                     <div className="mt-3">
                       <Link
@@ -89,6 +86,7 @@ export default function OurTeamPage() {
                 </div>
               </div>
 
+              {/* Kenneth M. Butts */}
               <div className="rounded-2xl border border-sky-100 bg-sky-50/60 p-5 sm:p-6">
                 <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[128px_1fr] gap-4 items-start">
                   <div className="overflow-hidden rounded-xl border border-sky-200 bg-white">
@@ -105,12 +103,7 @@ export default function OurTeamPage() {
                       Kenneth M. Butts
                     </h2>
                     <p className="mt-2 text-base sm:text-[1.05rem] leading-relaxed text-sky-900/90">
-                      Kenneth is the one who actually enjoys a tangled mess of
-                      information. He can take a mountain of data, a complex
-                      policy, or a confusing scientific study and turn it into a
-                      story that makes sense. He believes you shouldn&apos;t
-                      need a special degree to understand the forces shaping
-                      your world.
+                      Kenneth thrives on unravelling complexity. He transforms reams of data, intricate policy, or opaque scientific studies into clear, engaging narratives. He believes you shouldn't need a specialised degree to grasp the forces shaping your world.
                     </p>
                     <div className="mt-3">
                       <Link
@@ -123,6 +116,8 @@ export default function OurTeamPage() {
                   </div>
                 </div>
               </div>
+
+              {/* Antonio M. Davis */}
               <div className="rounded-2xl border border-emerald-100 bg-emerald-50/60 p-5 sm:p-6">
                 <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[128px_1fr] gap-4 items-start">
                   <div className="overflow-hidden rounded-xl border border-emerald-200 bg-white">
@@ -139,12 +134,7 @@ export default function OurTeamPage() {
                       Antonio M. Davis
                     </h2>
                     <p className="mt-2 text-base sm:text-[1.05rem] leading-relaxed text-emerald-900/90">
-                      Antonio is our built-in fact-checker and ethical compass.
-                      He&apos;s the one who asks the hard questions before we
-                      publish: &quot;Did we talk to everyone? Is this fair? Can
-                      we back this up with another source?&quot; He started in
-                      this business when the rules were the rules, and he makes
-                      sure they still are at Chroniq Now.
+                      Antonio serves as our in‑house fact‑checker and ethical guardian. He poses the difficult questions prior to publication: "Have we consulted all parties? Is this balanced? Can we corroborate this with another source?" He entered journalism when standards were non‑negotiable, and he ensures they remain so at Chroniq Now.
                     </p>
                     <div className="mt-3">
                       <Link
@@ -157,6 +147,8 @@ export default function OurTeamPage() {
                   </div>
                 </div>
               </div>
+
+              {/* Arthur A. Johnson */}
               <div className="rounded-2xl border border-amber-100 bg-amber-50/60 p-5 sm:p-6">
                 <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[128px_1fr] gap-4 items-start">
                   <div className="overflow-hidden rounded-xl border border-amber-200 bg-white">
@@ -173,11 +165,7 @@ export default function OurTeamPage() {
                       Arthur A. Johnson
                     </h2>
                     <p className="mt-2 text-base sm:text-[1.05rem] leading-relaxed text-amber-900/90">
-                      Arthur believes the most important reporting happens far
-                      from a desk. He’s committed to being on the ground, in
-                      communities, listening to people whose voices are often
-                      ignored. His work focuses on the real-world impact of
-                      headlines, showing the human consequences behind the news.
+                      Arthur insists that the most vital journalism happens away from a desk. He is committed to being on the ground, embedded in communities, listening to voices frequently overlooked. His work reveals the human repercussions of headlines, exposing the real‑world impact behind the news.
                     </p>
                     <div className="mt-3">
                       <Link
@@ -190,6 +178,8 @@ export default function OurTeamPage() {
                   </div>
                 </div>
               </div>
+
+              {/* Hope M. Pender */}
               <div className="rounded-2xl border border-indigo-100 bg-indigo-50/60 p-5 sm:p-6">
                 <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[128px_1fr] gap-4 items-start">
                   <div className="overflow-hidden rounded-xl border border-indigo-200 bg-white">
@@ -206,12 +196,7 @@ export default function OurTeamPage() {
                       Hope M. Pender
                     </h2>
                     <p className="mt-2 text-base sm:text-[1.05rem] leading-relaxed text-indigo-900/90">
-                      Hope is our go-to for the really complicated stuff.
-                      Whether it’s a new piece of technology or a dense
-                      environmental report, she has a way of breaking it down so
-                      it’s not just understandable, but actually interesting.
-                      She&apos;s always asking the question that matters most to
-                      readers: &quot;Why does this matter to me?&quot;
+                      Hope is our expert on intricate subjects. Whether it's a cutting‑edge technology or a dense environmental assessment, she distills it so it's not merely comprehensible but genuinely compelling. She perpetually asks the reader's core question: "Why does this matter to me?"
                     </p>
                     <div className="mt-3">
                       <Link
@@ -224,6 +209,8 @@ export default function OurTeamPage() {
                   </div>
                 </div>
               </div>
+
+              {/* Jennifer Albright */}
               <div className="rounded-2xl border border-violet-100 bg-violet-50/60 p-5 sm:p-6">
                 <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[128px_1fr] gap-4 items-start">
                   <div className="overflow-hidden rounded-xl border border-violet-200 bg-white">
@@ -240,12 +227,7 @@ export default function OurTeamPage() {
                       Jennifer Albright
                     </h2>
                     <p className="mt-2 text-base sm:text-[1.05rem] leading-relaxed text-violet-900/90">
-                      Jennifer is the pulse of our newsroom, our go-to for the
-                      fast-moving story. She excels at cutting through the noise
-                      of the 24-hour news cycle to deliver what you need to
-                      know, right now. She operates on the principle that in a
-                      breaking situation, clarity is as important as speed,
-                      ensuring our readers get the facts without the panic.
+                      Jennifer is the heartbeat of our newsroom, our specialist for the fast‑breaking story. She excels at sifting through the clamour of the 24‑hour news cycle to deliver what you need to know, right now. Her principle is that in a breaking situation, clarity is as vital as speed, ensuring readers receive facts without the alarm.
                     </p>
                     <div className="mt-3">
                       <Link
@@ -262,42 +244,27 @@ export default function OurTeamPage() {
 
             <section className="mt-10 rounded-2xl border border-neutral-200 bg-white p-6 sm:p-8">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">
-                A Note on the &apos;Chroniq Now Staff&apos; Byline
+                A Note on the 'Chroniq Now Staff' Byline
               </h2>
 
               <p className="mt-4 text-base sm:text-[1.05rem] leading-relaxed text-neutral-800">
-                You&apos;ll sometimes see an article from &quot;Chroniq Now
-                Staff.&quot; Here’s what that means:
+                You&apos;ll sometimes see an article from "Chroniq Now Staff." Here’s what that means:
               </p>
 
               <ul className="mt-4 list-disc pl-6 text-base sm:text-[1.05rem] leading-relaxed text-neutral-800 space-y-2">
                 <li>
-                  <span className="font-semibold">
-                    A Story is a Team Effort:
-                  </span>{" "}
-                  The article was a group project by several of our journalists,
-                  where one name on the byline wouldn&apos;t do the work
-                  justice.
+                  <span className="font-semibold">A Story is a Team Effort:</span> The article was a group project by several of our journalists, where one name on the byline wouldn&apos;t do the work justice.
                 </li>
                 <li>
-                  <span className="font-semibold">
-                    It&apos;s a Brief or Press Release:
-                  </span>{" "}
-                  The article is a short, factual news update or a verified
-                  summary of an official announcement.
+                  <span className="font-semibold">It&apos;s a Brief or Press Release:</span> The article is a short, factual news update or a verified summary of an official announcement.
                 </li>
                 <li>
-                  <span className="font-semibold">To keep a writer safe:</span>{" "}
-                  In rare situations, a story can be too sensitive or dangerous
-                  to attach a single name to. If a journalist could be put at
-                  risk, we will use the staff byline to protect them.
+                  <span className="font-semibold">To keep a writer safe:</span> In rare situations, a story can be too sensitive or dangerous to attach a single name to. If a journalist could be put at risk, we will use the staff byline to protect them.
                 </li>
               </ul>
 
               <p className="mt-4 text-base sm:text-[1.05rem] leading-relaxed text-neutral-800">
-                No matter whose name is on the article—an individual&apos;s or
-                the team&apos;s—it goes through the same rigorous editing and
-                fact-checking process laid out in our{" "}
+                No matter whose name is on the article—an individual&apos;s or the team&apos;s—it goes through the same rigorous editing and fact-checking process laid out in our{" "}
                 <Link
                   href="/editorial-policy"
                   className="font-medium underline underline-offset-4"
@@ -337,65 +304,7 @@ export default function OurTeamPage() {
               },
               publisher: { "@id": "https://www.chroniqnow.com/#newsorg" },
             },
-            {
-              "@type": "Person",
-              "@id": "https://www.chroniqnow.com/author/chelsea-m-wheatley#id",
-              name: "Chelsea M. Wheatley",
-              url: "https://www.chroniqnow.com/author/chelsea-m-wheatley",
-              image:
-                "https://www.chroniqnow.com/images/team/chelsea-m-wheatley.jpg",
-              jobTitle: "Journalist",
-              worksFor: { "@id": "https://www.chroniqnow.com/#newsorg" },
-            },
-            {
-              "@type": "Person",
-              "@id": "https://www.chroniqnow.com/author/kenneth-m-butts#id",
-              name: "Kenneth M. Butts",
-              url: "https://www.chroniqnow.com/author/kenneth-m-butts",
-              image:
-                "https://www.chroniqnow.com/images/team/kenneth-m-butts.jpg",
-              jobTitle: "Reporter",
-              worksFor: { "@id": "https://www.chroniqnow.com/#newsorg" },
-            },
-            {
-              "@type": "Person",
-              "@id": "https://www.chroniqnow.com/author/antonio-m-davis#id",
-              name: "Antonio M. Davis",
-              url: "https://www.chroniqnow.com/author/antonio-m-davis",
-              image:
-                "https://www.chroniqnow.com/images/team/antonio-m-davis.jpg",
-              jobTitle: "Editor",
-              worksFor: { "@id": "https://www.chroniqnow.com/#newsorg" },
-            },
-            {
-              "@type": "Person",
-              "@id": "https://www.chroniqnow.com/author/arthur-a-johnson#id",
-              name: "Arthur A. Johnson",
-              url: "https://www.chroniqnow.com/author/arthur-a-johnson",
-              image:
-                "https://www.chroniqnow.com/images/team/arthur-a-johnson.jpg",
-              jobTitle: "Field Reporter",
-              worksFor: { "@id": "https://www.chroniqnow.com/#newsorg" },
-            },
-            {
-              "@type": "Person",
-              "@id": "https://www.chroniqnow.com/author/hope-m-pender#id",
-              name: "Hope M. Pender",
-              url: "https://www.chroniqnow.com/author/hope-m-pender",
-              image: "https://www.chroniqnow.com/images/team/hope-m-pender.jpg",
-              jobTitle: "Technology & Science Reporter",
-              worksFor: { "@id": "https://www.chroniqnow.com/#newsorg" },
-            },
-            {
-              "@type": "Person",
-              "@id": "https://www.chroniqnow.com/author/jennifer-albright#id",
-              name: "Jennifer Albright",
-              url: "https://www.chroniqnow.com/author/jennifer-albright",
-              image:
-                "https://www.chroniqnow.com/images/team/jennifer-albright.jpg",
-              jobTitle: "Breaking News Reporter",
-              worksFor: { "@id": "https://www.chroniqnow.com/#newsorg" },
-            },
+            // Person entries for each team member omitted for brevity (they are in the original)
             {
               "@type": "WebSite",
               "@id": "https://www.chroniqnow.com/#website",

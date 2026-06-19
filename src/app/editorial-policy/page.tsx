@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Our Ethics",
+  title: "Our Ethics – Chroniq Now Editorial Policy",
   description:
     "Chroniq Now’s editorial policy: accuracy first, independence, transparency, clear labeling, and accountable corrections.",
   alternates: { canonical: "https://www.chroniqnow.com/editorial-policy" },
@@ -99,16 +99,12 @@ export default function EditorialPolicyPage() {
               Our Ethics
             </h1>
             <p className="mt-4 max-w-3xl text-pretty text-neutral-700 text-base sm:text-lg md:text-[1.15rem] leading-relaxed">
-              Trust is the only thing that matters in news. Without it,
-              we&apos;re just adding to the noise. This page isn&apos;t filled
-              with legal jargon or empty promises. It&apos;s our code. It’s the
-              set of rules we hold ourselves to every single day. This is how we
-              earn your trust.
+              Trust is the only thing that matters in news. Without it, we're just adding to the noise. This page isn't filled with legal jargon or empty promises. It's our code. It’s the set of rules we hold ourselves to every single day. This is how we earn your trust.
             </p>
           </div>
         </header>
 
-        <main className="px-4 sm:px-6 lg:px-8 ">
+        <main className="px-4 sm:px-6 lg:px-8 pb-24">
           <article className="mx-auto w-full max-w-6xl">
             <div className="my-8 h-px w-full bg-neutral-200" />
 
@@ -117,58 +113,30 @@ export default function EditorialPolicyPage() {
               className="grid gap-4 sm:gap-6 md:grid-cols-2"
             >
               <div className="rounded-2xl border border-emerald-100 bg-emerald-50/60 p-5 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-semibold text-emerald-700">
-                  Accuracy is Non-Negotiable.
-                </h3>
+                <h3 className="text-lg sm:text-xl font-semibold text-emerald-700">Accuracy is Non‑Negotiable.</h3>
                 <p className="mt-2 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-emerald-900/90">
-                  Getting the facts right is our most important job. We don’t
-                  rush to be first; we work to be correct. That means we hunt
-                  down primary sources, we talk to people on all sides of an
-                  issue, and we verify information before we hit publish. Facts
-                  need context, and we promise to provide it so you get the full
-                  story.
+                  Getting the facts right is our most important job. We don’t rush to be first; we work to be correct. That means we hunt down primary sources, we talk to people on all sides of an issue, and we verify information before we hit publish. Facts need context, and we promise to provide it so you get the full story.
                 </p>
               </div>
 
               <div className="rounded-2xl border border-rose-100 bg-rose-50/60 p-5 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-semibold text-rose-700">
-                  Fiercely Independent. No Strings Attached.
-                </h3>
+                <h3 className="text-lg sm:text-xl font-semibold text-rose-700">Fiercely Independent. No Strings Attached.</h3>
                 <p className="mt-2 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-rose-900/90">
-                  Our loyalty is to you, our reader. Period. We are a
-                  self-funded collective, which means we don&apos;t answer to
-                  advertisers, corporate interests, or political parties. Our
-                  reporting is never for sale. Our writers don&apos;t take
-                  freebies, and they aren&apos;t allowed to cover subjects where
-                  they have a personal or financial conflict of interest.
+                  Our loyalty is to you, our reader. Period. We are a self-funded collective, which means we don't answer to advertisers, corporate interests, or political parties. Our reporting is never for sale. Our writers don't take freebies, and they aren't allowed to cover subjects where they have a personal or financial conflict of interest.
                 </p>
               </div>
 
               <div className="rounded-2xl border border-sky-100 bg-sky-50/60 p-5 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-semibold text-sky-700">
-                  Show, Don&apos;t Just Tell.
-                </h3>
+                <h3 className="text-lg sm:text-xl font-semibold text-sky-700">Show, Don't Just Tell.</h3>
                 <p className="mt-2 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-sky-900/90">
-                  We believe in showing our work. Whenever possible, we’ll link
-                  directly to the original studies, data, or documents
-                  we&apos;re reporting on so you can check the facts for
-                  yourself. We use anonymous sources only as a last resort, and
-                  only when someone has critical information but could be harmed
-                  or lose their job for sharing it. When we do, we&apos;ll tell
-                  you why they need to remain anonymous.
+                  We believe in showing our work. Whenever possible, we’ll link directly to the original studies, data, or documents we're reporting on so you can check the facts for yourself. We use anonymous sources only as a last resort, and only when someone has critical information but could be harmed or lose their job for sharing it. When we do, we'll tell you why they need to remain anonymous.
                 </p>
               </div>
 
               <div className="rounded-2xl border border-amber-100 bg-amber-50/60 p-5 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-semibold text-amber-700">
-                  When We Get It Wrong, We Say So.
-                </h3>
+                <h3 className="text-lg sm:text-xl font-semibold text-amber-700">When We Get It Wrong, We Say So.</h3>
                 <p className="mt-2 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-amber-900/90">
-                  We&apos;re human. We will make mistakes. When we do, we won’t
-                  try to sweep it under the rug. We will correct the error
-                  clearly, quickly, and transparently. We believe owning our
-                  mistakes is a sign of strength, not weakness. You can read the
-                  specifics of how we handle this on our{" "}
+                  We're human. We will make mistakes. When we do, we won’t try to sweep it under the rug. We will correct the error clearly, quickly, and transparently. We believe owning our mistakes is a sign of strength, not weakness. You can read the specifics of how we handle this on our{" "}
                   <Link
                     href="/correction-policy"
                     className="font-medium underline decoration-amber-400 underline-offset-4 hover:decoration-amber-700"
@@ -180,15 +148,9 @@ export default function EditorialPolicyPage() {
               </div>
 
               <div className="md:col-span-2 rounded-2xl border border-neutral-200 bg-white p-5 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-semibold text-neutral-900">
-                  A Clear Line in the Sand.
-                </h3>
+                <h3 className="text-lg sm:text-xl font-semibold text-neutral-900">A Clear Line in the Sand.</h3>
                 <p className="mt-2 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
-                  Reporting is reporting. Opinion is opinion. We don&apos;t mix
-                  the two. Our news articles are based on verified facts. If we
-                  publish a piece that is someone&apos;s expert analysis or a
-                  specific viewpoint, we will label it clearly so you always
-                  know exactly what you&apos;re reading.
+                  Reporting is reporting. Opinion is opinion. We don't mix the two. Our news articles are based on verified facts. If we publish a piece that is someone's expert analysis or a specific viewpoint, we will label it clearly so you always know exactly what you're reading.
                 </p>
               </div>
             </section>
@@ -196,7 +158,6 @@ export default function EditorialPolicyPage() {
             <div className="mt-10" />
           </article>
         </main>
-
         <Footer />
       </div>
     </>

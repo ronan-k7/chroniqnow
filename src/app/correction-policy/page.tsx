@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Our Correction Policy",
+  title: "Our Correction Policy – Chroniq Now",
   description:
     "Chroniq Now’s correction policy: how to report an error, how we investigate, and how we correct the record—clearly and transparently.",
   alternates: { canonical: "https://www.chroniqnow.com/correction-policy" },
@@ -111,39 +111,24 @@ export default function CorrectionPolicyPage() {
           </div>
         </header>
 
-        <main className="px-4 sm:px-6 lg:px-8">
+        <main className="px-4 sm:px-6 lg:px-8 pb-24">
           <article className="mx-auto w-full max-w-6xl">
             <section
               aria-labelledby="owning-mistakes"
               className="rounded-2xl border border-neutral-200 bg-white p-6 sm:p-8"
             >
-              <h2
-                id="owning-mistakes"
-                className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight"
-              >
-                Owning Our Mistakes. It&apos;s That Simple.
+              <h2 id="owning-mistakes" className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">
+                Owning Our Mistakes. It's That Simple.
               </h2>
-
               <p className="mt-4 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
-                We&apos;re obsessed with getting things right. But let&apos;s be
-                realistic—nobody is perfect. In the fast-moving world of news,
-                mistakes can happen. A fact can be misheard, a number can be
-                transposed, or new information can come to light.
+                We're obsessed with getting things right. But let's be realistic—nobody is perfect. In the fast-moving world of news, mistakes can happen. A fact can be misheard, a number can be transposed, or new information can come to light.
               </p>
-
               <p className="mt-4 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
-                While we can&apos;t promise to be perfect, we can promise this:{" "}
-                <span className="font-semibold">
-                  When we get something wrong, we will fix it.
-                </span>
+                While we can't promise to be perfect, we can promise this:{" "}
+                <span className="font-semibold">When we get something wrong, we will fix it.</span>
               </p>
-
               <p className="mt-4 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
-                We believe that our response to a mistake is just as important
-                as our effort to prevent one. Trust isn&apos;t built on a
-                flawless record; it&apos;s built on honesty and accountability,
-                especially when things go sideways. This page outlines our
-                commitment to exactly that.
+                We believe that our response to a mistake is just as important as our effort to prevent one. Trust isn't built on a flawless record; it's built on honesty and accountability, especially when things go sideways. This page outlines our commitment to exactly that.
               </p>
             </section>
 
@@ -153,26 +138,14 @@ export default function CorrectionPolicyPage() {
               aria-labelledby="report-mistake"
               className="rounded-2xl border border-neutral-200 bg-white p-6 sm:p-8"
             >
-              <h2
-                id="report-mistake"
-                className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight"
-              >
-                Saw a Mistake? Here&apos;s How to Tell Us.
+              <h2 id="report-mistake" className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">
+                Saw a Mistake? Here's How to Tell Us.
               </h2>
-
               <p className="mt-4 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
-                You, our readers, are our most important fact-checkers. If you
-                spot an error in our work, we genuinely want you to let us know.
-                Don&apos;t hesitate.
+                You, our readers, are our most important fact-checkers. If you spot an error in our work, we genuinely want you to let us know. Don't hesitate.
               </p>
-
-              <div
-                className="mt-5 flex items-center gap-3 whitespace-nowrap overflow-x-auto"
-                aria-label="Corrections contact email"
-              >
-                <p className="shrink-0 text-sm font-medium text-neutral-900">
-                  Email:
-                </p>
+              <div className="mt-5 flex items-center gap-3 whitespace-nowrap overflow-x-auto">
+                <p className="shrink-0 text-sm font-medium text-neutral-900">Email:</p>
                 <Link
                   href="mailto:corrections@chroniqnow.com"
                   className="shrink-0 inline-flex items-center justify-center rounded-xl bg-emerald-600 px-4 py-2 text-sm sm:text-[0.95rem] font-semibold text-white hover:bg-emerald-700"
@@ -180,10 +153,8 @@ export default function CorrectionPolicyPage() {
                   corrections@chroniqnow.com
                 </Link>
               </div>
-
               <p className="mt-5 text-sm sm:text-[0.95rem] text-neutral-700">
-                To help our team act fast, it&apos;s really helpful if you
-                include:
+                To help our team act fast, it's really helpful if you include:
               </p>
               <ul className="mt-3 list-disc pl-6 text-sm sm:text-[0.95rem] md:text-base leading-relaxed text-neutral-800 space-y-1.5">
                 <li>The link to the article in question.</li>
@@ -196,21 +167,14 @@ export default function CorrectionPolicyPage() {
 
             <section aria-labelledby="what-happens-next" className="space-y-6">
               <div className="rounded-2xl border border-neutral-200 bg-white p-6 sm:p-8">
-                <h2
-                  id="what-happens-next"
-                  className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight"
-                >
-                  Here&apos;s Exactly What Happens Next
+                <h2 id="what-happens-next" className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">
+                  Here's Exactly What Happens Next
                 </h2>
                 <p className="mt-4 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
-                  When your email lands in our inbox, it isn&apos;t fed into a
-                  machine. A real person on our editorial team reads it.
+                  When your email lands in our inbox, it isn't fed into a machine. A real person on our editorial team reads it.
                 </p>
                 <p className="mt-3 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
-                  First, we pull up the article and go back to our original
-                  notes and sources to understand what happened. We take the
-                  time to investigate properly. If we messed up, we admit it and
-                  get to work on a fix.
+                  First, we pull up the article and go back to our original notes and sources to understand what happened. We take the time to investigate properly. If we messed up, we admit it and get to work on a fix.
                 </p>
                 <p className="mt-3 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
                   How we fix it depends on the seriousness of the error.
@@ -219,44 +183,28 @@ export default function CorrectionPolicyPage() {
 
               <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
                 <div className="rounded-2xl border border-amber-100 bg-amber-50/60 p-5 sm:p-6">
-                  <h3 className="text-lg sm:text-xl font-semibold text-amber-700">
-                    Major factual errors
-                  </h3>
+                  <h3 className="text-lg sm:text-xl font-semibold text-amber-700">Major factual errors</h3>
                   <p className="mt-2 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-amber-900/90">
-                    If we got a{" "}
-                    <span className="font-semibold">major fact wrong</span>
-                    —something that changes the entire context of the story—we
-                    will correct the article and add a clear notice at the
-                    bottom. That note will say, &quot;Here&apos;s what we got
-                    wrong, and here&apos;s how we fixed it.&quot; We believe in
-                    a transparent, public record of our corrections.
+                    If we got a <span className="font-semibold">major fact wrong</span>—something that changes the entire context of the story—we will correct the article and add a clear notice at the bottom. That note will say, "Here's what we got wrong, and here's how we fixed it." We believe in a transparent, public record of our corrections.
                   </p>
                 </div>
 
                 <div className="rounded-2xl border border-sky-100 bg-sky-50/60 p-5 sm:p-6">
-                  <h3 className="text-lg sm:text-xl font-semibold text-sky-700">
-                    Smaller slip-ups
-                  </h3>
+                  <h3 className="text-lg sm:text-xl font-semibold text-sky-700">Smaller slip‑ups</h3>
                   <p className="mt-2 text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-sky-900/90">
-                    For <span className="font-semibold">smaller slip-ups</span>,
-                    like a spelling mistake or a grammar flub that doesn&apos;t
-                    change the story&apos;s meaning, we&apos;ll simply correct
-                    the text. Making a big announcement for a typo just clutters
-                    up the article.
+                    For <span className="font-semibold">smaller slip‑ups</span>, like a spelling mistake or a grammar flub that doesn't change the story's meaning, we'll simply correct the text. Making a big announcement for a typo just clutters up the article.
                   </p>
                 </div>
               </div>
 
               <p className="text-base sm:text-[1.05rem] md:text-lg leading-relaxed text-neutral-800">
-                This whole process is about respect—respect for the truth, and
-                respect for you. Thanks for helping us stay sharp.
+                This whole process is about respect—respect for the truth, and respect for you. Thanks for helping us stay sharp.
               </p>
             </section>
 
             <div className="mt-10" />
           </article>
         </main>
-
         <Footer />
       </div>
     </>
