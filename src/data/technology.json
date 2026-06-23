@@ -61,13 +61,71 @@
   },
   {
     "category": "technology",
-    "title": "Landmark Tech Regulation Bill Passes Senate Without AI Moratorium Provision",
-    "shortdescription": "A sweeping technology reform bill has cleared the Senate with bipartisan support — but efforts to include a temporary moratorium on artificial intelligence legislation were ultimately left out, sparking debate across the political spectrum.",
-    "description": "In a major legislative development, the U.S. Senate has passed a comprehensive tech reform bill — dubbed by its proponents as the “Big, Beautiful Bill” — with strong bipartisan support. The bill touches on digital privacy, data portability, cybersecurity standards, and antitrust measures aimed at reigning in Big Tech. But one highly controversial component was notably absent: a proposed moratorium on artificial intelligence (AI) legislation.\n\nDespite months of lobbying and public discourse surrounding the potential need to temporarily pause federal AI regulation, lawmakers ultimately chose not to include any such provision in the final text of the bill. The omission has ignited a firestorm of reactions from lawmakers, industry leaders, civil rights organizations, and AI researchers.\n\n### What the Bill Covers\n\nThe legislation, officially named the **Digital Policy Modernization Act of 2025**, is the most sweeping tech reform effort since the Telecommunications Act of 1996. Its key provisions include:\n\n- **Federal Data Privacy Framework**: Establishes nationwide standards for how companies collect, store, and share personal data, mirroring aspects of Europe’s GDPR.\n- **Data Portability Requirements**: Mandates that major platforms allow users to easily export their data and transfer it between services.\n- **Cybersecurity Benchmarks**: Sets new standards for federal contractors and critical infrastructure providers, including mandatory breach disclosures within 72 hours.\n- **Antitrust Enforcement**: Strengthens the Federal Trade Commission’s authority to investigate and break up monopolistic practices by tech giants.\n\nLawmakers on both sides of the aisle hailed the bill as a victory for American consumers and digital sovereignty.\n\n“This bill puts people before platforms,” said Sen. Maria Elridge (D-MA), a key co-author. “For too long, Big Tech has operated with impunity. This brings transparency, accountability, and real rights to users.”\n\nSen. Ben Halverson (R-UT), who helped shepherd the bill through bipartisan negotiations, added: “It’s a big, beautiful bill that balances innovation with protection. It doesn’t choke startups. It reins in monopolies. It’s the reform we’ve needed for over a decade.”\n\n### The AI Moratorium Debate\n\nNot everyone is celebrating. The most divisive issue during the bill’s drafting process was whether or not to include a **temporary moratorium on new AI regulations**. Proponents of the moratorium — including some tech executives, AI researchers, and national security officials — argued that the pace of AI development is too rapid and complex for current legislative frameworks.\n\nSen. Paul Warrick (I-MO), who pushed for the moratorium, said, “Before we pass sweeping laws on AI, we need time to study the consequences. We risk overregulating technologies we don’t yet fully understand, or worse, passing laws that entrench bad actors and shut out innovators.”\n\nWarrick’s proposal would have paused all new AI-specific legislation for 18 months while a federal task force studied safety, fairness, and economic impacts. But privacy advocates, civil rights groups, and some tech ethicists fiercely opposed the idea.\n\n### Why the Moratorium Failed\n\nUltimately, the Senate rejected the AI moratorium amendment by a narrow 52-48 vote. Critics of the pause argued that delaying regulation could leave the public vulnerable to immediate harms posed by AI systems, including algorithmic bias, misinformation, deepfakes, and automated surveillance.\n\n“AI is already shaping our economy, our elections, our healthcare system, and our criminal justice system,” said Sen. Rochelle Martinez (D-CA), a longtime advocate for AI transparency. “A delay is not neutrality — it’s permission to cause harm.”\n\nCivil rights groups, including the ACLU and the Algorithmic Justice League, issued joint statements praising the Senate’s decision to move forward without a moratorium. Meanwhile, some tech companies such as OpenFuture AI and SynthSys Corp. warned that the lack of a coordinated pause might lead to “regulatory whiplash” and fragmentation across states.\n\n### Industry Response: Relief and Uncertainty\n\nIn Silicon Valley and beyond, industry reactions have been mixed. Companies applauded the clarity offered by new data privacy rules but remained divided on how to handle AI governance.\n\nMeta and Google issued cautious endorsements of the bill. “We welcome a consistent privacy framework and appreciate the Senate’s diligence,” said a Google spokesperson. “We continue to urge thoughtful, agile AI regulation that reflects global norms.”\n\nElon Musk, who had previously supported a pause in AI development through his involvement with the Future of Life Institute, criticized the Senate’s decision on X (formerly Twitter): “Ignoring the call for an AI moratorium is shortsighted. This tech will soon outpace us if we’re not careful.”\n\nOpenAI, on the other hand, emphasized collaboration over pause. CEO Sam Altman stated, “We agree regulation is necessary, but we believe in building it in parallel with innovation. We’re glad to see AI policy not being delayed indefinitely.”\n\n### What the Public Thinks\n\nRecent polling suggests that the public is concerned about AI risks — but not necessarily in favor of halting legislation. A Gallup survey conducted in June 2025 found that **61% of Americans support federal regulation of AI**, while only **23% favored a legislative moratorium**.\n\nMany citizens are already experiencing AI in everyday life — from automated resume screening and predictive policing tools to chatbots in healthcare and education. Several high-profile incidents involving AI-generated misinformation and biased algorithms have fueled calls for stronger oversight.\n\n### Global Impact and Geopolitics\n\nThe passage of the Digital Policy Modernization Act without the AI moratorium has global implications. Europe, China, and the UK are all rapidly developing AI governance frameworks, and the U.S. move will shape international norms.\n\nChina’s tech ministry immediately issued a statement comparing the U.S. bill to its own AI rules. “The U.S. Senate has chosen deregulation over precaution,” it said, suggesting that U.S. AI platforms may now gain a competitive advantage.\n\nMeanwhile, European lawmakers expressed concern that the U.S. lacks adequate safeguards. “This approach prioritizes economic competition over human rights,” said Eva Jung, chair of the EU’s Digital Rights Committee.\n\n### What’s Next for AI Policy?\n\nWhile the moratorium didn’t pass, the debate is far from over. Multiple Senate and House committees are now working on separate AI-specific bills, including:\n\n- An **AI Accountability Act**, requiring transparency in high-risk use cases.\n- A proposed **National Registry for AI Models** used in public sector decisions.\n- A bill establishing a **Federal AI Standards Institute**, akin to the FDA but for algorithms.\n\nPresident Biden is expected to sign the Digital Policy Modernization Act into law next week, but his administration has also signaled interest in issuing executive orders focused on AI ethics and procurement standards.\n\nWhite House tech adviser LaToya Greene emphasized the need for speed: “We can’t regulate tomorrow’s problems with yesterday’s laws. AI requires continuous governance, not a pause button.”\n\n### Conclusion\n\nThe Digital Policy Modernization Act of 2025 marks a watershed moment in American tech policy — introducing robust digital rights for users while strengthening the federal government’s hand in shaping the online ecosystem. Yet its omission of an AI moratorium reflects deep divisions about how — and when — to regulate emerging technologies.\n\nSupporters of the bill argue that forward momentum on data and competition issues was too important to stall. Critics counter that ignoring AI risks could open the door to new, unforeseen harms. Either way, one thing is certain: the debate over AI governance has only just begun.",
-    "image": "/images/senate-passes-tech-bill-no-ai-moratorium.webp",
-    "slug": "senate-passes-tech-bill-no-ai-moratorium",
-    "date": "09th july 2025",
-    "author": "Chelsea M. Wheatley"
+    "title": "Trump Orders Accelerated Quantum Computing Push With 2028 Target",
+    "shortdescription": "President Donald Trump signed executive orders directing the U.S. government to accelerate quantum computing development, strengthen cybersecurity defenses and target a powerful quantum computer by 2028.",
+    "image": "/images/trump-quantum-computing-executive-orders-2028.webp",
+    "slug": "trump-quantum-computing-executive-orders-2028",
+    "date": "23rd June 2026",
+    "author": "Chelsea M. Wheatley",
+    "articleType": "longform",
+    "seoTitle": "Trump Signs Quantum Computing Orders Aiming for 2028 Breakthrough",
+    "primaryKeyword": "Trump quantum computing executive order",
+    "secondaryKeywords": [
+      "quantum computing 2028",
+      "post-quantum cryptography",
+      "U.S. quantum policy",
+      "Pentagon quantum sensors",
+      "cybersecurity quantum threat",
+      "federal quantum investment"
+    ],
+    "sections": [
+      {
+        "heading": "President Donald Trump has signed",
+        "content": [
+          "Two executive orders aimed at speeding the development of quantum computing in the United States while preparing government systems for the cybersecurity challenges the technology could eventually create.",
+          "The initiative sets a national goal of developing a powerful quantum computer for scientific research by 2028 and expands federal efforts to secure America’s position in a field increasingly viewed as critical to economic competitiveness and national security.",
+          "Under the orders, federal agencies will work more closely with private companies, national laboratories and academic institutions to advance quantum computing and related technologies, building on approximately $2 billion in previous federal investment."
+        ]
+      },
+      {
+        "heading": "White House Sets 2028 Quantum Computing Goal",
+        "content": [
+          "At the center of the plan is a directive calling for the creation of a powerful quantum computer capable of supporting advanced scientific research by 2028. The Department of Energy will take a leading role in defining technical requirements and coordinating development efforts across government agencies, research institutions and industry partners.",
+          "Scientists have long viewed quantum computing as one of the most promising frontiers in technology. Unlike conventional computers, future quantum systems could tackle exceptionally complex calculations that remain out of reach today. Researchers believe those capabilities could accelerate advances in materials science, drug discovery, climate modeling and artificial intelligence. The administration's timeline is notably ambitious. Many technology companies have projected the arrival of large-scale fault-tolerant quantum systems closer to the end of the decade. The White House hopes that coordinated public-private partnerships and expanded research efforts can shorten that timetable.",
+          "Officials said meeting the 2028 target would serve as a clear demonstration of American leadership in a technology expected to shape both economic growth and national security for decades."
+        ]
+      },
+      {
+        "heading": "Preparing for the Post-Quantum Security Era",
+        "content": [
+          "A separate executive order focuses on a challenge that has become increasingly prominent among cybersecurity experts: the possibility that future quantum computers could break many of today’s encryption systems. Federal agencies have been directed to accelerate the transition to post-quantum cryptography, which is designed to remain secure even against powerful quantum-based attacks.",
+          "The administration also moved forward key deadlines for safeguarding government networks, setting targets for stronger cryptographic protections by 2030 and 2031. Officials warned that sufficiently advanced quantum computers could eventually compromise encryption standards that currently protect communications networks, financial systems and sensitive government information. Although such systems have not yet been developed, cybersecurity specialists have repeatedly urged governments and businesses to begin preparing well in advance.",
+          "The executive orders also call for deeper cooperation with allied nations on supply-chain security, intellectual-property protection and the development of international standards for quantum technologies."
+        ]
+      },
+      {
+        "heading": "Pentagon Expands Focus on Quantum Applications",
+        "content": [
+          "The administration's strategy extends beyond computing power and cybersecurity. Federal agencies have been instructed to accelerate work on quantum-enabled sensors and related technologies, with the Pentagon tasked with pursuing operational quantum sensors by 2028. Officials believe such systems could improve navigation in environments where GPS signals are unavailable and could help detect underground facilities from space. Those capabilities are viewed as potentially valuable for future military and defense operations.",
+          "Over the next five years, NASA, the Commerce Department and other federal agencies are expected to develop plans for quantum networks and advanced sensing systems. Officials say the technology could eventually benefit transportation, communications, scientific research and national defense.",
+          "Industry leaders from major technology companies attended the signing ceremony, reflecting the growing partnership between government agencies and private-sector researchers. Administration officials argued that combining federal investment with private innovation will be essential as competition in the global quantum sector intensifies. With governments and technology companies around the world racing to unlock the promise of quantum computing, the executive orders mark one of the most significant U.S. policy efforts so far to accelerate development, strengthen security and secure a leading role in a technology widely expected to reshape the future."
+        ]
+      }
+    ],
+    "internalLinks": [
+      {
+        "text": "Trump signs orders calling for powerful quantum computer, targeting 2028",
+        "url": "https://www.reuters.com/legal/litigation/trump-signs-orders-calling-powerful-quantum-computer-targeting-2028-2026-06-22/"
+      },
+      {
+        "text": "Trump signs quantum computing orders",
+        "url": "https://thehill.com/policy/technology/5934949-trump-signs-quantum-computing-orders/"
+      },
+      {
+        "text": "Trump Orders US to Speed Quantum Adoption, Boost Cyber Defenses",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-22/trump-orders-us-to-speed-quantum-adoption-boost-cyber-defenses"
+      }
+    ]
   },
   {
     "category": "technology",
