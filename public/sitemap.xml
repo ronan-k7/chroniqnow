@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.chroniqnow.com/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -321,6 +321,12 @@
   <url>
     <loc>https://www.chroniqnow.com/politics/supreme-court-birthright-citizenship-trump-2026/</loc>
     <lastmod>2026-07-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.chroniqnow.com/sports/england-beats-mexico-world-cup-2026-azteca/</loc>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
