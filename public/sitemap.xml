@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.chroniqnow.com/</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -57,12 +57,6 @@
   <url>
     <loc>https://www.chroniqnow.com/politics/trump-extends-iran-ceasefire-pakistan-diplomatic-request/</loc>
     <lastmod>2026-04-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.chroniqnow.com/business/kpmg-cuts-10-percent-us-audit-partners-restructuring/</loc>
-    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -507,6 +501,12 @@
   <url>
     <loc>https://www.chroniqnow.com/science/nasa-roman-space-telescope-launch-dark-energy-exoplanets-2026/</loc>
     <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.chroniqnow.com/health/cdc-pennsylvania-measles-deaths-data-dispute-2026/</loc>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
