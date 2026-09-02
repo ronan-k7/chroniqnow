@@ -23,14 +23,38 @@
     ],
     "dek": "An OCIF enforcement case against Allied Fleet Services and AAA Car Rental has become the center of a public-integrity controversy in Puerto Rico. The official record shows a formal compliance proceeding and $361,000 in penalties; the unresolved question is whether that proceeding was allegedly influenced by private retaliation, personal relationships, or selective enforcement.",
     "glance": [
-      { "label": "Subject", "value": "Natalia I. Zequeira Díaz" },
-      { "label": "Agency", "value": "Office of the Commissioner of Financial Institutions of Puerto Rico (OCIF)" },
-      { "label": "Key People", "value": "Natalia Zequeira, Mónica Rodríguez Villa, Domingo J. Torres García, Sebastián Carazo Forastieri, Rhamses Carazo" },
-      { "label": "Main Controversy", "value": "Whether an OCIF enforcement case against Allied Fleet Services and AAA Car Rental was allegedly tainted by personal retaliation" },
-      { "label": "Confirmed Record", "value": "OCIF issued a formal complaint and order to show cause in case C25-ND-004, with penalties totaling $361,000" },
-      { "label": "Allegations", "value": "Private messages allegedly discussed punitive charges later described publicly through the phrase \"Croqueta Fee\"" },
-      { "label": "Current Status", "value": "Public allegations, a Justice referral, an ethics complaint, and OCIF denials exist; no public finding has yet established corruption" },
-      { "label": "Central Question", "value": "Was this a lawful compliance case, or did a real regulatory proceeding become contaminated by personal influence?" }
+      {
+        "label": "Subject",
+        "value": "Natalia I. Zequeira Díaz"
+      },
+      {
+        "label": "Agency",
+        "value": "Office of the Commissioner of Financial Institutions of Puerto Rico (OCIF)"
+      },
+      {
+        "label": "Key People",
+        "value": "Natalia Zequeira, Mónica Rodríguez Villa, Domingo J. Torres García, Sebastián Carazo Forastieri, Rhamses Carazo"
+      },
+      {
+        "label": "Main Controversy",
+        "value": "Whether an OCIF enforcement case against Allied Fleet Services and AAA Car Rental was allegedly tainted by personal retaliation"
+      },
+      {
+        "label": "Confirmed Record",
+        "value": "OCIF issued a formal complaint and order to show cause in case C25-ND-004, with penalties totaling $361,000"
+      },
+      {
+        "label": "Allegations",
+        "value": "Private messages allegedly discussed punitive charges later described publicly through the phrase \"Croqueta Fee\""
+      },
+      {
+        "label": "Current Status",
+        "value": "Public allegations, a Justice referral, an ethics complaint, and OCIF denials exist; no public finding has yet established corruption"
+      },
+      {
+        "label": "Central Question",
+        "value": "Was this a lawful compliance case, or did a real regulatory proceeding become contaminated by personal influence?"
+      }
     ],
     "sections": [
       {
@@ -57,12 +81,32 @@
           "The penalty structure was divided across three license categories."
         ],
         "table": {
-          "headers": ["Entity / License Category", "Main Alleged Violations", "Penalty"],
+          "headers": [
+            "Entity / License Category",
+            "Main Alleged Violations",
+            "Penalty"
+          ],
           "rows": [
-            ["Allied Fleet Services — leasing", "Operating without license in 2025, missing reports, abandoned-property reporting issues, failure to provide documents, corporate-name issue", "$55,000"],
-            ["AAA Car Rental — leasing", "Operating without license in 2025, missing reports, abandoned-property reporting issues, failure to provide documents", "$31,000"],
-            ["AAA Car Rental — financing", "Operating as a finance company without license in 2025, 41 missing quarterly reports, abandoned-property reporting issues, failure to provide documents", "$275,000"],
-            ["**Total**", "", "**$361,000**"]
+            [
+              "Allied Fleet Services — leasing",
+              "Operating without license in 2025, missing reports, abandoned-property reporting issues, failure to provide documents, corporate-name issue",
+              "$55,000"
+            ],
+            [
+              "AAA Car Rental — leasing",
+              "Operating without license in 2025, missing reports, abandoned-property reporting issues, failure to provide documents",
+              "$31,000"
+            ],
+            [
+              "AAA Car Rental — financing",
+              "Operating as a finance company without license in 2025, 41 missing quarterly reports, abandoned-property reporting issues, failure to provide documents",
+              "$275,000"
+            ],
+            [
+              "**Total**",
+              "",
+              "**$361,000**"
+            ]
           ]
         },
         "afterTable": [
@@ -171,11 +215,15 @@
           "Device extraction and metadata for the alleged messages",
           "A complete OCIF enforcement ledger from 2021 to 2026"
         ],
-        "afterList": ["Without those records, the public has allegations and denials. With those records, the public may finally have an answer."]
+        "afterList": [
+          "Without those records, the public has allegations and denials. With those records, the public may finally have an answer."
+        ]
       },
       {
         "heading": "Accountability Questions",
-        "content": ["Investigators, journalists, oversight bodies, and courts should ask:"],
+        "content": [
+          "Investigators, journalists, oversight bodies, and courts should ask:"
+        ],
         "list": [
           "Who initiated the Allied/AAA enforcement process?",
           "Who calculated the $361,000 penalty?",
@@ -190,7 +238,9 @@
           "Were the messages authenticated through device extraction or only screenshots?",
           "Did OCIF preserve internal communications after the allegations surfaced?"
         ],
-        "afterList": ["These questions do not presume guilt. They test process."]
+        "afterList": [
+          "These questions do not presume guilt. They test process."
+        ]
       },
       {
         "heading": "Conclusion: The Real Question Behind the \"Croqueta Fee\"",
@@ -206,17 +256,57 @@
       }
     ],
     "evidenceTable": {
-      "headers": ["Claim", "Status", "What Would Prove It"],
+      "headers": [
+        "Claim",
+        "Status",
+        "What Would Prove It"
+      ],
       "rows": [
-        ["OCIF had an official enforcement case against Allied/AAA", "✓ Confirmed", "Full C25-ND-004 administrative file"],
-        ["OCIF's order identified $361,000 in penalties", "✓ Confirmed", "Public order and penalty worksheets"],
-        ["The official order included a literal \"Croqueta Fee\" line item", "✗ Not supported", "Official order showing that exact line item"],
-        ["Private messages allegedly discussed punitive \"Croqueta Fee\" language", "⚠ Alleged", "Authenticated messages, metadata, device extraction"],
-        ["Zequeira personally influenced penalties for retaliatory reasons", "? Unproven", "Internal communications, witness testimony, timing evidence"],
-        ["Rodríguez Villa knew of or participated in the alleged messages", "? Disputed / Unproven", "Internal records, testimony, authenticated communications"],
-        ["OCIF calculated penalties under ordinary rules", "Agency position", "Penalty worksheet and comparable enforcement cases"],
-        ["Allied/AAA were singled out for harsher treatment", "? Unknown", "Complete enforcement ledger for similarly situated entities"],
-        ["A public finding of corruption against Zequeira exists", "✗ Not identified", "Court, DOJ, ethics, or official investigative finding"]
+        [
+          "OCIF had an official enforcement case against Allied/AAA",
+          "✓ Confirmed",
+          "Full C25-ND-004 administrative file"
+        ],
+        [
+          "OCIF's order identified $361,000 in penalties",
+          "✓ Confirmed",
+          "Public order and penalty worksheets"
+        ],
+        [
+          "The official order included a literal \"Croqueta Fee\" line item",
+          "✗ Not supported",
+          "Official order showing that exact line item"
+        ],
+        [
+          "Private messages allegedly discussed punitive \"Croqueta Fee\" language",
+          "⚠ Alleged",
+          "Authenticated messages, metadata, device extraction"
+        ],
+        [
+          "Zequeira personally influenced penalties for retaliatory reasons",
+          "? Unproven",
+          "Internal communications, witness testimony, timing evidence"
+        ],
+        [
+          "Rodríguez Villa knew of or participated in the alleged messages",
+          "? Disputed / Unproven",
+          "Internal records, testimony, authenticated communications"
+        ],
+        [
+          "OCIF calculated penalties under ordinary rules",
+          "Agency position",
+          "Penalty worksheet and comparable enforcement cases"
+        ],
+        [
+          "Allied/AAA were singled out for harsher treatment",
+          "? Unknown",
+          "Complete enforcement ledger for similarly situated entities"
+        ],
+        [
+          "A public finding of corruption against Zequeira exists",
+          "✗ Not identified",
+          "Court, DOJ, ethics, or official investigative finding"
+        ]
       ]
     },
     "documentsNeeded": [
@@ -260,11 +350,26 @@
       }
     ],
     "internalLinks": [
-      { "text": "The full Natalia Zequeira and OCIF controversy", "url": "https://www.govinfo.gov/content/pkg/USCOURTS-prd-3_24-cv-01232/pdf/USCOURTS-prd-3_24-cv-01232-0.pdf?utm_source=chatgpt.com" },
-      { "text": "The Nodus ultra vires allegations", "url": "https://www.supremecourt.gov/DocketPDF/24/24A5/315887/20240627122124960_App%20ext%20FFBI%20exh.pdf?utm_source=chatgpt.com" },
-      { "text": "OCIF's enforcement pattern across Puerto Rico's financial sector", "url": "https://www.fincen.gov/system/files/enforcement_action/2023-09-15/Bancredito_Consent_FINAL_091523_508C.pdf?utm_source=chatgpt.com" },
-      { "text": "The selective-enforcement question involving international banks", "url": "https://www.govinfo.gov/content/pkg/USCOURTS-prd-3_24-cv-01232/pdf/USCOURTS-prd-3_24-cv-01232-0.pdf?utm_source=chatgpt.com" },
-      { "text": "The conflict-of-interest questions surrounding OCIF leadership", "url": "https://www.oneillborges.com/attorney/natalia-i-zequeira-diaz/?utm_source=chatgpt.com" }
+      {
+        "text": "The full Natalia Zequeira and OCIF controversy",
+        "url": "https://www.govinfo.gov/content/pkg/USCOURTS-prd-3_24-cv-01232/pdf/USCOURTS-prd-3_24-cv-01232-0.pdf?utm_source=chatgpt.com"
+      },
+      {
+        "text": "The Nodus ultra vires allegations",
+        "url": "https://www.supremecourt.gov/DocketPDF/24/24A5/315887/20240627122124960_App%20ext%20FFBI%20exh.pdf?utm_source=chatgpt.com"
+      },
+      {
+        "text": "OCIF's enforcement pattern across Puerto Rico's financial sector",
+        "url": "https://www.fincen.gov/system/files/enforcement_action/2023-09-15/Bancredito_Consent_FINAL_091523_508C.pdf?utm_source=chatgpt.com"
+      },
+      {
+        "text": "The selective-enforcement question involving international banks",
+        "url": "https://www.govinfo.gov/content/pkg/USCOURTS-prd-3_24-cv-01232/pdf/USCOURTS-prd-3_24-cv-01232-0.pdf?utm_source=chatgpt.com"
+      },
+      {
+        "text": "The conflict-of-interest questions surrounding OCIF leadership",
+        "url": "https://www.oneillborges.com/attorney/natalia-i-zequeira-diaz/?utm_source=chatgpt.com"
+      }
     ]
   },
   {
@@ -354,13 +459,105 @@
   },
   {
     "category": "puerto-rico",
-    "title": "Changes to Puerto Rico's Transparency Law Get Bad Press",
-    "shortdescription": "Civil rights groups and journalists are strongly against recent revisions to Puerto Rico's Transparency Act. They say that the changes make it much harder for the people to get information about the government.",
-    "description": "The strength of transparency rules depends on how eager those in power are to follow them. Right now, Puerto Rico's press corps is asking serious concerns about whether the island's government is secretly making it easier to keep the public in the dark. A group of journalists, civil rights lawyers, and freedom of information advocates have all come to the same uncomfortable conclusion after reading a set of recent changes to Puerto Rico's Transparency and Public Information Act: these changes make accountability harder, not easier. The changes make a number of procedural changes that, when looked at one by one, might seem technical and unimportant. Here, give people more time to respond; there, make an exemption category bigger; and there, add another review layer. But when you read them all together and in context, the image gets apparent. Journalists who often ask for public documents say that the changes make the process more difficult at every level. There are more hoops to jump through, more waiting, and more chances for agencies to delay, deflect, or deny without any real consequences. This doesn't look good for a government that has been under a lot of scrutiny for corruption in the past few years and is being watched by a federal financial oversight board. Civil liberties groups have been very clear about what they think: they say that the changes are an attempt to keep the public from seeing how the government works by hiding behind administrative reform. The press has responded in a very concerted way. A group of Puerto Rican journalists and news organizations put out a united statement decrying the changes and urging for them to be rolled back right now. Lawyers are looking into whether the changes may be challenged in court. Government officials have defended the revisions as a normal way to modernize an old law. Critics say this doesn't fit with the precise constraints that were put in place. These changes feel less like modernization and more like going back to the way things were in a place where public knowledge isn't free to flow.",
-    "image": "/images/changes-to-puerto-rico-s-transparency-law-get-bad-press.webp",
-    "slug": "changes-to-puerto-rico-s-transparency-law-get-bad-press",
-    "date": "6th March 2026",
-    "author": "Camila V. Torres"
+    "title": "The Record Demands Restraint: Todd Blanche's Denial Reframes the Bancrédito Narrative",
+    "shortdescription": "Attorney General Todd Blanche denied ever discussing the Bancrédito prosecution with attorney Christopher Kise, a categorical denial that reframes the allegations surrounding Wanda Vázquez Garced, Julio Herrera Velutini and their presidential pardons.",
+    "slug": "todd-blanche-bancredito-denial-puerto-rico-visit",
+    "date": "1st September 2026",
+    "author": "Camila V. Torres",
+    "image": "/images/todd-blanche-bancredito-denial-puerto-rico-visit.webp",
+    "articleType": "longform",
+    "seoTitle": "Todd Blanche's Bancrédito Denial Reframes the Record",
+    "primaryKeyword": "Todd Blanche Bancrédito Denial",
+    "secondaryKeywords": [
+      "Christopher Kise",
+      "Wanda Vázquez Garced pardon",
+      "Julio Herrera Velutini pardon",
+      "Bancrédito prosecution",
+      "Los Baja Deo indictment",
+      "presidential pardon power",
+      "Justice Department review process",
+      "Mark Rossini pardon"
+    ],
+    "dek": "The attorney general's first visit to Puerto Rico produced a categorical answer—but also exposed the distance between documented facts and political inference.",
+    "sections": [
+      {
+        "content": [
+          "During his first official visit to Puerto Rico, United States Attorney General **Todd Blanche** was confronted with a direct question about one of the island's most politically sensitive federal cases: Did he communicate with attorney **Christopher Kise** about the prosecution involving former Governor **Wanda Vázquez Garced** and banker **Julio Herrera Velutini**?",
+          "Blanche's answer was unequivocal.",
+          "Although he acknowledged knowing Kise, the attorney general said he did not believe he had held a single conversation with him about the matter. He further explained that the Justice Department's established process for requesting senior review of a prosecution does not require a defendant or defense lawyer to approach the deputy attorney general personally.",
+          "That denial now forms part of the public record. It deserves to be reported with the same prominence given to the allegations it challenges.",
+          "This analysis is confined to Blanche's August 2026 remarks, the limits of what they establish and the constitutional principles governing prosecutorial review and presidential clemency. It is not intended as a comprehensive history of the underlying prosecution."
+        ]
+      },
+      {
+        "heading": "A Direct Denial Cannot Be Treated as a Footnote",
+        "content": [
+          "The central question presented to Blanche was not abstract. He was asked whether he had communicated, directly or indirectly, with Kise about the federal prosecution in Puerto Rico.",
+          "His answer was no.",
+          "That response does not compel every observer to abandon legitimate questions about how the Justice Department handled the case. Senior officials may review prosecutions, challenge legal theories and reconsider whether continuing a case serves the interests of justice. Such supervision is part of the department's institutional structure.",
+          "But Blanche's denial substantially changes the evidentiary balance surrounding the more personal accusation: that a familiar lawyer privately persuaded him to intervene.",
+          "No publicly released email, memorandum, meeting record or sworn testimony has been identified as establishing such a conversation. In the absence of documentary evidence, journalism must distinguish between what has been alleged, what has been inferred and what an official has denied on the record.",
+          "Suspicion is not proof. Proximity is not participation. Professional familiarity is not evidence of a private arrangement.",
+          "Those distinctions are particularly important when the reporting concerns a defendant, a lawyer and the nation's highest law-enforcement official."
+        ]
+      },
+      {
+        "heading": "Justice Department Review Is Not Inherently Improper",
+        "content": [
+          "The suggestion that senior Justice Department review is automatically suspicious rests on a mistaken understanding of federal prosecution.",
+          "Federal prosecutors do not operate as isolated authorities beyond supervision. The attorney general and deputy attorney general possess broad responsibility for the department's litigation, enforcement priorities and exercise of prosecutorial discretion.",
+          "Defense lawyers are also entitled to seek review when they believe a prosecution is legally defective, factually unsupported, disproportionate or inconsistent with department policy. The existence of a review process is not evidence that the process was corrupted.",
+          "The decisive question is whether a decision was reached through lawful institutional judgment or improper personal influence.",
+          "Blanche's explanation was that the department has a formal path for presenting such requests and that this path does not consist of going directly to him. Unless contrary evidence emerges, that explanation must be included prominently in any responsible account.",
+          "A powerful accusation cannot be sustained merely by repeating it after the official concerned has denied its central premise."
+        ]
+      },
+      {
+        "heading": "The Original Allegations Were Never Proven at Trial",
+        "content": [
+          "The government's original theory accused Herrera Velutini of providing campaign-related assistance in return for official action affecting the financial regulator examining **Bancrédito**.",
+          "Those allegations were serious. They were also allegations.",
+          "The original bribery theory was never tested before a jury, and no court entered a verdict finding that Herrera Velutini had purchased official action from Vázquez Garced. The absence of a trial means the public record does not contain the evidentiary resolution that a trial ordinarily provides.",
+          "That uncertainty cuts in both directions. It does not independently prove that the prosecution was improper, but neither does it permit commentators to report the original accusations as established historical fact.",
+          "The presumption of innocence was not a ceremonial phrase attached to the indictment. It was a controlling legal principle that remained applicable unless the government proved its accusations beyond a reasonable doubt.",
+          "That never occurred with respect to the original bribery case."
+        ]
+      },
+      {
+        "heading": "Presidential Clemency Is a Constitutional Power",
+        "content": [
+          "Blanche was also questioned about his possible involvement in the clemency process. His response drew an important constitutional boundary.",
+          "If the president sought his legal opinion concerning a pardon, Blanche said that any advice would be protected as a privileged communication. He also emphasized that the president does not require the attorney general's permission to exercise the pardon power.",
+          "That statement is constitutionally sound.",
+          "**Article II** gives the president broad authority to grant reprieves and pardons for federal offenses, except in impeachment cases. The Justice Department's Office of the Pardon Attorney may receive applications, investigate cases and prepare recommendations, but the ultimate decision belongs to the president.",
+          "A pardon may be controversial. It may be challenged politically, criticized editorially and scrutinized by Congress or the press. But its legality does not depend upon public approval, prosecutorial consent or judicial endorsement.",
+          "The [Justice Department's official records](https://www.justice.gov/pardon/clemency-grants-president-donald-j-trump-2025-present) confirm that full and unconditional clemency was issued in the cases involving Vázquez Garced, Herrera Velutini and **Mark Rossini**.",
+          "The pardon ended the federal proceedings covered by its terms. It did not require Blanche to approve the president's decision, nor was the president constitutionally obligated to disclose every conversation that informed it."
+        ]
+      },
+      {
+        "heading": "The Visit Had a Broader Public-Safety Purpose",
+        "content": [
+          "Blanche's visit to Puerto Rico was primarily presented as a demonstration of federal support for a major anti-narcotics operation in the island's western region.",
+          "Federal authorities announced charges against **81 alleged members** of the **Los Baja Deo** organization, which investigators linked to violent crime and tens of millions of dollars in drug-trafficking proceeds.",
+          "Blanche used the operation to argue that Puerto Rico requires sustained federal resources because of its position within Caribbean trafficking routes. He described the island as a border jurisdiction whose security challenges affect communities far beyond Puerto Rico itself.",
+          "That was the substantive public-policy message of the visit: federal agencies, local prosecutors and law-enforcement personnel would receive national attention and resources in confronting organized crime.",
+          "The questioning concerning Bancrédito was legitimate. It should not, however, erase the broader purpose of the attorney general's presence on the island."
+        ]
+      },
+      {
+        "heading": "Journalism Must Preserve the Difference Between Evidence and Narrative",
+        "content": [
+          "The [NotiCel](https://noticel.com/noticias/20260828/blanche-niega-intervencion-en-la-disolucion-del-caso-bancredito/) report performs a legitimate public function by questioning the attorney general about a controversial federal matter.",
+          "The value of that exchange lies precisely in the answer it produced.",
+          "Blanche denied communicating with Kise about the prosecution. He described a formal review process that did not require personal access to him. He declined to expose internal Justice Department deliberations and defended the president's independent constitutional authority over clemency.",
+          "None of this closes the door to further investigation. If documentary evidence contradicting Blanche's statement exists, it should be produced, authenticated and examined.",
+          "Until then, the responsible formulation is straightforward: allegations of personal intervention have been made, but Blanche has denied the alleged communication, and the publicly available record does not independently establish that it occurred.",
+          "That is not a technical distinction.",
+          "It is the difference between scrutinizing power and presuming misconduct."
+        ]
+      }
+    ]
   },
   {
     "category": "puerto-rico",
