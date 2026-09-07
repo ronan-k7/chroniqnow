@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.chroniqnow.com/</loc>
-    <lastmod>2026-09-04</lastmod>
+    <lastmod>2026-09-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,12 +75,6 @@
   <url>
     <loc>https://www.chroniqnow.com/health/cdc-monitors-us-passengers-hantavirus-outbreak-cruise-ship-2026/</loc>
     <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.chroniqnow.com/technology/google-android-intrusion-logging-spyware/</loc>
-    <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -507,6 +501,12 @@
   <url>
     <loc>https://www.chroniqnow.com/sports/alexander-zverev-quentin-halys-us-open-third-round-2026/</loc>
     <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.chroniqnow.com/sports/nebraska-missouri-volleyball-match-suspended-wrigley-field/</loc>
+    <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
