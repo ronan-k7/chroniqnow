@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.chroniqnow.com/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -69,12 +69,6 @@
   <url>
     <loc>https://www.chroniqnow.com/health/cdc-monitors-us-passengers-hantavirus-outbreak-cruise-ship-2026/</loc>
     <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.chroniqnow.com/sports/nfl-2026-schedule-australia-melbourne-patriots-seahawks/</loc>
-    <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -513,6 +507,12 @@
   <url>
     <loc>https://www.chroniqnow.com/health/congo-ebola-outbreak-who-staff-shortage-funding-crisis-2026/</loc>
     <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.chroniqnow.com/science/denisovan-forearm-bone-china-fossil-discovery-2026/</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
