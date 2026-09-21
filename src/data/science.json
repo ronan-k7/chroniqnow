@@ -1,6 +1,88 @@
 [
   {
     "category": "science",
+    "title": "Scientists Identify the Birdsong Qualities Humans Find Most Pleasant",
+    "shortdescription": "A new study of 123 bird species identifies acoustic characteristics linked to how pleasant humans find birdsong, with the common blackbird receiving the highest rating.",
+    "image": "/images/birdsong-pleasant-human-ear-study-acoustic-qualities-2026.webp",
+    "slug": "birdsong-pleasant-human-ear-study-acoustic-qualities-2026",
+    "date": "19th September 2026",
+    "author": "Hope M. Pender",
+    "articleType": "longform",
+    "seoTitle": "Scientists Identify the Birdsong Qualities Humans Find Most Pleasant",
+    "primaryKeyword": "pleasant birdsong study",
+    "secondaryKeywords": [
+      "birdsong human perception",
+      "common blackbird song",
+      "acoustic properties of birdsong",
+      "University of Tübingen study",
+      "bird vocalizations research",
+      "urban soundscapes and birdsong"
+    ],
+    "sections": [
+      {
+        "heading": "",
+        "content": [
+          "Some birds are soothing and melodic, while others may be harsh or unpleasant to hear. Why? A new study by researchers at the University of Tübingen in Germany offers some clues by looking at the acoustic properties that shape how humans perceive bird vocalizations.",
+          "Researchers had 84 people listen to recordings of calls from 123 different species of European birds, and rate how nice they thought each call was. They then compared these ratings with quantifiable properties of the vocalizations such as frequency, amplitude, bandwidth and complexity.",
+          "Results suggest that there is not a single acoustic feature responsible for the attractiveness of a birdsong. Rather, it appears that a number of factors are involved. Participants were more likely to judge positively sounds with specific frequency characteristics, lower amplitude, narrower bandwidth, and more vocal complexity.",
+          "The researchers also found that how much people knew about birds did not matter much in deciding which sounds they liked best. The pleasantness ratings were not significantly related to birding specialization, suggesting that the response may be related to aspects of human sound perception that are not dependent on specialist knowledge.",
+          "This study is a component of a larger research project investigating the effects of natural sounds on human experiences. Bird song is an important part of the natural soundscapes, and understanding why we perceive certain sounds as positive may eventually help researchers and urban planners to think differently about parks, gardens and other recreational settings.",
+          "The researchers stress that the results show correlations between acoustic features and perceived pleasantness, not definitive answers about why the human brain favors some birdsongs."
+        ]
+      },
+      {
+        "heading": "Common Blackbird Scores Highest in Pleasantness",
+        "content": [
+          "The most pleasant species on average of the 123 species in the experiment was the common or Eurasian blackbird (Turdus merula). Its score was 4.52 out of 5, the highest of any species tested.",
+          "The common blackbird is widely distributed in Europe, and is a familiar bird of gardens, parks and woodland habitats. Its deep, flowing, flute-like song is often a draw for listeners.",
+          "The European goldfinch also did well, scoring 4.26, while the European robin and the blue tit got 4.04 and 3.92 respectively. At the lower end of the scale the barn owl received the lowest average score of 1.32 out of five.",
+          "This difference indicates that species may respond quite differently to bird vocalizations. Specifically, the scientists wanted to know if those differences were associated with objective properties of the sounds, and not just familiarity with certain birds.",
+          "Interestingly, the more complex vocalizations were more likely to be rated as more pleasant, the study found. This contradicts the intuitive assumption that simple, repetitive sounds would inherently be easier or more pleasant to listen to.",
+          "But the researchers warn against interpreting the high score of the common blackbird as its having the \"best\" song of all. This study was conducted with German adult listeners and perceptions may be affected by individual and cultural experience in other populations."
+        ]
+      },
+      {
+        "heading": "Sound Preferences as a Function of Frequency Amplitude & Complexity",
+        "content": [
+          "The study found some acoustic features to be related to higher pleasantness ratings. Participants generally preferred sounds with higher low and peak frequencies, lower amplitude, and narrower bandwidths. Vocal complexity was also associated with higher pleasantness ratings.",
+          "The results indicate that humans perceive birdsong in a multidimensional way. Not all pleasant sounds are high-pitched, quiet or complex. Instead, listener responses appear to be based on combinations of acoustic properties.",
+          "The researchers also found that people who said they valued birds more rated bird sounds as more pleasant. Specialist birding experience, however, was not significantly associated with pleasantness. This implies that a general liking for birds can shape perception even in the absence of specific knowledge of bird species or calls.",
+          "But scientists who study how we hear say personal experience can still play an important role. Familiar birds may remind people of a particular place, season or environment, and this can affect how people react to them.",
+          "So the study does not give a one-size-fits-all recipe for a beautiful birdsong. Different species can make very different sounds and still get high scores.",
+          "The lead researchers said the next phase of work should look at why the acoustic characteristics identified are appealing and whether similar preferences are found among people from different cultures and environments.",
+          "That difference is important, because current research provides correlations between quantifiable sound features and human ratings, but not yet the precise neurological or evolutionary mechanisms behind those preferences."
+        ]
+      },
+      {
+        "heading": "Birdsong as a Model for Natural Soundscapes in Cities",
+        "content": [
+          "The findings may have implications beyond understanding why people enjoy listening to birds. The researchers say the findings could one day help guide the design and management of urban green spaces and recreational settings.",
+          "Environmental noise in modern cities is generally considered a problem to be reduced. Research on birdsong has also shown that the composition of a soundscape can be important. Natural sounds can influence people's perception of place, so planners might want to consider not just how noisy an area is, but what kinds of sounds are there.",
+          "Prior research has linked exposure to natural environments and perception of birdsong with psychological restoration and well-being. For example, another study published in 2026 in the Journal of Urban Ecology found that nature walks that included attention to birdsong were associated with better mental well-being and lower physiological measures of stress in its participants.",
+          "But researchers caution against adding recorded birdsong to our cities. Authors referred to prior research which found that artificially adding more birdsong did not increase the well-being benefits compared to naturally occurring birdsong.",
+          "There are also conservation issues. If they focus only on species that are attractive to them or that have a sweet-sounding name, environmental planners may miss less conventionally attractive birds and their potentially ecologically important roles.",
+          "So the new research is a launch pad, not a destination. This suggests a potential impact of the acoustic properties of bird communities on human experience of natural spaces, but also raises questions relating to biology, culture, familiarity and individual preference.",
+          "Understanding those interactions could help scientists get a better sense of the connections between biodiversity, soundscapes and human experience."
+        ]
+      }
+    ],
+    "internalLinks": [
+      {
+        "text": "CNN: What makes birdsong pleasing to the human ear",
+        "url": "https://edition.cnn.com/2026/09/19/science/birdsong-pleasing-qualities-human-psychology"
+      },
+      {
+        "text": "CTV News: Which bird has the most melodious song?",
+        "url": "https://www.ctvnews.ca/climate-and-environment/article/which-bird-has-the-most-melodious-song-a-new-study-has-an-answer/"
+      },
+      {
+        "text": "Frontiers in Bird Science: Full study",
+        "url": "https://www.frontiersin.org/journals/bird-science/articles/10.3389/fbirs.2026.1794594/full"
+      }
+    ]
+  },
+  {
+    "category": "science",
     "title": "Ancient Denisovan Fossil Discovery in China Reveals New Clues About Mysterious Human Ancestors",
     "shortdescription": "A newly identified Denisovan forearm bone and skull fragments from China are helping scientists understand the evolution, lifestyle and geographic spread of one of humanity’s most mysterious relatives.",
     "image": "/images/denisovan-fossil-discovery-china-2026.webp",
@@ -656,15 +738,5 @@
     "image": "/images/scopes-trial-science-under-attack.webp",
     "description": "In July 1925, a small-town courtroom in **Dayton, Tennessee**, became the epicenter of a national debate over science, religion, and education. The **Scopes Monkey Trial**, as it came to be known, challenged a state law banning the teaching of evolution in public schools. The defendant, **John T. Scopes**, was a young high school teacher charged with violating the Butler Act by teaching Darwin’s theory of evolution.\n\nThe trial featured two of the nation’s most famous figures: **Clarence Darrow**, defending Scopes, and **William Jennings Bryan**, representing the prosecution. Though Scopes was ultimately found guilty and fined $100, the trial ignited a cultural firestorm that still echoes across the U.S. today.\n\n### A Century Later, Familiar Fault Lines\n\nExactly 100 years later, the tensions between science and ideology remain stark. Across the country, science education, public health policy, and environmental research are increasingly entangled in **partisan battles and cultural warfare**.\n\n> “The Scopes Trial was never just about evolution — it was about who gets to define truth in a modern society,” says Dr. Kimberly Carter, a historian of science at Vanderbilt University. “That question is still very much alive.”\n\n### From Evolution to Vaccines\n\nWhile evolution is no longer banned in schools, battles over **curriculum content** persist. In recent years, several states have introduced or passed legislation:\n- Allowing or requiring the teaching of **creationism** or **intelligent design** alongside evolution\n- Restricting how schools can teach about **climate change**, **gender identity**, and **race-related science**\n- Regulating the inclusion of certain **health and sex education** materials\n\nThe COVID-19 pandemic brought another dimension to this debate. Misinformation about vaccines, masks, and virus transmission exploded, fueled by **political rhetoric**, social media, and distrust in institutions.\n\n> “We saw public health officials threatened, scientists silenced, and life-saving guidance undermined,” said Dr. Anthony Rivera, a virologist. “It was a modern version of the same denialism that faced Darwin.”\n\n### Politicization of Science\n\nScience has increasingly become a proxy battlefield for broader societal disputes. In recent years:\n- Climate science has been branded as political propaganda by some lawmakers\n- Public universities and researchers have faced restrictions or scrutiny tied to ideological agendas\n- Federal agencies like the CDC and EPA have endured internal censorship and funding cuts tied to science-based policy\n\nThe **American public's trust in science** remains high overall, but sharply divided along party lines. According to Pew Research, **more than 70% of Democrats trust scientific institutions**, compared to **less than 40% of Republicans**.\n\n### Education at the Crossroads\n\nTextbooks, classroom discussions, and state-approved science standards are now central battlegrounds. Teachers in multiple states have reported pressure from school boards and parents not to teach certain topics — or to present them as **“controversies”** rather than settled science.\n\nThe effect, experts say, is a chilling one: **science educators self-censoring** to avoid political backlash, and students receiving a distorted or incomplete view of how science works.\n\n### The Scopes Trial's Enduring Symbolism\n\nThe original trial wasn’t about proving evolution right or wrong. It was a **test case**, intended by civil liberties advocates to highlight the conflict between **academic freedom** and **religious dogma**. That same struggle has morphed into today’s debates — over data, health, climate, and truth itself.\n\n> “Science doesn’t exist in a vacuum,” said Carter. “It always collides with culture, and how we handle those collisions defines the health of our democracy.”\n\n### Looking Forward: Can Science Reclaim Neutral Ground?\n\nThere are efforts underway to rebuild public trust in science:\n- Programs promoting **science literacy** in K–12 education\n- Initiatives to **train scientists in public communication**\n- Partnerships between researchers and faith-based organizations to **find common ground**\n\nBut experts warn that without **structural protections for science education**, and **investment in nonpartisan science outreach**, the lessons of the Scopes Trial may continue to go unheeded.\n\n### Conclusion: Same Debate, New Century\n\nA hundred years after the Scopes Monkey Trial, America remains caught in a tug-of-war between **empirical evidence and ideological belief**. Whether the topic is evolution, climate, vaccines, or gender biology, the question remains: **Can science speak freely — and will society listen when it does?**\n\nThe legacy of Dayton in 1925 isn’t just a courtroom drama — it’s a mirror, reflecting the stakes of our current scientific crossroads.",
     "author": "Hope M. Pender"
-  },
-  {
-    "category": "science",
-    "title": "Astronomers Discover Missing Ordinary Matter That Eluded Detection for Decades",
-    "shortdescription": "For years, scientists were unable to account for nearly half of the universe’s ordinary matter. Now, astronomers have finally found it — hidden in vast, wispy filaments stretching between galaxies.",
-    "date": "09th july 2025",
-    "slug": "missing-ordinary-matter-discovered-universe",
-    "image": "/images/missing-universe-matter-discovered.webp",
-    "description": "For decades, astronomers were confronted with a cosmic puzzle: **about 40–50% of the universe’s ordinary matter — the stuff that makes up stars, planets, and people — was missing**. This wasn’t dark matter or dark energy, but **'baryonic matter'**, the protons and neutrons that form the building blocks of all visible structures.\n\nNow, using powerful X-ray observations and improved cosmological models, scientists have **finally found where that missing matter has been hiding** — not in galaxies or stars, but **in faint, hot filaments of gas** threading the vast distances between galaxies.\n\n> “It’s like discovering the invisible scaffolding of the universe,” said Dr. Hideki Tanimura, lead researcher from the Institut d’Astrophysique Spatiale in France. “These filaments were theorized for years, but only now can we see them clearly.”\n\n### The Great Cosmic Inventory\n\nAccording to the Big Bang model, about 5% of the universe is made up of ordinary (baryonic) matter. But when astronomers tried to tally that matter — even with the help of powerful telescopes — nearly **half of it was missing** from observational data.\n\nThat sparked decades of research into what came to be known as the **'missing baryon problem'**.\n\n### The Breakthrough\n\nThe new study combined data from **ESA’s Planck satellite** and **eROSITA X-ray telescope**, focusing on the faint glow between pairs of galaxies. By analyzing how X-rays scattered across vast stretches of space, the team was able to detect the **Warm-Hot Intergalactic Medium (WHIM)** — diffuse gas at temperatures between 100,000 to 10 million Kelvin.\n\nThis gas, spread in **filaments stretching millions of light-years**, connects galaxies like strands in a cosmic web. Though nearly invisible, the WHIM contains the long-sought missing baryons.\n\n> “We weren’t looking in the wrong place — we just didn’t have the tools to see something so diffuse and hot,” said Dr. Elena Pierpaoli, a cosmologist not affiliated with the study.\n\n### What Is the WHIM?\n\nThe **Warm-Hot Intergalactic Medium** is made of ionized gas that lies in the spaces between galaxies. It doesn’t emit much light on its own, but it can scatter background radiation — a signal that is only now being detected with high-resolution X-ray instruments.\n\nThe WHIM plays a crucial role in cosmic structure formation, acting as the reservoir from which galaxies can draw matter and form stars.\n\n### Why This Matters\n\n1. **Cosmological models now match observations**: Finding the WHIM validates predictions from simulations like Illustris and Millennium.\n2. **Unlocks clues to galaxy evolution**: Understanding where baryons are located helps explain how galaxies grow and evolve.\n3. **Provides insight into the cosmic web**: The detection helps map the universe’s large-scale structure — an interlinked network of matter shaped by gravity.\n\n### How They Found It\n\nResearchers stacked and analyzed signals from **hundreds of thousands of galaxy pairs**, averaging out faint emissions to reveal patterns hidden in noise. This technique — known as **statistical stacking** — allowed them to amplify the weak X-ray signatures from the WHIM.\n\nIn doing so, they provided the most detailed observational evidence yet for the existence and density of these cosmic filaments.\n\n### What's Next?\n\nThe discovery sets the stage for future missions like:\n- **Athena (Advanced Telescope for High ENergy Astrophysics)** — ESA’s flagship X-ray observatory planned for the 2030s\n- **Lynx** — NASA’s proposed next-gen X-ray telescope\n- **Spectroscopic studies** of intergalactic hydrogen to confirm the composition of these filaments\n\nTogether, these tools will allow scientists to **study the thermodynamics and chemical makeup** of the WHIM in detail, and even trace the recycling of matter in and out of galaxies.\n\n### Conclusion: Filling in the Cosmic Gaps\n\nThis discovery doesn’t just close a major chapter in astrophysics — it rewrites it. The elusive baryons that have hidden from astronomers for decades were always there, suspended in the intergalactic void, holding the cosmic web together.\n\nNow, with the right instruments and methods, humanity can begin to trace **the full architecture of the universe** — not just the galaxies we see, but the invisible threads that bind them.",
-    "author": "Chelsea M. Wheatley"
   }
 ]
