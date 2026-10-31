@@ -42,6 +42,128 @@ async function loadArticles(category: string): Promise<Article[] | null> {
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
+   CARD COMPONENTS (single responsive markup – no duplicated desktop/mobile DOM)
+───────────────────────────────────────────────────────────────────────────── */
+
+const imgPos = (pos?: string) =>
+  pos ? { objectPosition: pos } : undefined;
+
+/** Big lead card */
+function FeaturedCard({
+  article,
+  category,
+  className = "",
+}: {
+  article: Article;
+  category: string;
+  className?: string;
+}) {
+  return (
+    <Link
+      href={`/${category}/${article.slug}`}
+      title={article.title}
+      className={`group flex flex-col h-full bg-white shadow-md hover:shadow-lg transition ${className}`}
+    >
+      <div className="aspect-video overflow-hidden">
+        <Image
+          src={article.image}
+          alt={article.title}
+          width={800}
+          height={450}
+          className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+          style={imgPos(article.imagePosition)}
+          priority
+        />
+      </div>
+      <div className="p-4 sm:p-6">
+        <h2 className="text-xl sm:text-2xl font-bold leading-snug mb-3 group-hover:text-red-600 transition">
+          {article.title}
+        </h2>
+        <p className="text-sm text-gray-600 line-clamp-3">
+          {article.shortdescription}
+        </p>
+      </div>
+    </Link>
+  );
+}
+
+/**
+ * Compact card.
+ *  - below sm : thumbnail on the left, title on the right
+ *  - sm and up: image on top, title underneath
+ *
+ * NOTE: line-clamp lives on the <h3> and the padding on its parent <div>.
+ * Putting both on the same element makes the 4th (hidden) line peek out
+ * under the ellipsis – that was the clipped-title bug on this page.
+ */
+function SmallCard({
+  article,
+  category,
+  className = "",
+}: {
+  article: Article;
+  category: string;
+  className?: string;
+}) {
+  return (
+    <Link
+      href={`/${category}/${article.slug}`}
+      title={article.title}
+      className={`group flex sm:flex-col h-full bg-white shadow-sm hover:shadow-md transition ${className}`}
+    >
+      <div className="w-28 aspect-[4/3] sm:w-full sm:aspect-video flex-shrink-0 overflow-hidden">
+        <Image
+          src={article.image}
+          alt={article.title}
+          width={400}
+          height={225}
+          className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+          style={imgPos(article.imagePosition)}
+        />
+      </div>
+      <div className="min-w-0 flex-1 p-3 sm:p-4">
+        <h3 className="text-sm sm:text-[15px] font-bold leading-snug line-clamp-5 group-hover:text-red-600 transition">
+          {article.title}
+        </h3>
+      </div>
+    </Link>
+  );
+}
+
+/** Thumbnail + title row used in the right-hand list */
+function ListCard({
+  article,
+  category,
+}: {
+  article: Article;
+  category: string;
+}) {
+  return (
+    <Link
+      href={`/${category}/${article.slug}`}
+      title={article.title}
+      className="group flex gap-3 sm:gap-4 items-center bg-white shadow-sm hover:bg-gray-50 transition p-2"
+    >
+      <div className="w-20 h-20 sm:w-24 sm:h-24 flex-shrink-0 overflow-hidden">
+        <Image
+          src={article.image}
+          alt={article.title}
+          width={96}
+          height={96}
+          className="object-cover w-full h-full"
+          style={imgPos(article.imagePosition)}
+        />
+      </div>
+      <div className="min-w-0 flex-1">
+        <h3 className="text-sm sm:text-base font-bold leading-snug line-clamp-4 group-hover:text-red-600 transition">
+          {article.title}
+        </h3>
+      </div>
+    </Link>
+  );
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
    STATIC PARAMS
 ───────────────────────────────────────────────────────────────────────────── */
 
@@ -125,8 +247,12 @@ export default async function CategoryPage({
   const pageArticles = articles.slice(0, 11);
   const featuredArticle = pageArticles[0];
 
-  // FIX #3: Safe slices — otherPageArticles may have fewer than 6 items
+  // Slots (same order as before):
+  //   [0] featured · [1] small card 1 · [2] small card 2 · [3-6] right-hand list
   const otherPageArticles = pageArticles.slice(1);
+  const smallCard1 = otherPageArticles[0];
+  const smallCard2 = otherPageArticles[1];
+  const listArticles = otherPageArticles.slice(2, 6);
   const bottomArticles = pageArticles.slice(7);
 
   const capitalized = capitalize(category);
@@ -199,13 +325,13 @@ export default async function CategoryPage({
 
       <Navbar />
 
-      <main className="p-2 sm:p-20 py-8 min-h-screen">
+      <main className="px-4 sm:px-8 md:px-20 py-6 sm:py-10 min-h-screen">
         {/* Breadcrumb Navigation */}
         <nav
           aria-label="Breadcrumb"
           className="mb-4 text-sm font-bold text-gray-500"
         >
-          <ol className="flex items-center uppercase">
+          <ol className="flex flex-wrap items-center uppercase">
             <li>
               <Link href="/" className="text-red-600 hover:underline">
                 HOME
@@ -216,14 +342,14 @@ export default async function CategoryPage({
           </ol>
         </nav>
 
-        <header className="flex items-center mb-8 border-l-4 border-red-600 pl-4">
-          <h1 className="uppercase text-3xl sm:text-4xl font-bold text-gray-900">
+        <header className="flex items-center mb-6 sm:mb-8 border-l-4 border-red-600 pl-4">
+          <h1 className="uppercase text-2xl sm:text-4xl font-bold text-gray-900">
             {capitalized}
           </h1>
         </header>
 
         {/* Intro Text for SEO */}
-        <section className="mb-10 text-gray-700 leading-relaxed max-w-4xl">
+        <section className="mb-8 sm:mb-10 text-gray-700 leading-relaxed max-w-4xl">
           <p className="mb-2">
             Follow the most important <strong>{capitalized} news</strong>{" "}
             stories as they break, with trusted reporting and analysis that cuts
@@ -231,173 +357,75 @@ export default async function CategoryPage({
           </p>
         </section>
 
-        {/* ── DESKTOP GRID LAYOUT ── */}
-        {/* FIX #3: Only render desktop grid if we have enough articles (at least 3) */}
-        {otherPageArticles.length >= 2 && (
-          <div className="hidden lg:grid grid-cols-5 gap-6 mb-12">
-            {/* Left Cards */}
-            <div className="col-span-3 grid grid-cols-3 gap-6">
-              {/* Small Card 1 */}
-              <Link
-                href={`/${category}/${otherPageArticles[0].slug}`}
-                className="group shadow-sm hover:shadow-md transition"
-              >
-                <div className="aspect-video overflow-hidden">
-                  <Image
-                    src={otherPageArticles[0].image}
-                    // FIX #5: Use descriptive alt text instead of empty string
-                    alt={otherPageArticles[0].title}
-                    width={400}
-                    height={250}
-                    className="object-cover w-full h-full group-hover:scale-105 transition duration-300"
-                  />
-                </div>
-                <h3 className="p-3 text-sm font-bold line-clamp-3">
-                  {otherPageArticles[0].title}
-                </h3>
-              </Link>
+        {/* ── TOP STORIES (one responsive layout for every screen size) ──
+              < sm      : featured, then 2 compact cards, then compact list
+              sm – lg   : featured full width, 2 cards side by side, list in 2 cols
+              lg – xl   : left block (featured + 2 cards below) | right list
+              xl +      : left block = [small1 | featured (2 cols) | small2], right list */}
+        <section
+          aria-label={`Top ${capitalized} stories`}
+          className="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-12"
+        >
+          <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6">
+            <FeaturedCard
+              article={featuredArticle}
+              category={category}
+              className="order-1 sm:col-span-2 xl:col-start-2 xl:col-span-2 xl:row-start-1 xl:row-span-2"
+            />
 
-              {/* Main Featured Card (H2) */}
-              <Link
-                href={`/${category}/${featuredArticle.slug}`}
-                className="col-span-2 flex flex-col group shadow-md hover:shadow-lg transition"
-              >
-                <div className="aspect-[4/3] overflow-hidden">
-                  <Image
-                    src={featuredArticle.image}
-                    alt={featuredArticle.title}
-                    width={800}
-                    height={600}
-                    className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                    priority
-                  />
-                </div>
-                <div className="p-6">
-                  <h2 className="text-2xl font-bold mb-3 group-hover:text-red-600 transition">
-                    {featuredArticle.title}
-                  </h2>
-                  <p className="text-sm text-gray-600 line-clamp-3">
-                    {featuredArticle.shortdescription}
-                  </p>
-                </div>
-              </Link>
+            {smallCard1 && (
+              <SmallCard
+                article={smallCard1}
+                category={category}
+                className="order-2 xl:col-start-1 xl:row-start-1"
+              />
+            )}
 
-              {/* Small Card 2 */}
-              <Link
-                href={`/${category}/${otherPageArticles[1].slug}`}
-                className="group shadow-sm hover:shadow-md transition"
-              >
-                <div className="aspect-video overflow-hidden">
-                  <Image
-                    src={otherPageArticles[1].image}
-                    // FIX #5: Descriptive alt text
-                    alt={otherPageArticles[1].title}
-                    width={400}
-                    height={250}
-                    className="object-cover w-full h-full"
-                  />
-                </div>
-                <h3 className="p-3 text-sm font-bold line-clamp-3">
-                  {otherPageArticles[1].title}
-                </h3>
-              </Link>
-            </div>
+            {smallCard2 && (
+              <SmallCard
+                article={smallCard2}
+                category={category}
+                className="order-3 xl:col-start-1 xl:row-start-2"
+              />
+            )}
+          </div>
 
-            {/* Right Sidebar Articles */}
-            <div className="col-span-2 space-y-4">
-              {otherPageArticles.slice(2, 6).map((item) => (
-                <Link
-                  key={item.slug}
-                  href={`/${category}/${item.slug}`}
-                  className="flex gap-4 items-center shadow-sm hover:bg-gray-50 transition p-2"
-                >
-                  <div className="w-24 h-24 flex-shrink-0 overflow-hidden">
-                    <Image
-                      src={item.image}
-                      // FIX #5: Descriptive alt text
-                      alt={item.title}
-                      width={100}
-                      height={100}
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
-                  <h3 className="text-base font-bold leading-snug">
-                    {item.title}
-                  </h3>
-                </Link>
+          {listArticles.length > 0 && (
+            <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 content-start">
+              {listArticles.map((item) => (
+                <ListCard key={item.slug} article={item} category={category} />
               ))}
             </div>
-          </div>
-        )}
-
-        {/* ── MOBILE LIST LAYOUT ── */}
-        <div className="lg:hidden space-y-8">
-          <Link href={`/${category}/${featuredArticle.slug}`} className="block">
-            <Image
-              src={featuredArticle.image}
-              alt={featuredArticle.title}
-              width={600}
-              height={400}
-              className="w-full aspect-video object-cover mb-4 shadow-sm"
-              priority
-            />
-            <h2 className="text-2xl font-bold mb-2">{featuredArticle.title}</h2>
-            <p className="text-gray-600 text-sm">
-              {featuredArticle.shortdescription}
-            </p>
-          </Link>
-
-          <div className="space-y-6">
-            {otherPageArticles.slice(0, 6).map((item) => (
-              <Link
-                key={item.slug}
-                href={`/${category}/${item.slug}`}
-                className="flex gap-4"
-              >
-                <div className="w-20 h-20 flex-shrink-0">
-                  <Image
-                    src={item.image}
-                    // FIX #5: Descriptive alt text
-                    alt={item.title}
-                    width={80}
-                    height={80}
-                    className="object-cover w-full h-full shadow-xs"
-                  />
-                </div>
-                <h3 className="text-base font-bold line-clamp-2">
-                  {item.title}
-                </h3>
-              </Link>
-            ))}
-          </div>
-        </div>
+          )}
+        </section>
 
         {/* Bottom Articles Grid */}
         {bottomArticles.length > 0 && (
-          <section className="mt-16 border-t pt-12">
-            <h2 className="text-xl font-bold mb-8 uppercase text-gray-500 tracking-widest">
+          <section className="mt-12 sm:mt-16 border-t pt-10 sm:pt-12">
+            <h2 className="text-lg sm:text-xl font-bold mb-6 sm:mb-8 uppercase text-gray-500 tracking-widest">
               Archive News
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
               {bottomArticles.map((item) => (
                 <Link
                   key={item.slug}
                   href={`/${category}/${item.slug}`}
+                  title={item.title}
                   className="group"
                 >
                   <div className="aspect-video overflow-hidden mb-3">
                     <Image
                       src={item.image}
-                      // FIX #5: Descriptive alt text
                       alt={item.title}
                       width={400}
-                      height={250}
+                      height={225}
                       className="object-cover w-full h-full group-hover:scale-105 transition"
+                      style={imgPos(item.imagePosition)}
                     />
                   </div>
-                  <h4 className="font-bold text-base leading-snug">
+                  <h3 className="font-bold text-base leading-snug line-clamp-4 group-hover:text-red-600 transition">
                     {item.title}
-                  </h4>
+                  </h3>
                 </Link>
               ))}
             </div>

@@ -22,7 +22,7 @@ export default function LoadMoreArticles({ articles, category }: Props) {
   return (
     <section className="mt-12">
       {/* mobile: one-per-row */}
-      <div className="block lg:hidden space-y-4">
+      <div className="block sm:hidden space-y-4">
         {toShow.map((item) => (
           <Link
             key={item.id}
@@ -51,8 +51,8 @@ export default function LoadMoreArticles({ articles, category }: Props) {
         ))}
       </div>
 
-      {/* desktop: grid view */}
-      <div className="hidden lg:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      {/* tablet + desktop: grid view */}
+      <div className="hidden sm:grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 text-left">
         {toShow.map((item) => (
           <Link
             key={item.id}

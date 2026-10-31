@@ -49,6 +49,11 @@ export default function HomeSections({ data }: HomeSectionsProps) {
                 width={400}
                 height={300}
                 className="w-full h-full object-cover"
+                style={
+                  article.imagePosition
+                    ? { objectPosition: article.imagePosition }
+                    : undefined
+                }
                 sizes="(max-width: 1024px) 100vw, 20vw"
               />
             </div>

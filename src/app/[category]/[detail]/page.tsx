@@ -5,6 +5,9 @@ import Footer from "@/components/Footer";
 import LongFormArticlePage, {
   type LongFormArticleData,
 } from "@/components/LongFormArticlePage";
+import SpotlightArticlePage, {
+  type SpotlightArticleData,
+} from "@/components/SpotlightArticlePage";
 import {
   getArticleBySlug,
   getLatestArticles,
@@ -247,7 +250,7 @@ export default async function DetailPage({ params }: DetailPageProps) {
   const publishedISO = safeISOString(article.date);
   const displayDate = formatDisplayDate(article.date);
 
-  /* ── JSON-LD (shared by both layouts) ─────────────────────────────────── */
+  /* ── JSON-LD (shared by all layouts) ──────────────────────────────────── */
   const newsArticleJsonLd = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
@@ -319,6 +322,7 @@ export default async function DetailPage({ params }: DetailPageProps) {
 
   /* ── FAQ schema (longform articles only) ─────────────────────────────── */
   const longformData = article as unknown as LongFormArticleData;
+  const spotlightData = article as unknown as SpotlightArticleData;
   const faqJsonLd =
     longformData.articleType === "longform" && longformData.faq?.length
       ? {
@@ -360,8 +364,17 @@ export default async function DetailPage({ params }: DetailPageProps) {
 
       <Navbar />
 
-      {/* ── LONGFORM layout ─────────────────────────────────────────────── */}
-      {longformData.articleType === "longform" ? (
+      {/* ── SPOTLIGHT layout (new design) ───────────────────────────────── */}
+      {spotlightData.articleType === "spotlight" ? (
+        <SpotlightArticlePage
+          article={spotlightData}
+          displayDate={displayDate}
+          publishedISO={publishedISO}
+          latestArticles={latestArticles}
+          moreArticles={moreArticles}
+        />
+      ) : /* ── LONGFORM layout ───────────────────────────────────────────── */
+      longformData.articleType === "longform" ? (
         <LongFormArticlePage
           article={longformData}
           displayDate={displayDate}
