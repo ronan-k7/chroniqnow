@@ -8,6 +8,9 @@ import LongFormArticlePage, {
 import SpotlightArticlePage, {
   type SpotlightArticleData,
 } from "@/components/SpotlightArticlePage";
+import FeatureStoryPage, {
+  type FeatureArticleData,
+} from "@/components/FeatureStoryPage";
 import {
   getArticleBySlug,
   getLatestArticles,
@@ -323,6 +326,7 @@ export default async function DetailPage({ params }: DetailPageProps) {
   /* ── FAQ schema (longform articles only) ─────────────────────────────── */
   const longformData = article as unknown as LongFormArticleData;
   const spotlightData = article as unknown as SpotlightArticleData;
+  const featureData = article as unknown as FeatureArticleData;
   const faqJsonLd =
     longformData.articleType === "longform" && longformData.faq?.length
       ? {
@@ -364,8 +368,17 @@ export default async function DetailPage({ params }: DetailPageProps) {
 
       <Navbar />
 
-      {/* ── SPOTLIGHT layout (new design) ───────────────────────────────── */}
-      {spotlightData.articleType === "spotlight" ? (
+      {/* ── FEATURE layout (magazine / profile design) ─────────────────── */}
+      {featureData.articleType === "feature" ? (
+        <FeatureStoryPage
+          article={featureData}
+          displayDate={displayDate}
+          publishedISO={publishedISO}
+          latestArticles={latestArticles}
+          moreArticles={moreArticles}
+        />
+      ) : /* ── SPOTLIGHT layout ─────────────────────────────────────────── */
+      spotlightData.articleType === "spotlight" ? (
         <SpotlightArticlePage
           article={spotlightData}
           displayDate={displayDate}

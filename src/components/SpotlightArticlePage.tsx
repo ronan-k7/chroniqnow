@@ -18,7 +18,9 @@ import Link from "next/link";
    ├─ Reading column   : dateline, drop-cap lead, numbered sections,
    │                      pull-statement, editor's note
    │                      (8/12 on lg, full width below)
-   ├─ Sidebar          : numbered "Latest News" list (sticky from lg)
+   ├─ Sidebar          : optional Timeline (scrolls normally) followed by the
+│                      numbered "Latest News" list, which becomes sticky only
+│                      once it reaches the top (lg and up)
    └─ More in category : 3:2 cards (1 / 2 / 4 columns)
 ───────────────────────────────────────────────────────────────────────────── */
 
@@ -30,6 +32,12 @@ export interface SpotlightStat {
   value: string;
   label: string;
   note?: string;
+}
+
+export interface SpotlightTimelineItem {
+  /** Shown in red above the entry, e.g. "February 26, 2026" */
+  date: string;
+  text: string;
 }
 
 /** In-box (callout) shown inside the article body, after a section's paragraphs. */
@@ -73,6 +81,11 @@ export interface SpotlightArticleData {
   stats?: SpotlightStat[];
   sections?: SpotlightSection[];
   editorsNote?: string;
+  /** Optional chronology shown at the top of the right-hand sidebar. */
+  timelineTitle?: string;
+  timeline?: SpotlightTimelineItem[];
+  /** Small italic footnote under the timeline. */
+  timelineNote?: string;
 }
 
 export interface SpotlightSidebarArticle {
@@ -413,6 +426,54 @@ export default function SpotlightArticlePage({
 
           {/* ── Sidebar ── */}
           <aside className="min-w-0 lg:col-span-4">
+            {/* Timeline: sits at the top of the sidebar and scrolls with the page */}
+            {article.timeline && article.timeline.length > 0 && (
+              <section
+                aria-label={article.timelineTitle || "Timeline"}
+                className="mb-10 border border-gray-200 border-t-4 border-t-red-600 bg-gray-50 p-5 shadow-sm"
+              >
+                <h2 className="mb-5 flex items-center gap-3 border-b-2 border-gray-900 pb-3 text-lg font-bold uppercase tracking-widest text-gray-900">
+                  <span aria-hidden="true" className="h-4 w-1.5 flex-shrink-0 bg-red-600" />
+                  {article.timelineTitle || "Timeline"}
+                </h2>
+
+                <ol className="relative ml-2 border-l-2 border-gray-300">
+                  {article.timeline.map((item, i) => {
+                    const isLast = i === article.timeline!.length - 1;
+                    return (
+                      <li
+                        key={i}
+                        className={`relative pl-6 ${isLast ? "" : "pb-6"}`}
+                      >
+                        <span
+                          aria-hidden="true"
+                          className={`absolute -left-[9px] top-1 h-4 w-4 rounded-full border-2 border-white ${
+                            isLast ? "bg-red-600 ring-2 ring-red-200" : "bg-gray-900"
+                          }`}
+                        />
+                        <p className="text-[11px] font-bold uppercase tracking-[0.15em] text-red-600">
+                          {item.date}
+                        </p>
+                        <p className="mt-1 text-sm leading-relaxed text-gray-800">
+                          <InlineText text={item.text} />
+                        </p>
+                      </li>
+                    );
+                  })}
+                </ol>
+
+                {article.timelineNote && (
+                  <p className="mt-5 border-t border-gray-200 pt-3 text-xs italic leading-snug text-gray-500">
+                    {article.timelineNote}
+                  </p>
+                )}
+              </section>
+            )}
+
+            {/* Latest News: normal flow first, then sticks once it reaches
+                the top (top-44 clears the sticky navbar). Because the Timeline
+                sits above it, it starts sticking only after the Timeline has
+                scrolled out of view, and releases at the bottom of the sidebar. */}
             <div className="lg:sticky lg:top-44">
               <h2 className="mb-5 flex items-center gap-3 border-b-2 border-gray-900 pb-3 text-lg font-bold uppercase tracking-widest text-gray-900">
                 <span aria-hidden="true" className="h-4 w-1.5 bg-red-600" />
