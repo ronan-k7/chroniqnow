@@ -1,3 +1,4 @@
+
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -15,14 +16,20 @@ const geistMono = Geist_Mono({
 /* ─── GLOBAL METADATA ─── */
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.chroniqnow.com"),
+
   title: {
     template: "%s | Chroniq Now",
     default: "Chroniq Now | Breaking Global News and Headlines Daily",
   },
+
   description:
     "Chroniq Now delivers breaking news, in-depth analysis, and up-to-the-minute coverage of global events.",
 
-  // ADD: Global robots default — prevents accidental mis-crawling
+  // GOOGLE SEARCH CONSOLE VERIFICATION
+  verification: {
+    google: "t25L4jf3uJb4nlVvVBj4u-a5kkY1J6C-h-paaC4vDMg",
+  },
+
   robots: {
     index: true,
     follow: true,
@@ -35,14 +42,12 @@ export const metadata: Metadata = {
     },
   },
 
-  // ADD: Global OG fallback — used when a page doesn't set its own OG data
   openGraph: {
     siteName: "Chroniq Now",
     locale: "en_US",
     type: "website",
   },
 
-  // ADD: Favicon
   icons: {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
