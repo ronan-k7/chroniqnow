@@ -32,10 +32,22 @@ export interface SpotlightStat {
   note?: string;
 }
 
+/** In-box (callout) shown inside the article body, after a section's paragraphs. */
+export interface SpotlightCallout {
+  /** Small uppercase label above the box, e.g. "Role & responsibilities" */
+  label?: string;
+  /** Optional headline figures shown side by side at the top of the box. */
+  highlights?: { value: string; label: string }[];
+  /** Body text of the box. Supports **bold** and [text](url). */
+  text?: string;
+}
+
 export interface SpotlightSection {
   /** Optional heading. Headed sections are numbered 01, 02, 03 … */
   heading?: string;
   content?: string[];
+  /** Boxed callout rendered after the section's paragraphs (before pullQuote). */
+  callout?: SpotlightCallout;
   /** Large highlighted statement rendered after the section's paragraphs. */
   pullQuote?: string;
 }
@@ -333,6 +345,47 @@ export default function SpotlightArticlePage({
                       <InlineText text={para} />
                     </p>
                   ))}
+
+                  {section.callout && (
+                    <aside
+                      aria-label={section.callout.label || "Key details"}
+                      className="my-8 border border-gray-200 border-t-4 border-t-red-600 bg-gray-50 p-5 shadow-sm sm:my-10 sm:p-7"
+                    >
+                      {section.callout.label && (
+                        <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-red-600">
+                          {section.callout.label}
+                        </p>
+                      )}
+
+                      {section.callout.highlights &&
+                        section.callout.highlights.length > 0 && (
+                          <dl
+                            className={`mt-4 grid grid-cols-1 gap-4 border-b border-gray-200 pb-5 ${
+                              section.callout.highlights.length >= 2
+                                ? "sm:grid-cols-2"
+                                : ""
+                            }`}
+                          >
+                            {section.callout.highlights.map((h, hi) => (
+                              <div key={hi}>
+                                <dd className="font-serif text-4xl font-bold leading-none text-gray-900 sm:text-5xl">
+                                  {h.value}
+                                </dd>
+                                <dt className="mt-2 text-xs font-bold uppercase leading-snug tracking-wide text-gray-600 sm:text-sm">
+                                  {h.label}
+                                </dt>
+                              </div>
+                            ))}
+                          </dl>
+                        )}
+
+                      {section.callout.text && (
+                        <p className="mt-4 font-serif text-base leading-relaxed text-gray-800 sm:text-lg">
+                          <InlineText text={section.callout.text} />
+                        </p>
+                      )}
+                    </aside>
+                  )}
 
                   {section.pullQuote && (
                     <blockquote className="my-8 border-l-[6px] border-red-600 bg-gray-50 py-6 pl-5 pr-4 sm:my-10 sm:pl-8 sm:pr-8">

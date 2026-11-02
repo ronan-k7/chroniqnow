@@ -424,7 +424,15 @@
         "content": [
           "She had served as Donald Trump’s personal lawyer, general counsel to his Save America PAC, and counselor to the president at the White House.",
           "That background carried considerable prestige, and an expectation of discipline, consistency and commitment. A source close to the family alleges that she failed to give her responsibilities the sustained attention they required, and her romantic relationship affected her professional performance."
-        ]
+        ],
+        "callout": {
+          "label": "Role and responsibilities",
+          "highlights": [
+            { "value": "20+", "label": "Law firms" },
+            { "value": "$100M", "label": "Yearly legal and advisory spending" }
+          ],
+          "text": "Habba\u2019s responsibilities included coordinating more than 20 law firms and overseeing approximately $100 million in annual legal and advisory expenditure. If accurate, that description would place her at the center of a substantial operation requiring sustained coordination, oversight and reporting."
+        }
       },
       {
         "heading": "A New Marriage, a Multimillion-Dollar Contract and Unanswered Questions",
