@@ -78,7 +78,7 @@ export default function Footer() {
           <div className="flex justify-center mb-8 md:mb-10">
             <Link href="/" className="cursor-pointer" title="Chroniq Now">
               <Image
-                src="/images/chroniqnow-logo.webp"
+                src="/images/chroniq-now-logo.webp"
                 alt="Chroniq Now"
                 width={696}
                 height={118}

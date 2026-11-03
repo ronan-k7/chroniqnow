@@ -285,7 +285,7 @@ export default async function DetailPage({ params }: DetailPageProps) {
       url: "https://www.chroniqnow.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.chroniqnow.com/images/chroniqnow-logo.webp",
+        url: "https://www.chroniqnow.com/images/chroniq-now-logo.webp",
         width: 512,
         height: 512,
       },

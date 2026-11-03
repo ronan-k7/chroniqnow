@@ -28,11 +28,11 @@ export default function Navbar() {
     setDateString(formatToday());
   }, []);
 
-  // Site logo (public/images/chroniqnow-logo.webp, 696×118). The alt text is
+  // Site logo (public/images/chroniq-now-logo.webp, 696×118). The alt text is
   // what search engines read as the <h1> text on the home page.
   const logo = (
     <Image
-      src="/images/chroniqnow-logo.webp"
+      src="/images/chroniq-now-logo.webp"
       alt="Chroniq Now"
       width={696}
       height={118}

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Chroniq Now",
     images: [
       {
-        url: "/images/ChroniqNow-logo.webp",
+        url: "/images/chroniq-now-logo.webp",
         width: 512,
         height: 512,
         alt: "Chroniq Now Logo",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description:
       "Chroniq Now - your trusted source for breaking global news, in-depth analysis and up-to-the-minute coverage of politics, business, culture and more.",
     site: "@ChroniqNow",
-    images: ["/images/ChroniqNow-logo.webp"],
+    images: ["/images/chroniq-now-logo.webp"],
   },
   robots: {
     index: true,
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true },
   },
   icons: {
-    icon: "/images/ChroniqNow-logo.webp",
-    shortcut: "/images/ChroniqNow-logo.webp",
-    apple: "/images/ChroniqNow-logo.webp",
+    icon: "/images/chroniq-now-logo.webp",
+    shortcut: "/images/chroniq-now-logo.webp",
+    apple: "/images/chroniq-now-logo.webp",
   },
 };
 
@@ -80,7 +80,7 @@ export default function Home() {
         url: siteUrl,
         logo: {
           "@type": "ImageObject",
-          url: `${siteUrl}/images/ChroniqNow-logo.webp`,
+          url: `${siteUrl}/images/chroniq-now-logo.webp`,
           width: 512,
           height: 512,
         },

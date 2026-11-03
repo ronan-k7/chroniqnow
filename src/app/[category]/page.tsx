@@ -202,7 +202,7 @@ export async function generateMetadata({
 
   const latest = articles[0];
   const ogImage =
-    latest?.image ?? "https://www.chroniqnow.com/images/chroniqnow-logo.webp";
+    latest?.image ?? "https://www.chroniqnow.com/images/chroniq-now-logo.webp";
   const title = `${capitalized} News – Chroniq Now: Global ${capitalized} Headlines`;
   const description = `Get the latest ${capitalized} news from Chroniq Now — breaking updates and in-depth analysis on global ${capitalized.toLowerCase()} developments.`;
   const canonical = `/${category}`;
