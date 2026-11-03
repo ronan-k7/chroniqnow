@@ -53,7 +53,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="border-b border-red-100 sticky top-0 z-50 bg-white">
+    <header className="border-b border-red-100 bg-white">
       {/* single responsive top bar (no duplicate brand) */}
       {/* `relative` + min-h: the mobile search box expands over this bar without the header jumping */}
       {/* lg+: 3-column grid (1fr | logo | 1fr) so the logo stays put whatever the date/search widths are */}
