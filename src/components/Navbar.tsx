@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { FiSearch } from "react-icons/fi";
 import { usePathname } from "next/navigation";
+import SearchBar from "./SearchBar";
 
 export default function Navbar() {
   const [dateString, setDateString] = useState("");
@@ -35,7 +35,8 @@ export default function Navbar() {
   return (
     <header className="border-b border-red-100 sticky top-0 z-50 bg-white">
       {/* single responsive top bar (no duplicate brand) */}
-      <div className="flex items-center justify-between px-2 py-2 md:px-20 md:py-8">
+      {/* `relative` + min-h: the mobile search box expands over this bar without the header jumping */}
+      <div className="relative flex min-h-[48px] items-center justify-between px-2 py-2 md:min-h-0 md:px-20 md:py-8">
         <div className="hidden md:block md:text-sm text-gray-800 font-medium">
           {dateString}
         </div>
@@ -52,19 +53,7 @@ export default function Navbar() {
           )}
         </Link>
 
-        <div className="relative w-32 md:w-64">
-          <input
-            type="text"
-            placeholder="Search"
-            className="w-full px-3 py-1.5 pr-10 rounded bg-gray-100 text-xs md:text-sm text-gray-800 focus:outline-none"
-          />
-          <button
-            aria-label="Search"
-            className="absolute top-0 bottom-0 right-0 px-3 bg-red-600 rounded-r flex items-center justify-center"
-          >
-            <FiSearch className="text-white text-sm" />
-          </button>
-        </div>
+        <SearchBar />
       </div>
 
       {/* desktop nav */}
