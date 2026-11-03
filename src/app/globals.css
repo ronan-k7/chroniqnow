@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+html {
+  /* reserve the scrollbar space so the header/logo never shifts sideways
+     when moving between short and long pages */
+  scrollbar-gutter: stable;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }

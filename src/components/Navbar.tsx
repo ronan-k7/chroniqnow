@@ -2,24 +2,44 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import SearchBar from "./SearchBar";
 
+const formatToday = () =>
+  new Date().toLocaleDateString("en-GB", {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+
 export default function Navbar() {
-  const [dateString, setDateString] = useState("");
+  // Start with a real date (not "") so the header has its final width on the
+  // very first paint. An empty date used to make the logo sit ~130px to the
+  // left and then jump to the right once the effect below ran – that was the
+  // "shaking" on every page load / page change.
+  const [dateString, setDateString] = useState(formatToday);
   const pathname = usePathname();
   const isHome = pathname === "/";
 
+  // Correct the date to the visitor's own timezone after hydration
   useEffect(() => {
-    const today = new Date();
-    const options: Intl.DateTimeFormatOptions = {
-      weekday: "long",
-      day: "numeric",
-      month: "long",
-      year: "numeric",
-    };
-    setDateString(today.toLocaleDateString("en-GB", options));
+    setDateString(formatToday());
   }, []);
+
+  // Site logo (public/images/chroniqnow-logo.webp, 696×118). The alt text is
+  // what search engines read as the <h1> text on the home page.
+  const logo = (
+    <Image
+      src="/images/chroniqnow-logo.webp"
+      alt="Chroniq Now"
+      width={696}
+      height={118}
+      priority
+      className="block h-7 w-auto md:h-12"
+    />
+  );
 
   const navItems = [
     "home",
@@ -36,24 +56,26 @@ export default function Navbar() {
     <header className="border-b border-red-100 sticky top-0 z-50 bg-white">
       {/* single responsive top bar (no duplicate brand) */}
       {/* `relative` + min-h: the mobile search box expands over this bar without the header jumping */}
-      <div className="relative flex min-h-[48px] items-center justify-between px-2 py-2 md:min-h-0 md:px-20 md:py-8">
-        <div className="hidden md:block md:text-sm text-gray-800 font-medium">
+      {/* lg+: 3-column grid (1fr | logo | 1fr) so the logo stays put whatever the date/search widths are */}
+      <div className="relative flex min-h-[48px] items-center justify-between px-2 py-2 md:min-h-0 md:px-20 md:py-8 lg:grid lg:grid-cols-[1fr_auto_1fr]">
+        <div
+          suppressHydrationWarning
+          className="hidden whitespace-nowrap md:block md:text-sm text-gray-800 font-medium lg:justify-self-start"
+        >
           {dateString}
         </div>
 
-        <Link href="/" title="Chroniq Now" className="mx-auto md:mx-0">
+        <Link href="/" title="Chroniq Now" className="mx-auto md:mx-0 lg:justify-self-center">
           {isHome ? (
-            <h1 className="text-2xl md:text-5xl font-black text-red-700 uppercase leading-none tracking-tighter">
-              Chroniq<span className="text-red-600 font-medium ml-1">Now</span>
-            </h1>
+            <h1 className="m-0 leading-none">{logo}</h1>
           ) : (
-            <span className="text-2xl md:text-5xl font-black text-red-700 uppercase leading-none tracking-tighter">
-              Chroniq<span className="text-red-600 font-medium ml-1">Now</span>
-            </span>
+            <span className="block leading-none">{logo}</span>
           )}
         </Link>
 
-        <SearchBar />
+        <div className="lg:justify-self-end">
+          <SearchBar />
+        </div>
       </div>
 
       {/* desktop nav */}

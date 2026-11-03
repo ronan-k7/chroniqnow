@@ -53,7 +53,7 @@ const puertoricoSection: CategoryData = {
     <>
       <Navbar />
 
-      <div className="p-5 sm:p-20 space-y-10">
+      <div className="px-5 pb-5 pt-5 sm:px-20 sm:pb-20 sm:pt-6 space-y-10">
         <HomeSection1
           categoryData={businessSection}
           latestArticles={latestArticles}
