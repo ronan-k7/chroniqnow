@@ -397,7 +397,7 @@ export default async function DetailPage({ params }: DetailPageProps) {
         />
       ) : (
         /* ── STANDARD layout (unchanged) ─────────────────────────────── */
-        <main className="w-full p-2 sm:p-20 py-8">
+        <main className="w-full px-2 pt-4 pb-6 sm:px-20 sm:pt-4 sm:pb-6">
           <div className="flex flex-col mb-8 gap-2 sm:pt-3">
             <nav
               aria-label="Breadcrumb"
@@ -439,7 +439,7 @@ export default async function DetailPage({ params }: DetailPageProps) {
           </div>
 
           <div className="flex flex-col lg:flex-row w-full">
-            <article className="w-full lg:w-2/3 lg:pr-8 mb-12 lg:mb-0">
+            <article className="w-full lg:w-2/3 lg:pr-8 mb-6 lg:mb-0">
               <h1 className="text-3xl sm:text-4xl font-bold mb-6">
                 {article.title}
               </h1>
@@ -465,7 +465,7 @@ export default async function DetailPage({ params }: DetailPageProps) {
               )}
             </article>
 
-            <aside className="w-full lg:w-1/3 sticky top-24 self-start">
+            <aside className="w-full lg:w-1/3 lg:sticky lg:top-6 self-start">
               <h2 className="text-xl font-semibold mb-4 border-b pb-2">
                 Latest News
               </h2>

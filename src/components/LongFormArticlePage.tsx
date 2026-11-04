@@ -354,7 +354,7 @@ function DocumentsNeeded({ docs }: { docs: string[] }) {
 
 function RelatedTopics({ links }: { links: InternalLink[] }) {
   return (
-    <div className="mb-10">
+    <div className="mb-6 lg:mb-10">
       <h3 className="font-bold text-gray-900 mb-3 text-sm uppercase tracking-widest">
         Related Coverage
       </h3>
@@ -392,7 +392,7 @@ export default function LongFormArticlePage({
     text.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
   return (
-    <main className="w-full p-2 sm:p-20 py-8">
+    <main className="w-full px-2 pt-4 pb-6 sm:px-20 sm:pt-4 sm:pb-6">
       {/* ── Breadcrumb + Byline ─────────────────────────────────────────── */}
       <div className="flex flex-col mb-8 gap-2 sm:pt-3">
         <nav
@@ -435,7 +435,7 @@ export default function LongFormArticlePage({
       {/* ── Two-column layout ───────────────────────────────────────────── */}
       <div className="flex flex-col lg:flex-row w-full">
         {/* ── Article body ─────────────────────────────────────────────── */}
-        <article className="w-full lg:w-2/3 lg:pr-10 mb-12 lg:mb-0">
+        <article className="w-full lg:w-2/3 lg:pr-10 mb-4 lg:mb-0">
           {/* Title */}
           <h1 className="text-3xl sm:text-4xl font-bold mb-5 leading-tight text-gray-900">
             {article.title}
@@ -508,7 +508,7 @@ export default function LongFormArticlePage({
         </article>
 
         {/* ── Sidebar ──────────────────────────────────────────────────── */}
-        <aside className="w-full lg:w-1/3 sticky top-24 self-start">
+        <aside className="w-full lg:w-1/3 lg:sticky lg:top-6 self-start">
           <h2 className="text-xl font-semibold mb-4 border-b pb-2">Latest News</h2>
           <ul className="space-y-4">
             {latestArticles.slice(0, 5).map((item) => (

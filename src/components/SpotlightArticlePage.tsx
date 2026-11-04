@@ -311,7 +311,7 @@ export default function SpotlightArticlePage({
       )}
 
       {/* ═════════════════════ ARTICLE + SIDEBAR ═════════════════════ */}
-      <div className="px-4 py-10 sm:px-8 sm:py-14 md:px-20">
+      <div className="px-4 pt-10 pb-6 sm:px-8 sm:pt-14 sm:pb-6 md:px-20">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-14">
           {/* ── Reading column ── */}
           <article className="min-w-0 lg:col-span-8">
@@ -471,10 +471,10 @@ export default function SpotlightArticlePage({
             )}
 
             {/* Latest News: normal flow first, then sticks once it reaches
-                the top (top-44 clears the sticky navbar). Because the Timeline
+                the top (top-6 keeps it just under the viewport edge, since the navbar is not sticky). Because the Timeline
                 sits above it, it starts sticking only after the Timeline has
                 scrolled out of view, and releases at the bottom of the sidebar. */}
-            <div className="lg:sticky lg:top-44">
+            <div className="lg:sticky lg:top-6">
               <h2 className="mb-5 flex items-center gap-3 border-b-2 border-gray-900 pb-3 text-lg font-bold uppercase tracking-widest text-gray-900">
                 <span aria-hidden="true" className="h-4 w-1.5 bg-red-600" />
                 Latest News

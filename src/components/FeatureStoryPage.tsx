@@ -401,7 +401,7 @@ export default function FeatureStoryPage({
       </div>
 
       {/* ═══════════════════════ BOTTOM BAND ═══════════════════════ */}
-      <div className="mt-12 border-t border-gray-200 bg-gray-50 px-4 py-12 sm:px-8 md:px-20">
+      <div className="mt-12 border-t border-gray-200 bg-gray-50 px-4 pt-12 pb-8 sm:px-8 md:px-20">
         {moreArticles.length > 0 && (
           <section aria-label={`More in ${capitalize(article.category)}`}>
             <h2 className="mb-6 border-l-4 border-red-600 pl-4 text-xl font-bold uppercase tracking-wide text-gray-900 sm:text-2xl">
@@ -425,9 +425,11 @@ export default function FeatureStoryPage({
                         style={imgPos(item.imagePosition)}
                       />
                     </div>
-                    <h3 className="line-clamp-4 p-4 font-serif text-base font-bold leading-snug group-hover:text-red-600">
-                      {item.title}
-                    </h3>
+                    <div className="p-4">
+                      <h3 className="line-clamp-4 font-serif text-base font-bold leading-snug group-hover:text-red-600">
+                        {item.title}
+                      </h3>
+                    </div>
                   </Link>
                 </li>
               ))}
