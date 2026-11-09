@@ -1,6 +1,78 @@
 [
   {
     "category": "health",
+    "title": "U.S. Measles Cases Climb Above 5,000, Highest Annual Total Since 1991",
+    "shortdescription": "CDC data show 5,182 confirmed measles cases through early November 2026, more than double last year’s total, as outbreaks continue in dozens of states and elimination status faces review.",
+    "image": "/images/us-measles-cases-surpass-5000-highest-since-1991-2026.webp",
+    "slug": "us-measles-cases-surpass-5000-highest-since-1991-2026",
+    "date": "7th November 2026",
+    "author": "Antonio M. Davis",
+    "articleType": "longform",
+    "seoTitle": "US Measles Cases Top 5,182 in 2026, Highest Since 1991 as CDC Reports Ongoing Outbreaks",
+    "primaryKeyword": "US measles cases 2026",
+    "secondaryKeywords": [
+      "measles outbreak United States",
+      "CDC measles data",
+      "measles elimination status",
+      "MMR vaccine",
+      "Pennsylvania measles",
+      "Wisconsin measles death",
+      "vaccine-preventable disease"
+    ],
+    "sections": [
+      {
+        "heading": "",
+        "content": [
+          "Confirmed measles cases in the United States reached 5,182 as of November 5, 2026, according to data released by the Centers for Disease Control and Prevention, the highest annual total recorded by the agency since 1991.",
+          "The figure more than doubles the 2,289 cases reported for all of 2025 and marks the 13th consecutive week of triple-digit increases. Of the total, 5,164 cases were reported by 47 jurisdictions and 18 involved international visitors. Ninety-six percent of confirmed cases (4,993) were linked to outbreaks, with 43 new outbreaks identified this year.",
+          "The vast majority of infections—96 percent—occurred in people who were unvaccinated or whose vaccination status was unknown. Children and adolescents accounted for roughly 59 percent of cases, while adults 20 and older made up 41 percent. About 11 percent of all patients (562) required hospitalization."
+        ]
+      },
+      {
+        "heading": "Hard-Hit States and Recent Deaths",
+        "content": [
+          "Pennsylvania remains the nation’s primary hotspot, with state health officials reporting 1,487 cases and six measles-associated deaths this year. Wisconsin and New York also recorded measles-related deaths in early November, the first such fatalities in those states in more than three decades. Wisconsin health officials announced the death of an infant connected to an ongoing outbreak in the southwestern part of the state, while New York reported a child’s death earlier in the week.",
+          "CDC’s national death count stood at four as of the latest update, a figure that may change as reviews continue and as the agency works with state and territorial epidemiologists on a standardized case definition for measles deaths. State totals often run higher than federal counts because of reporting lags and differences in classification.",
+          "Other elevated counts include South Carolina (670), Utah (536), Ohio, Kentucky, Minnesota, Indiana, and New York. Only five states—Arkansas, Hawaii, Mississippi, Nevada, and New Hampshire—had reported no measles cases in 2026 as of early November."
+        ]
+      },
+      {
+        "heading": "Threat to Elimination Status",
+        "content": [
+          "The United States has maintained measles elimination status since 2000, meaning the absence of continuous endemic transmission for more than 12 months. A Pan American Health Organization expert commission is scheduled to meet in Washington to assess whether the country still meets the criteria. Many public-health experts now consider measles to be endemic again in parts of the United States.",
+          "“We’re going to see measles again next year, and the year after that, and the year after that, until we get on top of vaccinating our populace,” said Paul Offit, an infectious-disease specialist at Children’s Hospital of Philadelphia, during a recent webinar.",
+          "Two doses of the measles, mumps, and rubella (MMR) vaccine are approximately 97 percent effective at preventing measles. Declining kindergarten vaccination rates in recent school years have left larger pockets of susceptibility, allowing imported cases to seed sustained community transmission."
+        ]
+      },
+      {
+        "heading": "Hospitalizations and Age Patterns",
+        "content": [
+          "Hospitalization rates were highest among the youngest and oldest patients: 17 percent of children under 5 and 15 percent of adults 20 and older required hospital care, compared with 4 percent of those aged 5–19. Complications can include pneumonia, encephalitis, and, in rare cases, death. Infants too young to be vaccinated remain especially vulnerable when community coverage falls.",
+          "Health departments in affected states have stepped up vaccine clinics and outreach, particularly in under-immunized communities. Wisconsin alone has distributed thousands of MMR doses to local health departments since the summer outbreak began. Officials continue to stress that vaccination remains the most effective tool for stopping further spread."
+        ]
+      },
+      {
+        "heading": "What the Numbers Mean Going Forward",
+        "content": [
+          "The 2026 total already exceeds any year since the early 1990s, when widespread outbreaks preceded the push that eventually eliminated endemic transmission. Public-health authorities warn that without improved coverage, the pattern of multi-state outbreaks is likely to persist into 2027 and beyond.",
+          "CDC updates its national tally weekly based on confirmed cases reported by jurisdictions. State health departments often hold more current local data and issue their own guidance on exposure, isolation, and vaccination recommendations. Residents in outbreak areas are advised to ensure they and their families are up to date on MMR vaccination and to seek medical care promptly if measles symptoms develop after possible exposure."
+        ]
+      },
+      {
+        "heading": "Sources",
+        "content": [
+          "• [Centers for Disease Control and Prevention – Measles Cases and Outbreaks (data as of November 5–6, 2026)](https://www.cdc.gov/measles/data-research/index.html)",
+          "• [CIDRAP – US measles total for 2026 tops 5,100 cases (November 6, 2026)](https://www.cidrap.umn.edu/measles/us-measles-total-2026-tops-5100-cases)",
+          "• [Reuters – US measles cases climb above 5,000 for first time since 1991 (November 6, 2026)](https://www.reuters.com/legal/litigation/us-measles-cases-rise-5182-cdc-says-2026-11-06/)",
+          "• [Wisconsin Department of Health Services – Infant measles-associated death announcement (November 5, 2026)](https://www.dhs.wisconsin.gov/news/releases/110526.htm)",
+          "• [Pennsylvania Department of Health – Statewide measles outbreak update (1,487 cases, November 6, 2026)](https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out16)",
+          "• [New York State Department of Health – Measles Dashboard](https://www.health.ny.gov/diseases/communicable/measles/data.htm)"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "health",
     "title": "U.S. Preventive Services Task Force Adds Eight New Members to Resume Preventive Health Work",
     "shortdescription": "The U.S. Preventive treatments Task Force has brought on eight new experts to help steer recommendations on preventive care, screenings and medical treatments covered by health insurance.",
     "image": "/images/uspstf-adds-eight-new-members-preventive-health-task-force.webp",
@@ -25,29 +97,29 @@
         "content": [
           "Robert F. Kennedy Jr., the US Health Secretary, announced Thursday the appointment of eight new members to the advisory council that determines which preventative medical services, such routine cancer screening or HIV prevention, should be provided at no cost under health insurance plans.",
           "The Preventive Services Task Force, with 16 members, generally meets three times a year, and its most recent meeting was a year ago. This new slate's makeup is a major shift from the Task Force's regular membership.",
-          "\u201cWe think a strong primary care voice needs to remain in the center of its work,\u201d said Willie Underwood, president of the American Medical Association."
+          "“We think a strong primary care voice needs to remain in the center of its work,” said Willie Underwood, president of the American Medical Association."
         ]
       },
       {
         "heading": "AMA Calls for a Transparent, Independent Process",
         "content": [
           "The AMA said recommendations should continue to be based on a transparent, rigorous and independent scientific approach, while considering the viewpoints of physicians who deliver preventative care.",
-          "This would be important to continue to earn clinicians\u2019 trust in the task force and encourage patients to follow the group\u2019s recommendations, it said."
+          "This would be important to continue to earn clinicians’ trust in the task force and encourage patients to follow the group’s recommendations, it said."
         ]
       },
       {
         "heading": "A Panel Reshaped Amid Broader Health Agency Overhaul",
         "content": [
-          "Kennedy Jr. has revamped many federal health advisory groups, including the CDC\u2019s vaccine advisory committee, replacing its members after firing the whole panel last year.",
-          "Last June, a US Supreme Court decision put Kennedy Jr. in charge of the preventive care committee. The verdict, and the government\u2019s shutdown in 2025, had kept the panel from meeting in November. And a meeting in March was postponed.",
+          "Kennedy Jr. has revamped many federal health advisory groups, including the CDC’s vaccine advisory committee, replacing its members after firing the whole panel last year.",
+          "Last June, a US Supreme Court decision put Kennedy Jr. in charge of the preventive care committee. The verdict, and the government’s shutdown in 2025, had kept the panel from meeting in November. And a meeting in March was postponed.",
           "This May, Kennedy Jr. reshuffled the chair and vise chair of the powerful task panel."
         ]
       },
       {
         "heading": "What Health Advocates and Analysts Are Saying",
         "content": [
-          "\u201cThe USPSTF has important work ahead to ensure critical recommendations catch up with the latest science so patients can access lifesaving, preventive services like cancer screenings,\u201d said Lisa Lacasse, president of the American Cancer Society Cancer Action Network.",
-          "\u201cThe new appointments provide incremental confidence that the task force is heading in the right direction and more updates can be expected soon enough,\u201d analysts at Evercore ISI said.",
+          "“The USPSTF has important work ahead to ensure critical recommendations catch up with the latest science so patients can access lifesaving, preventive services like cancer screenings,” said Lisa Lacasse, president of the American Cancer Society Cancer Action Network.",
+          "“The new appointments provide incremental confidence that the task force is heading in the right direction and more updates can be expected soon enough,” analysts at Evercore ISI said.",
           "The panel's recommendations are a big driver for cancer screening tests like Guardant Health's, opens new tab Shield blood test, the analysts said."
         ]
       },
@@ -62,7 +134,7 @@
       {
         "heading": "Rebuilding More Than the Roster",
         "content": [
-          "Meanwhile, Dr. Aaron Carroll, chief executive of AcademyHealth, an association of health researchers and policy analysts, said reconstituting the task force was a necessary start but \u201cputting people back in the chairs doesn't rebuild the evidence system they need to do their job.\u201d"
+          "Meanwhile, Dr. Aaron Carroll, chief executive of AcademyHealth, an association of health researchers and policy analysts, said reconstituting the task force was a necessary start but “putting people back in the chairs doesn't rebuild the evidence system they need to do their job.”"
         ]
       }
     ]
@@ -525,54 +597,54 @@
     ]
   },
   {
-  "category": "health",
-  "title": "CDC Director Nominee Erica Schwartz Faces Senate Confirmation Hearing",
-  "shortdescription": "President Trump's nominee to lead the CDC, Dr. Erica Schwartz, is set to appear before the Senate on July 15 as lawmakers review the future leadership of the nation's top public health agency.",
-  "slug": "erica-schwartz-cdc-senate-confirmation-hearing-2026",
-  "date": "8th July 2026",
-  "author": "Chelsea M. Wheatley",
-  "image": "/images/erica-schwartz-cdc-senate-hearing-2026.webp",
-  "articleType": "longform",
-  "seoTitle": "CDC Director Nominee Erica Schwartz Faces Senate Confirmation Hearing",
-  "primaryKeyword": "Erica Schwartz CDC nomination",
-  "secondaryKeywords": [
-  "CDC director confirmation",
-  "Senate HELP committee",
-  "Trump CDC nominee",
-  "public health leadership",
-  "Susan Monarez",
-  "Bill Cassidy"
-  ],
-  "sections": [
-  {
-  "heading": "",
-  "content": [
-  "Erica Schwartz, President Donald Trump's nominee to lead the U.S. Centers for Disease Control and Prevention, will appear before the Senate Committee on Health, Education, Labor and Pensions on July 15 for her confirmation hearing, the committee said on Wednesday. In April, Trump nominated Schwartz, who had served as deputy surgeon general during the COVID-19 pandemic, to become director of the CDC following multiple leadership shakeups at the health agency.",
-  "The hearing is the first concrete step toward confirming a major health agency leader since the Senate confirmed CDC Director Susan Monarez last year. Monarez was fired less than a month later. Top posts across U.S. health agencies remain unfilled deep into Trump's second term, and the CDC has been in near-constant turmoil since Trump took office.",
-  "In March 2025, Trump withdrew his first CDC nominee, former Florida Republican congressman Dave Weldon, a physician long critical of vaccines, hours before his scheduled confirmation hearing after it became clear he lacked the votes. Monarez was fired less than a month into the job after clashing with Health Secretary Robert F. Kennedy Jr. over vaccine policy, including what she said were his demands that she pre-approve changes to the childhood vaccine schedule and fire career scientists. Four top CDC officials resigned in protest."
-  ]
-  },
-  {
-  "heading": "A More Conventional Nominee",
-  "content": [
-  "Schwartz, a board-certified preventive medicine physician and former deputy surgeon general during Trump's first term, has no public record of opposing vaccines, making her a more conventional nominee. If confirmed, she has pledged to resign from UnitedHealth Group and other board roles, sell healthcare-related holdings and recuse herself from matters involving former employers."
-  ]
-  },
-  {
-  "heading": "Key Senator Appears Receptive",
-  "content": [
-  "U.S. Senator Bill Cassidy, a Louisiana Republican and physician who has been openly skeptical of Kennedy's bid to overhaul U.S. vaccine policy, will lead the hearing as committee chairman. Cassidy lost his Republican primary in May after Trump targeted him for retribution over his 2021 vote to convict him at his second impeachment trial, and has since grown more openly defiant. He appeared receptive to Schwartz, however, calling her 'very impressive' after what he described as a 'good meeting' with her last month."
-  ]
-  },
-  {
-  "heading": "Broader Leadership Gaps Across Health Agencies",
-  "content": [
-  "The committee will also hold a confirmation hearing the same day for Sean Kaufman, Trump's nominee for assistant secretary for preparedness and response, charged with leading national medical and public health preparations for and responses to disasters and emergencies. This includes managing the Strategic National Stockpile of emergency medicines.",
-  "Beyond the CDC and ASPR, other major health posts remain vacant. Food and Drug Administration Commissioner Marty Makary resigned in May and Trump has not named a permanent successor. Trump named radiologist Nicole Saphier as his third surgeon general nominee in April, after withdrawing Kennedy ally Casey Means, who lacked the votes to clear the health committee.",
-  "Trump also nominated Chris Klomp, who has served as HHS chief counselor and Medicare director, as deputy health secretary in late June. That post has been vacant since Jim O'Neill departed in February as part of a broader agency management shakeup. At the National Institutes of Health, 13 of its 27 institutes are now led by acting directors. The acting head of the NIH's second-largest institute, the National Institute of Allergy and Infectious Diseases, departed in May as the U.S. scrambled to respond to Ebola and hantavirus outbreaks."
-  ]
-  }
-  ]
+    "category": "health",
+    "title": "CDC Director Nominee Erica Schwartz Faces Senate Confirmation Hearing",
+    "shortdescription": "President Trump's nominee to lead the CDC, Dr. Erica Schwartz, is set to appear before the Senate on July 15 as lawmakers review the future leadership of the nation's top public health agency.",
+    "slug": "erica-schwartz-cdc-senate-confirmation-hearing-2026",
+    "date": "8th July 2026",
+    "author": "Chelsea M. Wheatley",
+    "image": "/images/erica-schwartz-cdc-senate-hearing-2026.webp",
+    "articleType": "longform",
+    "seoTitle": "CDC Director Nominee Erica Schwartz Faces Senate Confirmation Hearing",
+    "primaryKeyword": "Erica Schwartz CDC nomination",
+    "secondaryKeywords": [
+      "CDC director confirmation",
+      "Senate HELP committee",
+      "Trump CDC nominee",
+      "public health leadership",
+      "Susan Monarez",
+      "Bill Cassidy"
+    ],
+    "sections": [
+      {
+        "heading": "",
+        "content": [
+          "Erica Schwartz, President Donald Trump's nominee to lead the U.S. Centers for Disease Control and Prevention, will appear before the Senate Committee on Health, Education, Labor and Pensions on July 15 for her confirmation hearing, the committee said on Wednesday. In April, Trump nominated Schwartz, who had served as deputy surgeon general during the COVID-19 pandemic, to become director of the CDC following multiple leadership shakeups at the health agency.",
+          "The hearing is the first concrete step toward confirming a major health agency leader since the Senate confirmed CDC Director Susan Monarez last year. Monarez was fired less than a month later. Top posts across U.S. health agencies remain unfilled deep into Trump's second term, and the CDC has been in near-constant turmoil since Trump took office.",
+          "In March 2025, Trump withdrew his first CDC nominee, former Florida Republican congressman Dave Weldon, a physician long critical of vaccines, hours before his scheduled confirmation hearing after it became clear he lacked the votes. Monarez was fired less than a month into the job after clashing with Health Secretary Robert F. Kennedy Jr. over vaccine policy, including what she said were his demands that she pre-approve changes to the childhood vaccine schedule and fire career scientists. Four top CDC officials resigned in protest."
+        ]
+      },
+      {
+        "heading": "A More Conventional Nominee",
+        "content": [
+          "Schwartz, a board-certified preventive medicine physician and former deputy surgeon general during Trump's first term, has no public record of opposing vaccines, making her a more conventional nominee. If confirmed, she has pledged to resign from UnitedHealth Group and other board roles, sell healthcare-related holdings and recuse herself from matters involving former employers."
+        ]
+      },
+      {
+        "heading": "Key Senator Appears Receptive",
+        "content": [
+          "U.S. Senator Bill Cassidy, a Louisiana Republican and physician who has been openly skeptical of Kennedy's bid to overhaul U.S. vaccine policy, will lead the hearing as committee chairman. Cassidy lost his Republican primary in May after Trump targeted him for retribution over his 2021 vote to convict him at his second impeachment trial, and has since grown more openly defiant. He appeared receptive to Schwartz, however, calling her 'very impressive' after what he described as a 'good meeting' with her last month."
+        ]
+      },
+      {
+        "heading": "Broader Leadership Gaps Across Health Agencies",
+        "content": [
+          "The committee will also hold a confirmation hearing the same day for Sean Kaufman, Trump's nominee for assistant secretary for preparedness and response, charged with leading national medical and public health preparations for and responses to disasters and emergencies. This includes managing the Strategic National Stockpile of emergency medicines.",
+          "Beyond the CDC and ASPR, other major health posts remain vacant. Food and Drug Administration Commissioner Marty Makary resigned in May and Trump has not named a permanent successor. Trump named radiologist Nicole Saphier as his third surgeon general nominee in April, after withdrawing Kennedy ally Casey Means, who lacked the votes to clear the health committee.",
+          "Trump also nominated Chris Klomp, who has served as HHS chief counselor and Medicare director, as deputy health secretary in late June. That post has been vacant since Jim O'Neill departed in February as part of a broader agency management shakeup. At the National Institutes of Health, 13 of its 27 institutes are now led by acting directors. The acting head of the NIH's second-largest institute, the National Institute of Allergy and Infectious Diseases, departed in May as the U.S. scrambled to respond to Ebola and hantavirus outbreaks."
+        ]
+      }
+    ]
   },
   {
     "category": "health",
@@ -659,14 +731,14 @@
     ]
   },
   {
-      "category": "health",
-      "title": "US Insurers Pledge Continued Coverage for Childhood Vaccines Through 2027",
-      "shortdescription": "Major U.S. health insurers will continue covering routine childhood vaccines through 2027, reinforcing confidence in vaccine safety amid ongoing policy debates and rising concerns over preventable disease outbreaks.",
-      "description": "The nation's largest health insurers have committed to covering all routine childhood vaccines through the end of 2027 — a voluntary extension that goes beyond what federal law currently requires and arrives at a moment when vaccine policy in the United States has become one of the most contested fronts in public health.AHIP, the national trade organization whose membership covers more than 200 million Americans, announced the pledge at the end of May. The commitment covers all vaccines recommended by the Advisory Committee on Immunization Practices as of the pre-2025 schedule — the benchmark in place while federal litigation over the committee's makeup and authority slowly advances through the courts. The move extends a similar pledge the group made for 2026, and comes after a federal judge issued a preliminary injunction blocking the administration's January overhaul of the childhood immunization schedule, which had stripped seven vaccines of their universally recommended status.The legal backstory matters because the coverage obligation is tied directly to ACIP's recommendations. Under the Affordable Care Act, health insurers are required to cover, without cost-sharing, any vaccine that ACIP formally recommends and the CDC subsequently adopts. When Health and Human Services Secretary Robert F. Kennedy Jr. replaced the committee's expert members with vaccine skeptics and the CDC then reduced the recommended schedule from 17 vaccines to 11, that legal trigger grew uncertain. The American Academy of Pediatrics sued, and U.S. District Judge Brian E. Murphy granted a preliminary injunction in March, finding that the administration had bypassed the procedural and scientific requirements the law demands.AHIP's voluntary extension effectively sidesteps that uncertainty by anchoring coverage to the pre-disruption schedule regardless of how the litigation resolves. Aetna, UnitedHealthcare, and Blue Cross Blue Shield have each separately confirmed to media that their plans will maintain coverage for the full range of previously recommended childhood vaccines. What insurers are signaling, in practical terms, is that families should not factor policy turbulence into their vaccination decisions.The backdrop against which that message is delivered is serious. As of late May, nearly 2,000 confirmed measles cases had been reported across 40 states, with the vast majority linked to active outbreaks. The full-year 2025 total reached 2,288 cases — more than any year since 1991 — putting the country's measles elimination status, formally certified by the World Health Organization in 2000, at risk of being revoked. Three deaths were recorded. A peer-reviewed study published in the Proceedings of the National Academy of Sciences estimated that measles imposed more than $244 million in direct costs nationally in 2025 alone. A separate analysis found that even a one-percent drop in childhood MMR vaccination rates could produce 17,000 additional cases, 4,000 hospitalizations, and 36 preventable deaths per year.For pediatricians and epidemiologists who have watched vaccination rates erode, the insurer commitment addresses one part of a larger access and confidence problem. Coverage eliminates the financial barrier. Whether parents choose to act on that coverage in an environment of competing official messages is a separate question no insurance pledge can fully resolve.Elizabeth Jacobs, an epidemiology professor at the University of Arizona and founding member of Defend Public Health, offered a direct read of what the commitment signals: insurers are choosing to cover vaccines because the evidence on safety and effectiveness is not in serious scientific dispute, whatever the political temperature around the topic might suggest otherwise.The Supreme Court ruled in June 2025 that the ACA's preventive services mandate is constitutional, upholding the use of federal advisory recommendations as the basis for coverage requirements a decision that reinforced the legal framework AHIP's members are now voluntarily exceeding. For families navigating an unusually complicated period in childhood health policy, the practical implication is clear: the cost of vaccinating a child, for the moment, is not going up.",
-      "image": "/images/us-insurers-childhood-vaccines-coverage-pledge-2027.webp",
-      "slug": "us-insurers-pledge-childhood-vaccines-coverage-through-2027",
-      "date": "8th June 2026",
-      "author": "Arthur A. Johnson"
+    "category": "health",
+    "title": "US Insurers Pledge Continued Coverage for Childhood Vaccines Through 2027",
+    "shortdescription": "Major U.S. health insurers will continue covering routine childhood vaccines through 2027, reinforcing confidence in vaccine safety amid ongoing policy debates and rising concerns over preventable disease outbreaks.",
+    "description": "The nation's largest health insurers have committed to covering all routine childhood vaccines through the end of 2027 — a voluntary extension that goes beyond what federal law currently requires and arrives at a moment when vaccine policy in the United States has become one of the most contested fronts in public health.AHIP, the national trade organization whose membership covers more than 200 million Americans, announced the pledge at the end of May. The commitment covers all vaccines recommended by the Advisory Committee on Immunization Practices as of the pre-2025 schedule — the benchmark in place while federal litigation over the committee's makeup and authority slowly advances through the courts. The move extends a similar pledge the group made for 2026, and comes after a federal judge issued a preliminary injunction blocking the administration's January overhaul of the childhood immunization schedule, which had stripped seven vaccines of their universally recommended status.The legal backstory matters because the coverage obligation is tied directly to ACIP's recommendations. Under the Affordable Care Act, health insurers are required to cover, without cost-sharing, any vaccine that ACIP formally recommends and the CDC subsequently adopts. When Health and Human Services Secretary Robert F. Kennedy Jr. replaced the committee's expert members with vaccine skeptics and the CDC then reduced the recommended schedule from 17 vaccines to 11, that legal trigger grew uncertain. The American Academy of Pediatrics sued, and U.S. District Judge Brian E. Murphy granted a preliminary injunction in March, finding that the administration had bypassed the procedural and scientific requirements the law demands.AHIP's voluntary extension effectively sidesteps that uncertainty by anchoring coverage to the pre-disruption schedule regardless of how the litigation resolves. Aetna, UnitedHealthcare, and Blue Cross Blue Shield have each separately confirmed to media that their plans will maintain coverage for the full range of previously recommended childhood vaccines. What insurers are signaling, in practical terms, is that families should not factor policy turbulence into their vaccination decisions.The backdrop against which that message is delivered is serious. As of late May, nearly 2,000 confirmed measles cases had been reported across 40 states, with the vast majority linked to active outbreaks. The full-year 2025 total reached 2,288 cases — more than any year since 1991 — putting the country's measles elimination status, formally certified by the World Health Organization in 2000, at risk of being revoked. Three deaths were recorded. A peer-reviewed study published in the Proceedings of the National Academy of Sciences estimated that measles imposed more than $244 million in direct costs nationally in 2025 alone. A separate analysis found that even a one-percent drop in childhood MMR vaccination rates could produce 17,000 additional cases, 4,000 hospitalizations, and 36 preventable deaths per year.For pediatricians and epidemiologists who have watched vaccination rates erode, the insurer commitment addresses one part of a larger access and confidence problem. Coverage eliminates the financial barrier. Whether parents choose to act on that coverage in an environment of competing official messages is a separate question no insurance pledge can fully resolve.Elizabeth Jacobs, an epidemiology professor at the University of Arizona and founding member of Defend Public Health, offered a direct read of what the commitment signals: insurers are choosing to cover vaccines because the evidence on safety and effectiveness is not in serious scientific dispute, whatever the political temperature around the topic might suggest otherwise.The Supreme Court ruled in June 2025 that the ACA's preventive services mandate is constitutional, upholding the use of federal advisory recommendations as the basis for coverage requirements a decision that reinforced the legal framework AHIP's members are now voluntarily exceeding. For families navigating an unusually complicated period in childhood health policy, the practical implication is clear: the cost of vaccinating a child, for the moment, is not going up.",
+    "image": "/images/us-insurers-childhood-vaccines-coverage-pledge-2027.webp",
+    "slug": "us-insurers-pledge-childhood-vaccines-coverage-through-2027",
+    "date": "8th June 2026",
+    "author": "Arthur A. Johnson"
   },
   {
     "category": "health",
@@ -769,14 +841,14 @@
     "author": "Antonio M. Davis"
   },
   {
-      "category": "health",
-      "title": "FDA Approves Foundayo, the First Oral GLP-1 Obesity Pill",
-      "shortdescription": "The FDA has approved Foundayo (orforglipron), a first-of-its-kind oral GLP-1 receptor agonist for obesity — no injection required, no fasting window before taking it.",
-      "description": "Weight loss treatment just became significantly more accessible. The Food and Drug Administration on Wednesday approved Foundayo, the oral formulation of orforglipron, marking the first GLP-1 receptor agonist cleared for chronic weight management that patients can take as a standard pill — no injection pen, no thirty-minute fasting window before the first sip of coffee.The approval lands at a moment when demand for GLP-1 drugs has outpaced every supply estimate the industry put together. Eli Lilly, which developed orforglipron, has spent the past two years watching patients cycle through waitlists for injectable semaglutide and tirzepatide while the oral alternative moved through clinical trials. Wednesday's decision gives the company a product designed to close that access gap.What separates Foundayo from the existing oral GLP-1 field — specifically semaglutide tablets sold under the Rybelsus brand — is the pharmacology underlying orforglipron itself. Rybelsus is a peptide-based compound that requires patients to take it on an empty stomach with a limited amount of water and then wait thirty minutes before eating or drinking anything else. That restriction exists because the peptide degrades quickly in the presence of food and stomach acid. Orforglipron is a small molecule, not a peptide, which means it doesn't carry those same absorption constraints. Foundayo can be taken with or without food, removing a compliance barrier that quietly undermined real-world results for a meaningful share of Rybelsus patients.Clinical trial data filed with the FDA showed patients on Foundayo losing an average of 8.7 percent of their body weight over 36 weeks in the pivotal Phase 3 trial. The results came in below what injectable tirzepatide produces in head-to-head comparisons, but that comparison has never been the right frame for this drug.The clinical question orforglipron answers is not whether a pill can beat an injection on peak efficacy.It's whether a pill that doesn't require needles or fasting can produce meaningful, sustained weight loss in patients who would otherwise take nothing at all.The trial data says it can.Side effects tracked closely with what the broader GLP-1 class has established — nausea, vomiting, and diarrhea were the most commonly reported, predominantly during the dose-escalation period.Discontinuation rates due to adverse events landed under nine percent across trial arms, consistent with injectable GLP-1 programs.Pricing has not been formally announced, but analysts tracking Lilly's pipeline have placed Foundayo's likely list price in a range competitive with injectable alternatives.Whether insurance coverage follows the approval at a pace that matches patient demand is the variable the market will watch most closely in the months ahead. The GLP-1 coverage landscape remains uneven, and an oral formulation that removes the injection barrier still faces a reimbursement barrier that no FDA approval can fix.For the roughly 100 million American adults who qualify for obesity pharmacotherapy under current clinical guidelines, Foundayo represents a concrete expansion of practical options — not the ceiling of what this drug class will eventually deliver, but a meaningful step toward making that ceiling more reachable.",
-      "image": "/images/fda-approves-foundayo-orforglipron-pill-obesity-weight-loss-2026.webp",
-      "slug": "fda-approves-foundayo-orforglipron-pill-obesity-weight-loss-2026",
-      "date": "2nd April 2026",
-      "author": "Kenneth M. Butts"
+    "category": "health",
+    "title": "FDA Approves Foundayo, the First Oral GLP-1 Obesity Pill",
+    "shortdescription": "The FDA has approved Foundayo (orforglipron), a first-of-its-kind oral GLP-1 receptor agonist for obesity — no injection required, no fasting window before taking it.",
+    "description": "Weight loss treatment just became significantly more accessible. The Food and Drug Administration on Wednesday approved Foundayo, the oral formulation of orforglipron, marking the first GLP-1 receptor agonist cleared for chronic weight management that patients can take as a standard pill — no injection pen, no thirty-minute fasting window before the first sip of coffee.The approval lands at a moment when demand for GLP-1 drugs has outpaced every supply estimate the industry put together. Eli Lilly, which developed orforglipron, has spent the past two years watching patients cycle through waitlists for injectable semaglutide and tirzepatide while the oral alternative moved through clinical trials. Wednesday's decision gives the company a product designed to close that access gap.What separates Foundayo from the existing oral GLP-1 field — specifically semaglutide tablets sold under the Rybelsus brand — is the pharmacology underlying orforglipron itself. Rybelsus is a peptide-based compound that requires patients to take it on an empty stomach with a limited amount of water and then wait thirty minutes before eating or drinking anything else. That restriction exists because the peptide degrades quickly in the presence of food and stomach acid. Orforglipron is a small molecule, not a peptide, which means it doesn't carry those same absorption constraints. Foundayo can be taken with or without food, removing a compliance barrier that quietly undermined real-world results for a meaningful share of Rybelsus patients.Clinical trial data filed with the FDA showed patients on Foundayo losing an average of 8.7 percent of their body weight over 36 weeks in the pivotal Phase 3 trial. The results came in below what injectable tirzepatide produces in head-to-head comparisons, but that comparison has never been the right frame for this drug.The clinical question orforglipron answers is not whether a pill can beat an injection on peak efficacy.It's whether a pill that doesn't require needles or fasting can produce meaningful, sustained weight loss in patients who would otherwise take nothing at all.The trial data says it can.Side effects tracked closely with what the broader GLP-1 class has established — nausea, vomiting, and diarrhea were the most commonly reported, predominantly during the dose-escalation period.Discontinuation rates due to adverse events landed under nine percent across trial arms, consistent with injectable GLP-1 programs.Pricing has not been formally announced, but analysts tracking Lilly's pipeline have placed Foundayo's likely list price in a range competitive with injectable alternatives.Whether insurance coverage follows the approval at a pace that matches patient demand is the variable the market will watch most closely in the months ahead. The GLP-1 coverage landscape remains uneven, and an oral formulation that removes the injection barrier still faces a reimbursement barrier that no FDA approval can fix.For the roughly 100 million American adults who qualify for obesity pharmacotherapy under current clinical guidelines, Foundayo represents a concrete expansion of practical options — not the ceiling of what this drug class will eventually deliver, but a meaningful step toward making that ceiling more reachable.",
+    "image": "/images/fda-approves-foundayo-orforglipron-pill-obesity-weight-loss-2026.webp",
+    "slug": "fda-approves-foundayo-orforglipron-pill-obesity-weight-loss-2026",
+    "date": "2nd April 2026",
+    "author": "Kenneth M. Butts"
   },
   {
     "category": "health",
