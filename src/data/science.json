@@ -1,6 +1,99 @@
 [
   {
     "category": "science",
+    "title": "NASA’s Swift Observatory Falls to Earth After Nearly 22 Years, Ending a Landmark Gamma-Ray Mission",
+    "shortdescription": "NASA’s Neil Gehrels Swift Observatory re-entered Earth’s atmosphere over Indonesia on November 4, ending a nearly 22-year gamma-ray mission after a failed commercial rescue attempt.",
+    "image": "/images/nasa-swift-observatory-reentry-2026.webp",
+    "slug": "nasa-swift-observatory-reenters-earth-atmosphere-gamma-ray-mission-ends-2026",
+    "date": "10th November 2026",
+    "author": "Hope M. Pender",
+    "articleType": "longform",
+    "seoTitle": "NASA Swift Observatory Re-Enters Atmosphere After Nearly 22 Years",
+    "primaryKeyword": "NASA Swift observatory re-entry",
+    "secondaryKeywords": [
+      "Neil Gehrels Swift Observatory",
+      "gamma-ray bursts",
+      "Katalyst LINK rescue mission",
+      "Hubble servicing",
+      "satellite re-entry",
+      "solar activity atmospheric drag"
+    ],
+    "sections": [
+      {
+        "heading": "",
+        "content": [
+          "NASA’s Neil Gehrels Swift Observatory has fallen back to Earth. The U.S. Space Force confirmed that the 3,200-pound (about 1,450-kilogram) spacecraft re-entered the atmosphere at 7:39 a.m. EST on Wednesday, November 4, 2026, over North Sumatra, Indonesia, near 3.4° north latitude and 98.6° east longitude. That was roughly 7:39 p.m. local time in western Indonesia.",
+          "Swift launched on November 20, 2004, to study gamma-ray bursts, the most powerful explosions in the universe. It was designed for a two-year mission and ended up operating for nearly 22 years, more than ten times its planned lifespan.",
+          "NASA expected most of the spacecraft to burn up during its descent, but said some components might survive and reach the surface. Because Swift had no thrusters to steer its fall, forecasters could only narrow the re-entry to a window of roughly 11 hours, so no landing zone could be named in advance.",
+          "NASA earlier put the risk of harm to anyone on Earth at about 1 in 2,100, and NASA spokesperson Alise Fisher said the risk of harm to anyone was unlikely. As of reports published on November 6, no injuries, damage or confirmed debris recoveries had been reported."
+        ]
+      },
+      {
+        "heading": "Nearly 22 Years of Gamma-Ray Burst Science",
+        "content": [
+          "Swift carried three telescopes that each saw a different kind of light. Its Burst Alert Telescope located gamma-ray bursts, while its X-ray and ultraviolet/optical telescopes followed up on them. NASA said the observatory could typically turn its instruments toward a new burst in about a minute and alert other observatories, so astronomers could study short-lived events before they faded.",
+          "According to NASA’s end-of-mission summary, Swift observed more than 2,000 gamma-ray bursts and studied more than 1,400 supernovae. It also tracked active galaxies powered by supermassive black holes, stars torn apart by black holes, and comets and asteroids in our own solar system.",
+          "Among its landmark results was the detection of the first X-ray afterglow from a short gamma-ray burst, in May 2005, which supported the idea that such bursts come from the mergers of neutron stars. In 2022 it also helped study GRB 221009A, nicknamed the “BOAT,” one of the brightest gamma-ray events ever recorded.",
+          "NASA says Swift’s data contributed to about 7,000 published scientific papers. Its public archive holds nearly 22 years of brightness measurements and spectra, plus more than 1.5 million ultraviolet and optical images, around 12 terabytes in all, so researchers can keep mining it long after the spacecraft is gone."
+        ]
+      },
+      {
+        "heading": "Why Swift Came Down",
+        "content": [
+          "Swift flew in low-Earth orbit and had no onboard propulsion, so there was no way to counter the slow drag from the thin upper atmosphere. Increased solar activity, which peaked in 2024, heated and expanded that atmosphere, adding drag and pulling Swift down faster than expected.",
+          "NASA turned off Swift’s science instruments earlier this year to slow its descent. By mid-August the spacecraft was about 216 miles up and dropping roughly 5 miles per month, a rate expected to speed up.",
+          "On October 20, with Swift at about 171 miles (275 kilometers), it made its final observation and entered safe mode because it could no longer hold steady on targets against the drag. NASA announced the end of its science operations on October 23, and the Penn State team that ran its Mission Operations Center sent the commands that prepared it for re-entry.",
+          "Swift’s fall also drew attention to debris rules. Current standards call for an expected casualty risk below 1 in 10,000 for uncontrolled re-entries, according to The Aerospace Corporation, and ABC7 News noted that Swift would likely face stricter requirements if it were launched today."
+        ]
+      },
+      {
+        "heading": "The Commercial Rescue That Fell Short",
+        "content": [
+          "In September 2025, NASA awarded Arizona-based Katalyst Space Technologies a $30 million contract to send a robotic servicer to Swift, attach to it and raise its orbit. Katalyst built the spacecraft, called LINK, in about nine months, and it launched on July 3, 2026, aboard a Northrop Grumman Pegasus XL rocket.",
+          "A few weeks later LINK went into an uncontrollable spin. Flight controllers slowed the tumble, but pointing and positioning problems continued, and on August 19 the capture attempt was called off. LINK itself fell back to Earth on September 25.",
+          "NASA Administrator Jared Isaacman said the outcome was not what the team wanted but that the mission was still worth attempting. Katalyst CEO Ghonhee Lee said the company had “already learned a tremendous amount.” NASA Astrophysics Division director Shawn Domagal-Goldman put it plainly: “From the beginning, this was a high-risk, high-reward mission.”",
+          "Penn State astronomer John Nousek, who led Swift’s control team, offered a simpler lesson: “At least in low-Earth orbit, what goes up must come down.”"
+        ]
+      },
+      {
+        "heading": "What It Means for Hubble and Future Servicing",
+        "content": [
+          "The Swift attempt was also seen as a possible stepping stone toward a boost for the Hubble Space Telescope, which is also losing altitude to atmospheric drag and has no propulsion of its own. On October 29, NASA issued a Request for Information asking commercial companies what they could offer to raise Hubble’s orbit, service it to improve its capabilities, or carry out a controlled re-entry at the end of its life.",
+          "NASA’s analysis predicts Hubble will re-enter in 2033 to 2034, which means any servicing mission would need to launch by 2032. Responses to the request are due by 3 p.m. EST on November 30.",
+          "“Hubble still has important science ahead of it,” Isaacman said, adding that NASA wants to look at cost-effective ways to extend its life. After the Swift rescue was called off, Katalyst said it would keep operating LINK near the telescope to demonstrate capabilities for future rescues.",
+          "For Swift, the story now closes in the archive. The spacecraft is gone, but its nearly 22 years of observations remain open to researchers, and the attempt to save it offered an early test of commercial servicing for aging observatories."
+        ]
+      }
+    ],
+    "internalLinks": [
+      {
+        "text": "NASA: NASA’s Swift Observatory Re-entered Earth’s Atmosphere",
+        "url": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/"
+      },
+      {
+        "text": "ABC7 News: A 3,200-pound NASA observatory plunged back to Earth | Here’s what to know",
+        "url": "https://abc7news.com/story/nasas-neil-gehrels-swift-observatory-is-careening-back-earth-heres-what-know/20015487/"
+      },
+      {
+        "text": "CBS News: NASA Swift space telescope rescue mission called off",
+        "url": "https://cbsnews.com/news/nasa-swift-space-telescope-rescue-mission-called-off"
+      },
+      {
+        "text": "Nature World News: NASA’s Swift telescope burns over Sumatra after robotic rescue fell short",
+        "url": "https://www.natureworldnews.com/articles/73749/20261106/nasas-swift-telescope-burns-over-sumatra-after-robotic-rescue-fell-short-ending-22-year.htm"
+      },
+      {
+        "text": "Interesting Engineering: NASA Swift space telescope ends 21-year mission",
+        "url": "https://interestingengineering.com/space/nasa-swift-space-telescope-ends-21-year-mission"
+      },
+      {
+        "text": "NASA: NASA Explores Potential Commercial Servicing for Hubble Telescope",
+        "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/"
+      }
+    ]
+  },
+  {
+    "category": "science",
     "title": "Scientists Identify the Birdsong Qualities Humans Find Most Pleasant",
     "shortdescription": "A new study of 123 bird species identifies acoustic characteristics linked to how pleasant humans find birdsong, with the common blackbird receiving the highest rating.",
     "image": "/images/birdsong-pleasant-human-ear-study-acoustic-qualities-2026.webp",
