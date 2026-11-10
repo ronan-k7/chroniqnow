@@ -66,6 +66,8 @@ export interface FeatureArticleData {
   timeline?: FeatureTimelineItem[];
   editorsNote?: string;
   imageCaption?: string;
+  /** Topic tags shown as oval pills after the article body. */
+  topics?: string[];
 }
 
 export interface FeatureSidebarArticle {
@@ -383,6 +385,28 @@ export default function FeatureStoryPage({
                   </li>
                 ))}
               </ol>
+            </section>
+          )}
+
+          {/* Topics – oval tag pills */}
+          {article.topics && article.topics.length > 0 && (
+            <section
+              aria-label="Topics"
+              className="mt-10 border border-gray-200 bg-gray-50 p-5 sm:p-6"
+            >
+              <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-gray-900">
+                Topics
+              </h2>
+              <div className="flex flex-wrap gap-2">
+                {article.topics.map((topic) => (
+                  <span
+                    key={topic}
+                    className="inline-flex items-center rounded-full border border-red-200 bg-white px-3.5 py-1.5 text-xs font-semibold uppercase tracking-wide text-red-700 sm:text-sm"
+                  >
+                    {topic}
+                  </span>
+                ))}
+              </div>
             </section>
           )}
 

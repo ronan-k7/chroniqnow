@@ -428,10 +428,16 @@
         "callout": {
           "label": "Role and responsibilities",
           "highlights": [
-            { "value": "20+", "label": "Law firms" },
-            { "value": "$100M", "label": "Yearly legal and advisory spending" }
+            {
+              "value": "20+",
+              "label": "Law firms"
+            },
+            {
+              "value": "$100M",
+              "label": "Yearly legal and advisory spending"
+            }
           ],
-          "text": "Habba\u2019s responsibilities included coordinating more than 20 law firms and overseeing approximately $100 million in annual legal and advisory expenditure. If accurate, that description would place her at the center of a substantial operation requiring sustained coordination, oversight and reporting."
+          "text": "Habba’s responsibilities included coordinating more than 20 law firms and overseeing approximately $100 million in annual legal and advisory expenditure. If accurate, that description would place her at the center of a substantial operation requiring sustained coordination, oversight and reporting."
         }
       },
       {
@@ -479,7 +485,19 @@
       }
     ],
     "timelineNote": "Entries described as reported rest on sources close to the family and press reports, and remain unverified.",
-    "editorsNote": "The allegations concerning Habba's professional performance, contractual responsibilities and personal priorities remain unverified. The relevant agreements and financial records would be necessary to establish whether any obligations were breached."
+    "editorsNote": "The allegations concerning Habba's professional performance, contractual responsibilities and personal priorities remain unverified. The relevant agreements and financial records would be necessary to establish whether any obligations were breached.",
+    "topics": [
+      "Alina Habba",
+      "$100 Million Legal Empire",
+      "Herrera Velutini Contract",
+      "$50 Million Package",
+      "Accountability",
+      "Professional Priorities",
+      "Trump Former Lawyer",
+      "International Legal Spending",
+      "Law Firms",
+      "New Marriage"
+    ]
   },
   {
     "category": "puerto-rico",
