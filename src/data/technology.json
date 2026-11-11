@@ -1,6 +1,94 @@
 [
   {
     "category": "technology",
+    "title": "Nvidia Board Opens Independent Investigation Into CEO Jensen Huang as Shares Slide",
+    "shortdescription": "Nvidia’s board has launched an independent investigation after reports that CEO Jensen Huang was targeted by a foreign intelligence effort, sending shares lower.",
+    "image": "/images/nvidia-board-investigation-jensen-huang-shares-fall-2026.webp",
+    "slug": "nvidia-board-investigation-jensen-huang-shares-fall-2026",
+    "date": "11th November 2026",
+    "author": "Hope M. Pender",
+    "articleType": "longform",
+    "seoTitle": "Nvidia Board Opens Investigation Into CEO Jensen Huang as Shares Fall",
+    "primaryKeyword": "Nvidia Jensen Huang investigation",
+    "secondaryKeywords": [
+      "Nvidia board independent investigation",
+      "Nvidia shares fall",
+      "Megaspeed Nvidia",
+      "Nvidia earnings November 17",
+      "Nvidia China chip export controls",
+      "Jensen Huang Congress briefing"
+    ],
+    "sections": [
+      {
+        "heading": "",
+        "content": [
+          "Nvidia’s board of directors has opened an independent investigation after reports that chief executive Jensen Huang was the target of a foreign intelligence effort, a development that has rattled investors in the world’s most closely watched AI chipmaker.",
+          "The board announced the review on Sunday, November 8, saying a committee of independent directors, assisted by outside independent counsel, will oversee it. In its statement, the board said it has no reason to believe that US national security or Nvidia’s trade secrets were compromised, and it expressed confidence in Huang and his leadership team. Nvidia said Huang fully supports the review and will cooperate.",
+          "Shares came under pressure as soon as US markets opened on Monday. ABC News reported that Nvidia closed more than 4% lower at $178.67, its first session since the board’s announcement, even as the broader market rallied.",
+          "The timing adds to the uncertainty. Nvidia is due to report third-quarter results on Tuesday, November 17, and investors were already questioning how long the surge in AI infrastructure spending can last."
+        ]
+      },
+      {
+        "heading": "What Prompted the Board’s Review",
+        "content": [
+          "The investigation follows a report by The New York Times in late October. The newspaper reported that Huang had a relationship with Alice Huang of Singapore-based data-centre company Megaspeed, a Nvidia customer, and that US officials had concluded she was a Chinese intelligence asset. Alice Huang and Megaspeed did not respond to requests for comment from ABC News and Reuters.",
+          "Beijing has rejected the allegations. Chinese foreign ministry spokesperson Guo Jiakun described them as groundless and a smear against China.",
+          "Nvidia had earlier said Huang’s interactions with the executive were not unusual. In an internal message the company shared on Sunday, Huang acknowledged that he had been unfaithful to his wife and apologised to his family and colleagues. The message did not name anyone.",
+          "It is important to note that the claims rest largely on unnamed sources. No public finding has established that Huang disclosed trade secrets or compromised US national security, and the board says it has no reason to believe national security or company secrets were compromised."
+        ]
+      },
+      {
+        "heading": "Market Reaction and Investor Concerns",
+        "content": [
+          "Monday’s decline extended a rough stretch for the stock. According to the Times, Nvidia fell nearly 9% the previous week and was more than 21% below its early-October peak, a drop that erased roughly $1 trillion in market value and pushed the shares into bear-market territory. Nvidia opened about 6% lower on Monday before recovering part of the decline, while the S&P 500 and Nasdaq both finished higher.",
+          "Analysts focused on leadership risk. Bernstein flagged what it called “key man risk,” writing that “Nvidia is not an ordinary company and Jensen is not an ordinary CEO,” while also saying demand for Nvidia’s chips appears unlikely to be affected. Dan Ives of Yorkville Ives & Co. called the episode “a black eye moment” that could create an overhang on the stock.",
+          "Reuters noted that Huang holds roughly 3.6% of Nvidia and is its fifth-largest shareholder, that dozens of executives report directly to him, and that, unlike Meta or SpaceX, Nvidia has no dual-class share structure giving a co-founder voting control. Some analysts told the agency the company has no natural internal successor, though Pepperstone’s Chris Weston said he did not expect Huang to be replaced. Nvidia has said Huang remains committed to leading the company.",
+          "Sentiment on Wall Street remains largely positive despite the turmoil. The Times, citing FactSet, reported that more than 90% of analysts covering Nvidia rate the stock a buy."
+        ]
+      },
+      {
+        "heading": "Congressional Scrutiny and the China Chip Question",
+        "content": [
+          "The story has quickly moved into Washington. ABC News reported that congressional leaders known as the Gang of Eight were expected to receive a national security briefing on Monday, and House Democratic Leader Hakeem Jeffries told CBS News the matter would likely come up. Secretary of State Marco Rubio declined to discuss it, saying reporters should ask the White House. President Donald Trump said he had not spoken to Huang and called him a fine person, according to Reuters.",
+          "Separately, the Republican chairs of three House committees have asked Huang for a closed-door briefing on November 18, a day after Nvidia reports earnings. Lawmakers asked him to accept or propose another date by November 11. The request is for a briefing rather than a subpoena for public testimony.",
+          "At the centre of the political debate is the question of where Nvidia’s advanced chips end up. Megaspeed has reportedly drawn scrutiny from US authorities over whether restricted AI hardware reached Chinese firms, and the episode has added to an existing debate in Congress over tighter chip export controls. Nvidia has previously said customers such as Megaspeed receive no national-security-relevant information.",
+          "The fallout has also touched Huang’s schedule. ABC News reported that he was no longer expected to attend an Anthropic-hosted CEO forum, and ElevenLabs confirmed he had withdrawn from an event later in the week. His daughter Madison Huang, a Nvidia executive, cancelled a planned visit to Seoul, though Nvidia AI Day Seoul is expected to go ahead and South Korea’s deputy science minister said he expects no disruption to contracted GPU deliveries."
+        ]
+      },
+      {
+        "heading": "What to Watch Next",
+        "content": [
+          "The first major test comes on Tuesday, November 17, when Nvidia releases third-quarter results and holds its earnings call at 2 p.m. Pacific time. Investors will be looking for any comment on the board’s review, as well as fresh signals on demand for its AI chips and on shipments to China.",
+          "The following day, the congressional briefing requested by House committee chairs is due, although it has not been confirmed that Huang will take part. The board has said it will provide further updates as appropriate.",
+          "Analysts cited by Reuters warned that a prolonged review could delay investment decisions or product launches. For now, Nvidia has said Huang remains CEO, but the investigation has turned a question about one executive’s relationships into a broader test of corporate governance, export-control enforcement and investor confidence in the AI boom."
+        ]
+      }
+    ],
+    "internalLinks": [
+      {
+        "text": "Nvidia: Statement from NVIDIA Board of Directors",
+        "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+      },
+      {
+        "text": "Reuters: Nvidia’s shares slide as CEO Jensen Huang probed over spy claims",
+        "url": "https://www.businessday.co.za/world/international-companies/2026-11-09-nvidias-shares-slide-as-ceo-probed-over-spy-claims/"
+      },
+      {
+        "text": "ABC News: Nvidia stock closes lower after company opens probe into CEO Jensen Huang",
+        "url": "https://abc7news.com/story/nvidia-stock-falls-company-opens-probe-ceo-jensen-huang-alleged-affair-chinese-spy/20026775/"
+      },
+      {
+        "text": "The New York Times: Nvidia’s stock drops after board opens investigation into CEO",
+        "url": "https://gvwire.com/2026/11/09/nvidias-stock-drops-after-board-opens-investigation-into-ceo/"
+      },
+      {
+        "text": "Nvidia: NVIDIA Sets Conference Call for Third-Quarter Financial Results",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+      }
+    ]
+  },
+  {
+    "category": "technology",
     "title": "Anthropic and OpenAI Push for AI Safety Rules as Industry Faces Growing Scrutiny",
     "shortdescription": "Anthropic and OpenAI are calling for stronger AI safety measures and independent testing as regulators, investors and the industry debate the risks of rapidly advancing artificial intelligence.",
     "image": "/images/anthropic-openai-ai-slowdown-safety-ipo-2026.webp",
