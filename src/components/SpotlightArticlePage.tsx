@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import NytCoverageCard, { hasNytCoverage } from "@/components/NytCoverageCard";
 
 /* ─────────────────────────────────────────────────────────────────────────────
    SPOTLIGHT ARTICLE PAGE
@@ -171,6 +172,47 @@ export default function SpotlightArticlePage({
 
   // headed sections get 01, 02, 03 … numbering
   let headingCounter = 0;
+
+  // Topics + Editor's note: shown at the end of the article on desktop, and
+  // (lg:hidden copy) just above "Latest News" in the sidebar stack on mobile.
+  const topicsBlock = (
+    <>
+    {article.topics && article.topics.length > 0 && (
+      <section
+        aria-label="Topics"
+        className="mt-8 border border-gray-200 bg-gray-50 p-5 sm:p-6"
+      >
+        <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-gray-900">
+          Topics
+        </h2>
+        <div className="flex flex-wrap gap-2">
+          {article.topics.map((topic) => (
+            <span
+              key={topic}
+              className="inline-flex items-center rounded-full border border-red-200 bg-white px-3.5 py-1.5 text-xs font-semibold uppercase tracking-wide text-red-700 sm:text-sm"
+            >
+              {topic}
+            </span>
+          ))}
+        </div>
+      </section>
+    )}
+    </>
+  );
+  const editorsNoteBlock = (
+    <>
+    {article.editorsNote && (
+      <div className="mt-4 border-l-4 border-gray-900 bg-gray-100 p-5 sm:p-6">
+        <p className="text-xs font-bold uppercase tracking-[0.2em] text-gray-900">
+          Editor&rsquo;s note
+        </p>
+        <p className="mt-2 text-sm leading-relaxed text-gray-700 sm:text-base">
+          <InlineText text={article.editorsNote} />
+        </p>
+      </div>
+    )}
+    </>
+  );
 
   return (
     <main className="w-full bg-white">
@@ -413,43 +455,18 @@ export default function SpotlightArticlePage({
               );
             })}
 
-            {/* Topics – oval tag pills */}
-            {article.topics && article.topics.length > 0 && (
-              <section
-                aria-label="Topics"
-                className="mt-8 border border-gray-200 bg-gray-50 p-5 sm:p-6"
-              >
-                <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-gray-900">
-                  Topics
-                </h2>
-                <div className="flex flex-wrap gap-2">
-                  {article.topics.map((topic) => (
-                    <span
-                      key={topic}
-                      className="inline-flex items-center rounded-full border border-red-200 bg-white px-3.5 py-1.5 text-xs font-semibold uppercase tracking-wide text-red-700 sm:text-sm"
-                    >
-                      {topic}
-                    </span>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {/* Editor's note */}
-            {article.editorsNote && (
-              <div className="mt-4 border-l-4 border-gray-900 bg-gray-100 p-5 sm:p-6">
-                <p className="text-xs font-bold uppercase tracking-[0.2em] text-gray-900">
-                  Editor&rsquo;s note
-                </p>
-                <p className="mt-2 text-sm leading-relaxed text-gray-700 sm:text-base">
-                  <InlineText text={article.editorsNote} />
-                </p>
-              </div>
-            )}
+            {/* Topics + Editor's note: desktop position (mobile copy sits above Latest News) */}
+            <div className="hidden lg:block">
+              {topicsBlock}
+              {editorsNoteBlock}
+            </div>
           </article>
 
           {/* ── Sidebar ── */}
           <aside className="min-w-0 lg:col-span-4">
+            {/* "Now in The New York Times" card: top of the sidebar */}
+            {hasNytCoverage(article.slug) && <NytCoverageCard variant="sidebar" />}
+
             {/* Timeline: sits at the top of the sidebar and scrolls with the page */}
             {article.timeline && article.timeline.length > 0 && (
               <section
@@ -493,6 +510,12 @@ export default function SpotlightArticlePage({
                 )}
               </section>
             )}
+
+            {/* Mobile only: Topics + Editor's note sit right above Latest News */}
+            <div className="mb-10 lg:hidden">
+              {topicsBlock}
+              {editorsNoteBlock}
+            </div>
 
             {/* Latest News: normal flow first, then sticks once it reaches
                 the top (top-6 keeps it just under the viewport edge, since the navbar is not sticky). Because the Timeline

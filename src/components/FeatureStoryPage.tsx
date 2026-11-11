@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import NytCoverageCard, { hasNytCoverage } from "@/components/NytCoverageCard";
 
 /* ─────────────────────────────────────────────────────────────────────────────
    FEATURE STORY PAGE
@@ -409,6 +410,9 @@ export default function FeatureStoryPage({
               </div>
             </section>
           )}
+
+          {/* "Now in The New York Times" card, just before the Editor's note */}
+          {hasNytCoverage(article.slug) && <NytCoverageCard />}
 
           {/* editor's note */}
           {article.editorsNote && (
