@@ -1,6 +1,92 @@
 [
   {
     "category": "business",
+    "title": "Jensen Huang Resigns as Nvidia CEO as Board Names Colette Kress Interim Chief",
+    "shortdescription": "Nvidia CEO Jensen Huang has resigned after 33 years, with CFO Colette Kress named interim chief as shares swung sharply and investors wait for next week’s earnings report.",
+    "image": "/images/jensen-huang-resigns-nvidia-ceo-colette-kress-interim-2026.webp",
+    "slug": "jensen-huang-resigns-nvidia-ceo-colette-kress-interim-2026",
+    "date": "12th November 2026",
+    "author": "Kenneth M. Butts",
+    "articleType": "longform",
+    "seoTitle": "Jensen Huang Resigns as Nvidia CEO: Colette Kress Named Interim CEO as Shares Fall",
+    "primaryKeyword": "Jensen Huang resigns Nvidia CEO",
+    "secondaryKeywords": [
+      "Colette Kress interim CEO",
+      "Nvidia CEO resignation",
+      "Harvey Jones Nvidia chair",
+      "Nvidia shares fall",
+      "Nvidia earnings November 17",
+      "Nvidia leadership change"
+    ],
+    "sections": [
+      {
+        "heading": "",
+        "content": [
+          "Jensen Huang, who co-founded Nvidia in 1993 and has led it for 33 years, has resigned as chief executive, president and board member, ending an era at the company at the center of the global AI boom. Nvidia’s board announced the change on Thursday, November 12, saying it takes effect immediately.",
+          "Chief financial officer Colette Kress will serve as interim CEO and remain CFO until a permanent successor is named. The board has begun a search and said it will consider both internal and external candidates. Kress joined Nvidia in September 2013 and previously spent nearly 25 years in finance roles at technology companies including Cisco and Microsoft.",
+          "The board also created a new post and named Harvey C. Jones as its first-ever chair. Jones is a longtime technology executive and venture investor who previously served as CEO and executive chairman of Synopsys. In the company’s statement, he said the board has “full confidence” in Kress and the leadership team and expects operations, customer commitments and the product roadmap to continue without interruption.",
+          "Nvidia’s announcement did not give a reason for Huang’s departure. It came four days after the board opened an independent investigation into reports that Huang had been targeted by a foreign intelligence effort, and after Huang acknowledged in an internal message that he had been unfaithful to his wife.",
+          "Nvidia’s stock was hit hard at the open. Market reports said shares fell as much as 14% in early trading before paring losses, and Yahoo Finance reported that Nvidia closed down 4.3%. The company still plans to report third-quarter results on Tuesday, November 17, as scheduled."
+        ]
+      },
+      {
+        "heading": "What Led to the Resignation",
+        "content": [
+          "The board’s investigation followed a New York Times report in late October. The newspaper reported that Huang had a relationship with Alice Huang, a former executive at Singapore-based data-center company Megaspeed, a Nvidia customer, and that US officials had concluded she was a Chinese intelligence asset.",
+          "When the board announced its review on November 8, it said it had “no reason to believe” that US national security or Nvidia’s trade secrets were compromised and expressed confidence in Huang. Fortune reported that no findings from the investigation have been made public, and nothing in the public record so far shows that Huang disclosed company secrets.",
+          "The pressure grew after further reporting. The Wall Street Journal reported that the board was preparing to dismiss Huang, according to Yahoo Finance’s market coverage. Reuters and the New York Times also reported a second relationship, with a Nvidia employee. Nvidia’s release does not mention any of these reports, and the company has not said whether they played a part in the decision.",
+          "President Donald Trump, who has defended Huang since the allegations surfaced, said on Thursday it was “so sad to see” him step down, Fox News reported. Trump described Huang as “a fine man” and questioned whether he needed to leave unless the woman involved was a spy."
+        ]
+      },
+      {
+        "heading": "Market Reaction and Wider Fallout",
+        "content": [
+          "The news rippled across the AI trade. Broadcom and AMD each rose nearly 6%, and were among the biggest gainers in the S&P 500. Super Micro Computer fell about 10% after Bloomberg reported that the Justice Department is investigating whether Alice Huang smuggled Supermicro products into China, according to Yahoo Finance.",
+          "The broader market held up better than Nvidia itself. The S&P 500 slipped 0.4% to 7,592.40, the Dow Jones Industrial Average fell 0.4% to 52,297.09 and the Nasdaq composite lost 0.4% to 25,366.09. The S&P 500 had dropped nearly 1% early in the session before recovering. Treasury yields were also rising, with the 10-year yield climbing to roughly 5.1%.",
+          "In Washington, Senate Banking Committee Chairman Tim Scott formally asked Huang and Commerce Secretary Howard Lutnick to testify at public hearings next month, Fox News reported. Scott asked Lutnick to appear at a December 10 hearing on the Commerce Department’s role in semiconductor export controls, and Commerce said on Friday that he has agreed to appear voluntarily. The report did not say whether Huang has agreed to testify.",
+          "Senator Jack Reed has separately called for “full transparency” into Nvidia’s financing deals. Inside the company, Wired reported that an engineer’s post on an internal suggestion box, made before Huang’s exit, asked the board to consider employee sentiment, and that some commenters said Huang deserved a second chance."
+        ]
+      },
+      {
+        "heading": "Leadership Questions as Nvidia Heads Into Earnings",
+        "content": [
+          "Huang has been the center of almost every major decision at Nvidia. Fortune reported that he ran a flat structure with about 60 direct reports and that the company has no chief operating officer and no clear succession plan. Until Jones was appointed, the board had no chair at all.",
+          "Governance experts say the next steps will define how the transition is judged. Michael Useem of the Wharton School told Fortune that “this is the board’s moment to shine or fade,” adding that a board doing its job should already have a list of possible successors.",
+          "Huang remains a major shareholder. Fortune reported that he holds about 3.6% of Nvidia, a stake worth roughly $150 billion.",
+          "The business itself is still growing fast. According to Fortune, Nvidia’s revenue for the first half of fiscal 2027 reached $96 billion, up 85% from a year earlier. Kress is expected to present the third-quarter report on November 17, with results due at about 1:20 p.m. Pacific time and the earnings call at 2 p.m.",
+          "Investors will be listening for several things: any update on the CEO search, how the board describes its investigation, and whether customers and partners show any hesitation. Congressional hearings next month could add more scrutiny. For now, Nvidia’s message is continuity, but with its founder gone, the company reports its next quarter under interim leadership."
+        ]
+      }
+    ],
+    "internalLinks": [
+      {
+        "text": "NVIDIA: NVIDIA Announces CEO Transition",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+      },
+      {
+        "text": "Fortune: Nvidia’s Jensen Huang resigns, CFO Colette Kress named interim CEO",
+        "url": "https://fortune.com/2026/11/11/nvidia-oust-jensen-huang-spy-affairs/"
+      },
+      {
+        "text": "Yahoo Finance: Nvidia CEO Jensen Huang Resigns — CFO Colette Kress in as Interim CEO",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-jensen-huang-resigns-110116748.html"
+      },
+      {
+        "text": "Yahoo Finance: Markets News, Nov. 12, 2026: Major Stock Indexes Fall as Investors Digest News of Nvidia CEO Jensen Huang’s Exit; AMD, Broadcom Soar",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-131805045.html"
+      },
+      {
+        "text": "Fox News: Following Nvidia CEO Jensen Huang’s resignation, some staff call to bring him back, report says",
+        "url": "https://www.foxnews.com/live-news/ai-news-china-nvidia-jensen-huang-resigns-super-intelligence-safety-11-13-26"
+      },
+      {
+        "text": "KRMG: How major US stock indexes fared Thursday 11/12/2026",
+        "url": "https://krmg.com/2026/11/12/how-major-us-stock-indexes-fared-thursday-11-12-2026/"
+      }
+    ]
+  },
+  {
+    "category": "business",
     "title": "Major Wendy's Franchisee Files for Bankruptcy as Restaurant Chain Faces Industry Pressure",
     "shortdescription": "Meritage Hospitality Group, one of Wendy's largest franchise operators, has filed for bankruptcy protection while continuing operations amid financial challenges and franchise disputes.",
     "image": "/images/wendys-franchisee-meritage-bankruptcy-314-locations-2026.webp",
