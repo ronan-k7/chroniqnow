@@ -1,6 +1,104 @@
 [
   {
     "category": "science",
+    "title": "ESA’s Hera Probe Sends First Close-Up of Didymos, the Asteroid System NASA’s DART Struck in 2022",
+    "shortdescription": "ESA’s Hera spacecraft has returned its first close-up image of the Didymos asteroid system, showing an unseen side of the space rock NASA’s DART mission hit in 2022.",
+    "image": "/images/esa-hera-first-close-up-didymos-asteroid-dart-2026.webp",
+    "slug": "esa-hera-first-close-up-didymos-asteroid-nasa-dart-impact-site-2026",
+    "date": "17th November 2026",
+    "author": "Hope M. Pender",
+    "articleType": "longform",
+    "seoTitle": "ESA Hera Sends First Close-Up Image of Didymos Asteroid System",
+    "primaryKeyword": "ESA Hera Didymos first image",
+    "secondaryKeywords": [
+      "Hera spacecraft",
+      "Didymos and Dimorphos",
+      "NASA DART mission",
+      "planetary defense",
+      "asteroid deflection",
+      "ESA asteroid mission"
+    ],
+    "sections": [
+      {
+        "heading": "",
+        "content": [
+          "Europe’s Hera spacecraft has sent back its first close-up view of the Didymos asteroid system, the target of NASA’s 2022 DART planetary defense test. The European Space Agency (ESA) released the black-and-white image on November 5, 2026, and it shows a side of Didymos that scientists had not seen in such detail before.",
+          "Hera took the picture from about 37 miles (60 kilometers) away with its Asteroid Framing Camera, more than two years after launching on October 7, 2024. Didymos, about 780 meters (2,560 feet) across, fills most of the frame. Its small moonlet, Dimorphos, about 151 meters (500 feet) wide, sits mostly in shadow.",
+          "Patrick Michel, Hera’s principal investigator, said the team’s first reaction on seeing the image was “wow!” ESA mission scientist Michael Kueppers said some of the boulders and other features may come from material thrown off Dimorphos by the DART impact, adding: “We have exciting work ahead of us to sort it out.”",
+          "ESA has said more detailed images of both asteroids will be released on November 25, 2026."
+        ]
+      },
+      {
+        "heading": "What the First Image Shows",
+        "content": [
+          "The image shows the opposite face of Didymos from the one DART’s camera captured shortly before the spacecraft hit Dimorphos on September 26, 2022. Michel said this side looks very different, with multiple boulders and craters.",
+          "Didymos still has the sharp ridge around its equator that DART had already revealed. Hera’s view also shows large boulders, smoother patches, and what look like grooves or ridges. Michel said the view “feels like looking at a whole new world.”",
+          "A second Asteroid Framing Camera image, described by Germany’s space agency DLR, was taken from about 35 miles (56 kilometers) and shows the tip of Dimorphos near Didymos’s north pole. According to DLR, Didymos spins about once every 2.2 hours, and Dimorphos orbits it at a distance of barely more than 1 kilometer (0.6 miles).",
+          "The crash site itself is not visible yet. DART’s impact point lies on Dimorphos, and that part of the moonlet is hidden in shadow in the first image."
+        ]
+      },
+      {
+        "heading": "Why Hera Was Sent to Didymos",
+        "content": [
+          "NASA’s DART spacecraft struck Dimorphos at roughly 6.1 kilometers per second (about 14,000 mph) in the first real test of whether a spacecraft can deliberately change an asteroid’s motion. The impact shortened Dimorphos’s orbit around Didymos by about 33 minutes, from roughly 11 hours and 55 minutes, which was far more than expected, according to ESA.",
+          "ESA says Dimorphos became the first object in the Solar System whose orbit has been measurably changed by human activity. The collision also threw out rubble and boulders that added extra push to the impact, and the Associated Press reported that the debris trail stretched more than 10,000 kilometers (about 6,200 miles) into space for months. Scientists say some of that material may still be nearby.",
+          "Hera is the European part of the joint ESA–NASA AIDA project, built to find out what DART actually did. It will measure the shape, surface properties and internal structure of both asteroids to work out whether a kinetic impact can serve as a dependable planetary defense method."
+        ]
+      },
+      {
+        "heading": "What Scientists Want to Learn",
+        "content": [
+          "The biggest open question is why DART’s roughly 580-kilogram spacecraft changed Dimorphos’s orbit by so much more than expected. The AP noted that the impact also slightly altered the moonlet’s path around the Sun, and that the rubble blasted into space added momentum to the push. Hera’s measurements of both asteroids are meant to help scientists understand exactly what happened.",
+          "Tracking where the ejected material ended up is part of that work. Scientists expect that a good deal of it crossed the roughly 1-kilometer gap and landed on Didymos, which means some of the boulders and ridges in Hera’s image may not be natural terrain at all. Telling impact debris apart from the asteroid’s original surface is the task Kueppers described.",
+          "Hera will also study what the two bodies are like inside. Learning their internal structure is one of the mission’s stated goals, and it matters for judging whether a similar impact could be relied on to nudge a real threatening asteroid off course."
+        ]
+      },
+      {
+        "heading": "What Hera Does Next",
+        "content": [
+          "The AP reported that, as of November 11, Hera was studying the pair from about 15 to 18 miles (25 to 30 kilometers) away. ESA plans to move it closer next month, to about 12 miles (20 kilometers), for what the agency calls a “crash site investigation.”",
+          "Hera will spend at least six months examining the system. Its cameras will map the surfaces to build 3D models, and Kueppers said the team plans to map every change it identifies on both bodies. The spacecraft, which is about the size of a car, also carries two shoebox-sized CubeSats that will take a closer look at Dimorphos, and one of them may attempt a landing.",
+          "ESA Hera mission manager Ian Carnelli called the first image a hugely exciting moment for the team and said the adventure is only beginning."
+        ]
+      },
+      {
+        "heading": "Germany’s Role in the Mission",
+        "content": [
+          "Germany is the largest contributor to Hera, funding 37.5 percent of the mission, according to DLR. The spacecraft was built by OHB in Bremen, and Jena-Optronik supplied the two identical Asteroid Framing Cameras that took the first images.",
+          "DLR’s Institute of Space Research holds scientific responsibility for the camera system and the spacecraft’s laser altimeter, and it leads the analysis of the asteroids’ shape and surface morphology. Dresden University of Technology contributed the radar experiment on the Juventas CubeSat, and Jenoptik supplied the laser rangefinder for the altimeter.",
+          "For now, the first picture is a preview. The detailed images due on November 25 should show how the two asteroids look after DART, and whether some of Didymos’s unusual surface features trace back to the 2022 collision."
+        ]
+      }
+    ],
+    "internalLinks": [
+      {
+        "text": "ESA: Hera’s first close-up view of Didymos asteroids",
+        "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-s-first-close-up-view-of-didymos-asteroids"
+      },
+      {
+        "text": "AP: Europe’s Hera spacecraft begins close inspections of an asteroid rammed by NASA in a 2022 test",
+        "url": "https://www.clickorlando.com/tech/2026/11/11/europes-hera-spacecraft-begins-close-inspections-of-an-asteroid-rammed-by-nasa-in-a-2022-test/"
+      },
+      {
+        "text": "DLR: ESA’s Hera mission – German-built spacecraft takes a closer look at near-Earth asteroids",
+        "url": "https://www.dlr.de/en/latest/news/2026/hera-spots-its-target-a-first-glimpse-into-the-study-of-the-didymos-binary-asteroid-system"
+      },
+      {
+        "text": "Space.com: Hera probe gets 1st good look at asteroid system clobbered by NASA’s DART mission",
+        "url": "https://www.space.com/space-exploration/asteroid-comet-missions/hera-probe-gets-1st-good-luck-at-asteroid-system-clobbered-by-nasas-dart-mission-space-photo-of-the-day-for-nov-6-2026"
+      },
+      {
+        "text": "Gizmodo: Europe’s Hera probe sends back its closest view yet of NASA’s DART crash site",
+        "url": "https://gizmodo.com/europes-hera-probe-sends-back-its-closest-view-yet-of-nasas-dart-crash-site-2000836333"
+      },
+      {
+        "text": "Popular Science: Hera spacecraft photographs asteroid from 37 miles away",
+        "url": "https://www.popsci.com/science/esa-hera-asteroid/"
+      }
+    ]
+  },
+  {
+    "category": "science",
     "title": "NASA’s Swift Observatory Falls to Earth After Nearly 22 Years, Ending a Landmark Gamma-Ray Mission",
     "shortdescription": "NASA’s Neil Gehrels Swift Observatory re-entered Earth’s atmosphere over Indonesia on November 4, ending a nearly 22-year gamma-ray mission after a failed commercial rescue attempt.",
     "image": "/images/nasa-swift-observatory-reentry-2026.webp",
