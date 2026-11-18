@@ -228,81 +228,237 @@
   },
   {
     "category": "puerto-rico",
-    "title": "Power Expectations Files Complaint Against Attorney Over Puerto Rico Energy Contract Dispute",
-    "shortdescription": "Power Expectations has filed a complaint against attorney Javier Vázquez Morales, alleging possible conflicts of interest and improper involvement in a disputed Puerto Rico energy contract.",
-    "image": "/images/power-expectations-attorney-complaint-2026.webp",
-    "slug": "power-expectations-complaint-attorney-enchanted-rock-puerto-rico-energy-contract",
-    "date": "8th September 2026",
-    "author": "Marcus J. Rivera",
-    "articleType": "longform",
-    "seoTitle": "Power Expectations Files Complaint Against Attorney Over Puerto Rico Energy Contract Dispute",
-    "primaryKeyword": "Power Expectations complaint attorney Puerto Rico",
+    "title": "The Two Mark Rossini Pardons Explained: January 15 and January 20",
+    "shortdescription": "Mark Rossini’s clemency record has two dates: a January 15 warrant tied to the original Puerto Rico corruption case and a January 20 warrant naming his separate case. Here is what each document says and why the difference matters.",
+    "image": "/images/mark-rossini-pardon-hero.webp",
+    "slug": "mark-rossini-two-pardons-explained-january-15-january-20",
+    "date": "18th November 2026",
+    "author": "Hope M. Pender",
+    "articleType": "casefile",
+    "seoTitle": "The Two Mark Rossini Pardons Explained: January 15 and January 20 Warrants",
+    "primaryKeyword": "Mark Rossini pardon",
     "secondaryKeywords": [
-      "Javier Vázquez Morales",
-      "PREPA contract dispute",
-      "Enchanted Rock",
-      "temporary power generation",
-      "Puerto Rico energy sector",
-      "conflict of interest"
+      "Mark Rossini",
+      "Mark Rossini January 15 pardon",
+      "Mark Rossini January 20 pardon",
+      "United States v. Vazquez-Garced",
+      "case 3:22-cr-342",
+      "case 3:25-cr-298",
+      "Wanda Vázquez Garced pardon",
+      "Julio Herrera Velutini pardon",
+      "full and unconditional pardon"
     ],
+    "dek": "A first warrant addressed the original multi-defendant case. A second, five days later, named Rossini’s separate case. Here is how the two documents fit together.",
+    "dateline": "Washington, D.C. | November 18, 2026",
+    "warrantsTitle": "The two warrants, side by side",
+    "warrantsIntro": "Each warrant identifies a different federal case. Compare the case names, numbers and dates below.",
+    "warrants": [
+      {
+        "label": "First warrant",
+        "date": "January 15, 2026",
+        "tone": "navy",
+        "source": 1,
+        "rows": [
+          {
+            "label": "Named",
+            "value": "Mark T. Rossini"
+          },
+          {
+            "label": "Case",
+            "value": "United States v. Vazquez-Garced, et al."
+          },
+          {
+            "label": "Case number",
+            "value": "3:22-cr-342"
+          },
+          {
+            "label": "Court",
+            "value": "District of Puerto Rico"
+          },
+          {
+            "label": "Authority",
+            "value": "Article II, Section 2, Clause 1 of the Constitution"
+          }
+        ]
+      },
+      {
+        "label": "Second warrant",
+        "date": "January 20, 2026",
+        "tone": "red",
+        "source": 2,
+        "rows": [
+          {
+            "label": "Named",
+            "value": "Mark T. Rossini"
+          },
+          {
+            "label": "Case",
+            "value": "United States v. Mark T. Rossini"
+          },
+          {
+            "label": "Case number",
+            "value": "3:25-cr-298"
+          },
+          {
+            "label": "Posted by",
+            "value": "Department of Justice, five days after the first"
+          },
+          {
+            "label": "Dated",
+            "value": "Washington, D.C., signed in the President’s name with the Department of Justice seal"
+          }
+        ]
+      }
+    ],
+    "warrantsGap": "5 days later",
+    "warrantsNote": "Both documents describe a full and unconditional pardon. The January 20 document repeats the central clemency language and applies it to a separate case reference.",
+    "people": {
+      "vazquez": {
+        "name": "Wanda Vázquez Garced",
+        "role": "Former governor of Puerto Rico",
+        "image": "/images/wanda-vazquez-garced.webp",
+        "imagePosition": "50% 20%"
+      },
+      "herrera": {
+        "name": "Julio Herrera Velutini",
+        "role": "Banker",
+        "image": "/images/julio-herrera-velutini.webp",
+        "imagePosition": "50% 20%"
+      }
+    },
     "sections": [
       {
-        "heading": "",
         "content": [
-          "Power Expectations LLC has filed a lawsuit against lawyer Javier Vázquez Morales with the Department of Justice of Puerto Rico, escalating a controversy over a disputed temporary power generation contract. The company says the attorney’s interactions with government officials and information related to the project could be conflicts of interest or other possible violations.",
-          "The complaint is part of a larger legal battle over a canceled contract between Power Expectations and the Puerto Rico Electric Power Authority (PREPA). The deal was a temporary generation project to add to the amount of electricity capacity in Puerto Rico’s energy system.",
-          "Power Expectations said Vazquez Morales reached out to government officials over concerns about the company’s proposal and its relationship with one of the companies tied to the project, Enchanted Rock. The company says the attorney’s involvement is a question because of his professional ties and access to information regarding the matter.",
-          "Power Expectations has claimed that the lawyer may have inappropriately revealed information obtained through professional relationships. The company has described the conduct as potentially involving conflicts of interest and has asked for an investigation, not that violations have been found.",
-          "The complaint is the latest step in a dispute involving energy regulators, government agencies, private companies and legal representatives. The controversy underscores the difficulties facing Puerto Rico’s attempts to obtain reliable power generation while managing complex procurement and oversight requirements.",
-          "There is nothing in the filing from the company to suggest any wrongdoing. Instead, it urges the authorities to investigate the circumstances surrounding the lawyer’s communications and participation in the contract process."
+          "The presidential clemency record for Mark Rossini contains two dates that readers should keep separate: January 15, 2026, and January 20, 2026. Both documents describe a full and unconditional pardon, but they identify different federal case references.[^1][^2] Understanding that sequence helps explain the legal filings that followed and why Rossini’s attorneys continued to address the court after the first pardon became public."
         ]
       },
       {
-        "heading": "Dispute Focuses on Canceled Temporary Power Generation Deal",
+        "heading": "The January 15 warrant: the original case",
         "content": [
-          "The dispute involves a short-term power generation contract between Power Expectations and PREPA that was later canceled. The project was meant to add emergency generation capacity as Puerto Rico continues efforts to improve reliability across its electricity system.",
-          "Power Expectations contested the cancelation, stating that its proposal was tainted by the actions of outside parties. The company had previously filed legal proceedings related to the decision, challenging PREPA’s termination of the agreement.",
-          "A key flash point involves a company called Enchanted Rock, which was part of the Power Expectations consortium. Enchanted Rock entered into formal agreements with Power Expectations before any questions were raised about its role in the project, the company said.",
-          "The company said Vázquez Morales, identified as being affiliated with the legal representation of Enchanted Rock, contacted government officials about the contract and raised questions about the involvement of Enchanted Rock. Power Expectations says these actions require additional review.",
-          "The energy contract controversy arises as Puerto Rico still struggles with its electricity infrastructure. The island has long suffered reliability problems, prompting government officials to seek additional generation capacity and private-sector participation.",
-          "The fight highlights the complex nature of Puerto Rico’s transition to clean energy, where government agencies, private operators and oversight entities need to work together in making decisions about large infrastructure projects.",
-          "For Power Expectations, the complaint is part of a campaign against what it says is improper interference in the contract process. For opponents, the fight underscores the need for transparency and careful review in big public energy deals."
+          "The [January 15 warrant](https://www.justice.gov/pardon/media/1424221/dl?inline=) named Mark T. Rossini and referred to *United States v. Vazquez-Garced, et al.*, case number 3:22-cr-342 in the District of Puerto Rico.[^1] That was the major public-corruption prosecution involving former Gov. Wanda Vázquez Garced, banker Julio Herrera Velutini, and Rossini, a former FBI agent who later worked as a consultant. The warrant invoked the President’s authority under Article II, Section 2, Clause 1, of the Constitution and described the grant as full and unconditional."
+        ],
+        "people": [
+          {
+            "person": "vazquez",
+            "paragraph": 0,
+            "side": "left"
+          }
         ]
       },
       {
-        "heading": "Allegations Spark Concerns Over Possible Conflict of Interest and Information Management",
+        "heading": "The January 20 warrant: a separate case reference",
         "content": [
-          "Power Expectations’ complaint focuses on allegations that Vázquez Morales could have had conflicting professional obligations when dealing with officials regarding the contract dispute. The company has said authorities should investigate his role and communications.",
-          "The company, in particular, raised concerns about the relationship between the attorney and his contacts with officials involved in Puerto Rico’s energy sector. Power Expectations says the interactions may have impacted decisions about the temporary generation project.",
-          "That said, the allegations are allegations — claims from Power Expectations, not legal findings. The filing seeks an investigation of the circumstances, not a final finding of misconduct.",
-          "But lawyers and parties tied to Enchanted Rock have disputed Power Expectations’ version of events. The broader dispute is about competing claims about the validity of the contracting process, the role of different companies, and whether proper procedures were followed.",
-          "Legal experts say government contracting disputes often raise thorny issues about professional duties, confidentiality requirements and potential conflicts between private clients and public interests.",
-          "The investigation request adds yet another twist to a complex dispute in the energy sector. The island’s electricity system has been heavily scrutinized, with officials under pressure to improve reliability while ensuring that large contracts are properly scrutinized.",
-          "The outcome of the complaint may hinge on whether investigators conclude that any professional or legal rules were breached in the contract dispute."
+          "Five days later, the Department of Justice posted a second warrant. The [January 20 document](https://www.justice.gov/pardon/media/1425091/dl?inline=) identified *United States v. Mark T. Rossini*, case number 3:25-cr-298.[^2] It repeated the central language of executive clemency but applied it to a separate case reference. The new document was dated in Washington, D.C., and was signed in the President’s name with the Department of Justice seal.",
+          "Why did the second document matter? A pardon is not simply a headline; it is a legal instrument tied to the offenses and cases submitted for consideration. If a defendant has more than one federal case number, the parties must determine whether the first warrant covers both. When uncertainty remains, the government may issue or obtain an additional warrant to remove the ambiguity. In Rossini’s case, the January 20 document made the separate case reference explicit."
         ]
       },
       {
-        "heading": "Puerto Rico's Power Sector Faces Broader Issues in Energy Contract Row",
+        "heading": "The acceptance filing",
         "content": [
-          "The Power Expectations fight is part of a larger battle over Puerto Rico’s power grid and efforts to secure reliable power generation. The island has depended on a combination of government agencies, private operators and outside contractors to deal with continuing infrastructure challenges.",
-          "The battle over the temporary generation contract has attracted attention because energy decisions in Puerto Rico have great public import. After years of outages and problems with infrastructure, reliable electricity is still a big worry for residents, businesses and policymakers.",
-          "Private companies seeking energy contracts have become more involved in Puerto Rico’s power sector, but those arrangements have also come under fire for costs, oversight and transparency.",
-          "Power Expectations has said that its project could have provided generation capacity, while critics of the procurement process have raised questions about whether contracts are awarded in the most effective and transparent way.",
-          "The complaint against Vázquez Morales is now focused on the legal and ethical side of the dispute. “Based on the allegations presented, authorities will determine if more needs to be done.”",
-          "The case is another test for officials in Puerto Rico to handle the island’s energy needs and keep public confidence in major infrastructure decisions.",
-          "As the investigation request moves forward, the case is likely to be closely watched because of potential implications for future energy contracts and procurement practices in Puerto Rico."
+          "The sequence also explains the timing of Rossini’s acceptance filing. News reports said his attorneys notified the federal court that he accepted the January 15 pardon and sought dismissal of all pending charges in both case numbers.[^3] The filing appeared while the government and defense were sorting out the relationship between the two warrants and the charges left on the court docket.",
+          "For readers, the simplest summary is this: January 15 addressed the original multi-defendant case; January 20 identified Rossini’s separate case. The two documents were related, but they were not identical. The difference is important for accurate headlines, search results, and legal reporting."
+        ]
+      },
+      {
+        "heading": "How the original case unfolded",
+        "content": [
+          "The original case began with serious allegations. Prosecutors accused Rossini and Herrera Velutini of working to support Vázquez Garced’s political campaign while seeking a favorable change at Puerto Rico’s financial regulator. The indictment described the alleged arrangement as a form of political influence connected to a regulatory investigation. Rossini was not a public official, but prosecutors portrayed him as a participant and intermediary in the alleged effort.",
+          "The case later moved away from a trial on the original charges. In 2025, the defendants [pleaded guilty to a lesser campaign-finance offense](/politics/wanda-vazquez-julio-herrera-velutini-and-mark-rossini-from-federal-indictments-to-misdemeanor-plea-in-campaign-finance-case/). That plea agreement reduced the criminal exposure but created a new procedural stage: sentencing. When the pardons were issued, the defendants had not yet completed that process."
+        ],
+        "people": [
+          {
+            "person": "herrera",
+            "paragraph": 0,
+            "side": "right"
+          }
+        ]
+      },
+      {
+        "heading": "What “full and unconditional” means",
+        "content": [
+          "The use of the phrase full and unconditional also requires careful explanation. The language indicates broad federal clemency for the offenses listed in the warrant. It does not mean a pardon can reach state charges, civil claims, disciplinary proceedings, or every allegation ever made about a person. It also does not eliminate the need for the recipient to accept the pardon if the pardon is to be used to resolve the federal case."
+        ],
+        "scope": {
+          "title": "What a pardon of this kind does and does not reach",
+          "coversTitle": "What the language covers",
+          "covers": [
+            "Broad federal clemency for the offenses listed in the warrant"
+          ],
+          "doesNotCoverTitle": "What it does not reach",
+          "doesNotCover": [
+            "State charges",
+            "Civil claims",
+            "Disciplinary proceedings",
+            "Every allegation ever made about a person"
+          ],
+          "note": "The recipient still has to accept the pardon if it is to be used to resolve the federal case."
+        }
+      },
+      {
+        "heading": "Court action, and what it did not decide",
+        "content": [
+          "The court later treated the proceedings as moot after the defendants accepted the pardons.[^3] In ordinary language, the court no longer had a live criminal dispute to decide because the executive action had removed the remaining federal consequences at issue. The dismissal closed the case, but it did not produce a trial verdict on the original allegations.",
+          "The two-warrant story shows how a small difference in case numbers can have major consequences. It also illustrates why responsible news articles should link to official documents and distinguish between a presidential warrant, a defense acceptance notice, and a judicial dismissal order."
+        ]
+      },
+      {
+        "heading": "The key facts",
+        "content": [
+          "For anyone searching for Mark Rossini, the key facts are now clear. He received a presidential pardon tied to the original Puerto Rico prosecution on January 15, a separate warrant naming his individual case on January 20, and formal court action followed after acceptance.[^1][^2][^3] The chronology is not a technical footnote. It is the structure of the story."
+        ],
+        "timelineTitle": "The sequence at a glance",
+        "timeline": [
+          {
+            "date": "2025",
+            "text": "The defendants plead guilty to a lesser campaign-finance offense. Sentencing has not been completed when the pardons are issued."
+          },
+          {
+            "date": "January 15, 2026",
+            "text": "A warrant naming Mark T. Rossini cites *United States v. Vazquez-Garced, et al.*, case 3:22-cr-342, in the District of Puerto Rico.[^1]"
+          },
+          {
+            "date": "January 20, 2026",
+            "text": "The Department of Justice posts a second warrant citing *United States v. Mark T. Rossini*, case 3:25-cr-298.[^2]"
+          },
+          {
+            "date": "Acceptance filing",
+            "text": "Rossini’s attorneys tell the federal court he accepted the January 15 pardon and ask for dismissal of all pending charges in both case numbers.[^3]"
+          },
+          {
+            "date": "Court dismissal",
+            "text": "The court treats the proceedings as moot and closes the case. There is no trial verdict on the original allegations.[^3]"
+          }
         ]
       }
     ],
-    "internalLinks": [
+    "sources": [
       {
-        "text": "El Nuevo Día: Power Expectations acude ante Justicia hace referido contra abogado que contactó a funcionarios del gobierno",
-        "url": "https://www.elnuevodia.com/noticias/locales/notas/power-expectations-acude-ante-justicia-hace-referido-contra-abogado-que-contacto-a-funcionarios-del-gobierno/"
+        "publisher": "U.S. Department of Justice",
+        "title": "Pardon warrant dated January 15, 2026, naming Mark T. Rossini (United States v. Vazquez-Garced, et al., 3:22-cr-342)",
+        "url": "https://www.justice.gov/pardon/media/1424221/dl?inline=",
+        "note": "Primary document. Describes the grant as full and unconditional under Article II, Section 2, Clause 1."
       },
       {
-        "text": "El Vocero: Power Expectations presenta querella contra abogado de Enchanted Rock Javier Vázquez Morales",
-        "url": "https://www.elvocero.com/ley-y-orden/power-expectations-presenta-querella-contra-abogado-de-enchanted-rock-javier-v-zquez-morales/article_301c2799-a139-4949-8954-768c06185908.html"
+        "publisher": "U.S. Department of Justice",
+        "title": "Pardon warrant dated January 20, 2026 (United States v. Mark T. Rossini, 3:25-cr-298)",
+        "url": "https://www.justice.gov/pardon/media/1425091/dl?inline=",
+        "note": "Primary document. Applies the same clemency language to the separate case reference."
+      },
+      {
+        "publisher": "Metro Puerto Rico",
+        "title": "Jueza federal desestima caso contra Wanda Vázquez, Herrera Velutini y Rossini tras indultos presidenciales",
+        "url": "https://www.metro.pr/noticias/2026/01/27/jueza-federal-desestima-caso-contra-wanda-vazquez-herrera-velutini-y-rossini-tras-indultos-presidenciales",
+        "date": "January 27, 2026",
+        "note": "Court-closure reporting. In Spanish."
       }
+    ],
+    "topics": [
+      "Mark Rossini",
+      "Presidential pardon",
+      "Wanda Vázquez Garced",
+      "Julio Herrera Velutini",
+      "Puerto Rico corruption case",
+      "Federal court dismissal"
     ]
   },
   {

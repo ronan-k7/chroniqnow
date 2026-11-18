@@ -11,6 +11,9 @@ import SpotlightArticlePage, {
 import FeatureStoryPage, {
   type FeatureArticleData,
 } from "@/components/FeatureStoryPage";
+import CaseFileArticlePage, {
+  type CaseFileArticleData,
+} from "@/components/CaseFileArticlePage";
 import {
   getArticleBySlug,
   getLatestArticles,
@@ -327,6 +330,7 @@ export default async function DetailPage({ params }: DetailPageProps) {
   const longformData = article as unknown as LongFormArticleData;
   const spotlightData = article as unknown as SpotlightArticleData;
   const featureData = article as unknown as FeatureArticleData;
+  const caseFileData = article as unknown as CaseFileArticleData;
   const faqJsonLd =
     longformData.articleType === "longform" && longformData.faq?.length
       ? {
@@ -368,8 +372,17 @@ export default async function DetailPage({ params }: DetailPageProps) {
 
       <Navbar />
 
-      {/* ── FEATURE layout (magazine / profile design) ─────────────────── */}
-      {featureData.articleType === "feature" ? (
+      {/* ── CASE FILE layout (legal / document-driven explainer) ───────── */}
+      {caseFileData.articleType === "casefile" ? (
+        <CaseFileArticlePage
+          article={caseFileData}
+          displayDate={displayDate}
+          publishedISO={publishedISO}
+          latestArticles={latestArticles}
+          moreArticles={moreArticles}
+        />
+      ) : /* ── FEATURE layout (magazine / profile design) ─────────────── */
+      featureData.articleType === "feature" ? (
         <FeatureStoryPage
           article={featureData}
           displayDate={displayDate}
