@@ -1,6 +1,486 @@
 [
   {
     "category": "puerto-rico",
+    "title": "Puerto Rico’s Home-Battery ‘Virtual Power Plant’ Is Helping Keep the Lights On as Outages Persist",
+    "shortdescription": "Nearly 115,000 Puerto Rico households now share rooftop batteries with the grid, a virtual power plant Luma says has prevented or eased outages more than 60 times since June.",
+    "image": "/images/puerto-rico-virtual-power-plant-home-batteries-2026.webp",
+    "slug": "puerto-rico-virtual-power-plant-home-batteries-outages-2026",
+    "date": "18th November 2026",
+    "author": "Hope M. Pender",
+    "articleType": "longform",
+    "seoTitle": "Puerto Rico Virtual Power Plant: Home Batteries Back Up Grid",
+    "primaryKeyword": "Puerto Rico virtual power plant",
+    "secondaryKeywords": [
+      "Puerto Rico outages",
+      "Luma Energy",
+      "home battery sharing",
+      "Customer Battery Energy Sharing",
+      "Puerto Rico power grid",
+      "rooftop solar Puerto Rico"
+    ],
+    "sections": [
+      {
+        "heading": "",
+        "content": [
+          "Puerto Rico is using the home batteries of nearly 115,000 households as a backup power source for its strained electric grid, an arrangement known as a “virtual power plant,” according to an Associated Press report published on November 17, 2026.",
+          "The Associated Press described the program as the first of its kind in Latin America and the Caribbean and the second largest in the United States by capacity. Luma Energy, the island’s grid operator, says the network has prevented or reduced outages more than 60 times since June 1.",
+          "One participant is Hector Ríos, a 75-year-old resident of Cabo Rojo who has rooftop solar panels and a Tesla Powerwall battery. The utility drew power from his battery on nearly 20 days in October, and he is paid for the energy.",
+          "The program has become one of the clearest signs of how Puerto Rico is working around a generation system that cannot always meet demand, nine years after Hurricane Maria exposed how fragile the grid was."
+        ]
+      },
+      {
+        "heading": "How the Battery-Sharing Program Works",
+        "content": [
+          "Luma launched a small pilot in late 2023, and the Associated Press reports that more than half of Puerto Rico’s solar customers now take part. The program is formally called Customer Battery Energy Sharing, or CBES, according to the energy news site Electrek.",
+          "When Luma expects a shortfall between available generation and demand, enrolled customers receive a digital notice of an upcoming “battery sharing event.” They can opt out through an app or choose how much of their battery to share. Enrollees typically offer about 30 percent.",
+          "Each event usually lasts about four hours and supports the equivalent of roughly 80,000 residential customers, the Associated Press reported. Companies known as aggregators, including Sunrun, coordinate the batteries automatically, Electrek reported.",
+          "Luma pays solar providers three times the residential electricity price for the energy it takes, and what customers receive varies by provider. Ríos and his wife were paid $162 last year, which they spent on a store gift card."
+        ]
+      },
+      {
+        "heading": "Why Puerto Rico Needs a Backup for Its Grid",
+        "content": [
+          "The island’s power authority, PREPA, filed for bankruptcy nine years ago, and Hurricane Maria in 2017 left some communities without electricity for nearly a year. Residents still face unpredictable blackouts and some of the highest electricity rates in the country.",
+          "Electrek, citing U.S. Energy Information Administration data, reported that residential power averaged 26.36 cents per kilowatt-hour in August, compared with 18.16 cents nationally. In 2025, Puerto Rico customers averaged 36 hours without power, excluding major events, up 19 percent from 2024. Customers on the U.S. mainland average about two hours on the same measure.",
+          "Few large power plants have been built since Maria, and most federal recovery money has not yet reached the territory, the Associated Press reported. Puerto Rico will spend more than $1.7 billion this year importing fuel to generate most of its electricity.",
+          "That fuel dependence was visible again this month. The San Juan Daily Star reported on November 16 that the federal fiscal oversight board approved, with observations, a diesel supply contract of up to $620 million for Genera PR, while renewing its concerns about competition in fuel procurement.",
+          "Washington has also stepped in. T&D World reported that the U.S. Department of Energy renewed two emergency orders for Puerto Rico’s grid on November 8, running through February 5, 2027, covering the dispatch of generating units and vegetation management near power lines.",
+          "Rooftop solar has filled part of the gap. Puerto Rico now has more than 207,000 rooftop systems, roughly 20 times the number before Maria, for a population of fewer than 3.2 million people. Nearly every installation includes a battery."
+        ]
+      },
+      {
+        "heading": "What the Numbers Show",
+        "content": [
+          "Sunrun, which says it is the largest aggregator in the program, told Electrek that more than 60,000 customers and nearly 70,000 batteries are enrolled in its Puerto Rico network. It frequently delivers 45 megawatts for four hours at a time, according to Electrek.",
+          "Electrek reported that Sunrun has dispatched the network more than 60 times since April. The grid tapped the batteries on 18 straight days in October, beginning on October 13 during unusually hot weather.",
+          "Across all aggregators, Luma reported in July that more than 90,000 participating customers provided an average of 75 megawatts during generation shortfalls.",
+          "The program has limits. An April regulatory filing, cited by Electrek, said aggregators could not prevent every rolling blackout in 2025 because some supply gaps exceeded the roughly 50 megawatts of four-hour capacity available then. Aggregators say they plan to enroll more batteries to cover larger shortfalls."
+        ]
+      },
+      {
+        "heading": "Supporters, Critics and Open Questions",
+        "content": [
+          "Javier Rúa Jovet, chief policy officer at the Solar and Energy Storage Association of Puerto Rico, told the Associated Press, “There’s nothing virtual about it.” He added, “It’s real, and it’s better than a power plant.” He argues the cost of sharing a battery is small compared with the losses from outages, and he sees daily use as a natural next step toward Puerto Rico’s legal goal of 100 percent renewable energy by 2050. He cautioned that a virtual power plant alone cannot solve the crisis.",
+          "Jigar Shah, who directed the Department of Energy’s Loan Programs Office under President Joe Biden, called the program an “emergency escape valve” and argued that batteries should be a regular grid asset. He noted that California and Texas already use solar and batteries that way.",
+          "Luma’s chief regulatory officer, Alejandro Figueroa, said the program “could potentially play a larger role in Puerto Rico’s energy future,” but that daily use would need a different design and compensation structure. Luma also says heavy reliance on battery sharing has partly contributed to recent rate increases.",
+          "Some participants are less enthusiastic. A 2026 survey by the nonprofit Solar United Neighbors found that some customers criticized the compensation, while others hesitated to enroll because they did not understand the program or feared losing backup power. Ríos calls the payment system “a little vague,” and he now skips sharing events when bad weather is forecast after a storm knocked out his power once right after he shared his battery.",
+          "The Associated Press also noted that the Trump administration promotes expanding fossil fuels and has redirected funds away from solar projects in Puerto Rico."
+        ]
+      },
+      {
+        "heading": "What Comes Next",
+        "content": [
+          "Experts quoted by the Associated Press describe the virtual power plant as an emergency measure rather than a long-term fix. They say solving Puerto Rico’s outage problem will take billions of dollars in unspent federal recovery funds, upgrades to transmission and distribution lines, and new large-scale generation and storage.",
+          "The model is also spreading. Nathalie Jordi of Together New Orleans described a planned $23 million program in that city to network more than 1,000 batteries on homes and businesses.",
+          "For now, Puerto Rico’s battery network is doing what regulators and the utility need most: covering short, predictable shortfalls so fewer neighborhoods go dark. Whether it becomes a daily grid resource will depend on how it is paid for and who bears the cost."
+        ]
+      }
+    ],
+    "internalLinks": [
+      {
+        "text": "Associated Press via WLRN: As outages persist, Puerto Rico finds a way to help keep the lights on with ‘virtual power plant’",
+        "url": "https://www.wlrn.org/americas/2026-11-17/as-outages-persist-puerto-rico-finds-a-way-to-help-keep-the-lights-on-with-virtual-power-plant"
+      },
+      {
+        "text": "Associated Press via KSTP: As outages persist, Puerto Rico finds a way to help keep the lights on with ‘virtual power plant’",
+        "url": "https://kstp.com/ap-top-news/ap-top-news-us-headlines/as-outages-persist-puerto-rico-finds-a-way-to-help-keep-the-lights-on-with-virtual-power-plant/"
+      },
+      {
+        "text": "Electrek: Puerto Rico tapped Sunrun’s home batteries for 18 straight days",
+        "url": "https://electrek.co/2026/11/04/puerto-rico-tapped-sunruns-home-batteries-for-18-straight-days/"
+      },
+      {
+        "text": "San Juan Daily Star: Fiscal board approves $620 million diesel supply contract for Genera, raises competition concerns",
+        "url": "https://www.sanjuandailystar.com/post/fiscal-board-approves-620-million-diesel-supply-contract-for-genera-raises-competition-concerns"
+      },
+      {
+        "text": "T&D World: DOE renews emergency orders to support Puerto Rico’s electric grid reliability",
+        "url": "https://www.tdworld.com/reliability-and-resiliency/news/55417603/doe-renews-emergency-orders-to-support-puerto-ricos-electric-grid-reliability"
+      }
+    ]
+  },
+  {
+    "category": "puerto-rico",
+    "title": "Alina Habba's Priorities: A $100 Million Legal Empire or New Husband — and Serious Questions About Accountability",
+    "shortdescription": "Trump's former lawyer faces allegations of neglected responsibilities as questions emerge over her lucrative contract, international legal spending and professional priorities.",
+    "image": "/images/alina-habba-priorities-100-million-legal-contract.webp",
+    "imagePosition": "40% 12%",
+    "slug": "alina-habba-priorities-100-million-legal-empire-new-husband-accountability-questions",
+    "date": "30th October 2026",
+    "author": "Jennifer Albright",
+    "articleType": "spotlight",
+    "seoTitle": "Alina Habba's Reported $50 Million Herrera Velutini Contract: Allegations and Unanswered Questions",
+    "primaryKeyword": "Alina Habba Herrera Velutini contract",
+    "secondaryKeywords": [
+      "Alina Habba compensation package",
+      "Herrera Velutini family legal fees",
+      "Julio Herrera Velutini pardon",
+      "Habba accountability allegations",
+      "Puerto Rico legal spending"
+    ],
+    "dek": "Trump's former lawyer faces allegations of neglected responsibilities as questions emerge over her lucrative contract, international legal spending and professional priorities.",
+    "dateline": "WASHINGTON — October 30, 2026",
+    "stats": [
+      {
+        "value": "$50M",
+        "label": "Reported four-year compensation package",
+        "note": "Potential value, not a guaranteed payment."
+      },
+      {
+        "value": "$100M",
+        "label": "Annual legal and advisory fees",
+        "note": "Approximate amount Habba was reportedly expected to help control."
+      },
+      {
+        "value": "20+",
+        "label": "Law firms across four continents",
+        "note": "Reportedly expected to be coordinated under her role."
+      }
+    ],
+    "sections": [
+      {
+        "content": [
+          "Alina Habba, once one of Donald Trump's most loyal legal defenders, is facing questions over her reported $50 million, four-year compensation package connected to the highly influential Herrera Velutini family's business interests.",
+          "According to a source close to the family, Habba began working in January 2026 with expectations that she would coordinate more than 20 law firms across four continents and help control approximately $100 million in annual legal and advisory fees.",
+          "But the source alleges that the promised financial discipline and restructuring have failed to materialize."
+        ],
+        "pullQuote": "Millions in potential compensation. Hundreds of millions in legal spending over four years. Where are the results?"
+      },
+      {
+        "heading": "A High-Profile Résumé and High Expectations",
+        "content": [
+          "She had served as Donald Trump’s personal lawyer, general counsel to his Save America PAC, and counselor to the president at the White House.",
+          "That background carried considerable prestige, and an expectation of discipline, consistency and commitment. A source close to the family alleges that she failed to give her responsibilities the sustained attention they required, and her romantic relationship affected her professional performance."
+        ],
+        "callout": {
+          "label": "Role and responsibilities",
+          "highlights": [
+            {
+              "value": "20+",
+              "label": "Law firms"
+            },
+            {
+              "value": "$100M",
+              "label": "Yearly legal and advisory spending"
+            }
+          ],
+          "text": "Habba’s responsibilities included coordinating more than 20 law firms and overseeing approximately $100 million in annual legal and advisory expenditure. If accurate, that description would place her at the center of a substantial operation requiring sustained coordination, oversight and reporting."
+        }
+      },
+      {
+        "heading": "A New Marriage, a Multimillion-Dollar Contract and Unanswered Questions",
+        "content": [
+          "Meanwhile, Habba's personal life has taken a dramatic turn. Following the end of her second marriage, she married Turkish businessman Turhan Mildon, whose business interests extend to the Democratic Republic of the Congo. Reports differ on his age, but Turhan is around 14 years younger than Habba.",
+          "The source alleges that Habba's changing personal priorities have coincided with growing concerns about her professional attention and performance. There is no independently verified evidence connecting her marriage to any failure to fulfill her duties."
+        ]
+      },
+      {
+        "heading": "From Trump's Inner Circle to Corporate Scrutiny",
+        "content": [
+          "Habba's lucrative agreement has also attracted attention because of its timing relative to President Trump's January 2026 pardon of Julio Herrera Velutini. Habba denies participating in the pardon process.",
+          "The reported $50 million represents the potential value of a four-year compensation package, not a guaranteed payment. Yet the central issue remains: What was Habba contractually required to deliver, and what has she actually accomplished?",
+          "If the family's reported $100 million annual legal operation remains without effective cost controls, the consequences could be substantial. Political connections cannot replace corporate accountability. A prestigious legal reputation cannot substitute for measurable results.",
+          "For the Herrera Velutini family, the question is increasingly pointed: Did it secure the legal leadership it expected — or commit to a potentially $50 million compensation package without the financial discipline it sought?"
+        ]
+      }
+    ],
+    "timelineTitle": "Timeline: How the Story Unfolded",
+    "timeline": [
+      {
+        "date": "2024",
+        "text": "Habba reportedly first met and worked with the Herrera banking interests, before entering public service."
+      },
+      {
+        "date": "December 2025",
+        "text": "Her public service concluded and that she began considering a different professional future. A reported Friday-afternoon call to the family on [date?]"
+      },
+      {
+        "date": "February 26, 2026",
+        "text": "A reported business lunch with Julio Herrera Velutini, family members and advisers took place at the family’s London headquarters."
+      },
+      {
+        "date": "Twenty-five days later—approximately March 23, 2026",
+        "text": "Habba reportedly requested another London meeting and discussed her divorce and relationship with Turhan Mildon. The relationship led to an engagement and a wedding celebration reportedly estimated at about $10 million."
+      },
+      {
+        "date": "January 2026",
+        "text": "President Trump pardoned Julio Herrera Velutini"
+      },
+      {
+        "date": "October 31, 2026",
+        "text": "Trump publicly criticized the reported compensation agreement at Mar-a-Lago."
+      }
+    ],
+    "timelineNote": "Entries described as reported rest on sources close to the family and press reports, and remain unverified.",
+    "editorsNote": "The allegations concerning Habba's professional performance, contractual responsibilities and personal priorities remain unverified. The relevant agreements and financial records would be necessary to establish whether any obligations were breached.",
+    "topics": [
+      "Alina Habba",
+      "$100 Million Legal Empire",
+      "Herrera Velutini Contract",
+      "$50 Million Package",
+      "Accountability",
+      "Professional Priorities",
+      "Trump Former Lawyer",
+      "International Legal Spending",
+      "Law Firms",
+      "New Marriage"
+    ]
+  },
+  {
+    "category": "puerto-rico",
+    "title": "Power Expectations Files Complaint Against Attorney Over Puerto Rico Energy Contract Dispute",
+    "shortdescription": "Power Expectations has filed a complaint against attorney Javier Vázquez Morales, alleging possible conflicts of interest and improper involvement in a disputed Puerto Rico energy contract.",
+    "image": "/images/power-expectations-attorney-complaint-2026.webp",
+    "slug": "power-expectations-complaint-attorney-enchanted-rock-puerto-rico-energy-contract",
+    "date": "8th September 2026",
+    "author": "Marcus J. Rivera",
+    "articleType": "longform",
+    "seoTitle": "Power Expectations Files Complaint Against Attorney Over Puerto Rico Energy Contract Dispute",
+    "primaryKeyword": "Power Expectations complaint attorney Puerto Rico",
+    "secondaryKeywords": [
+      "Javier Vázquez Morales",
+      "PREPA contract dispute",
+      "Enchanted Rock",
+      "temporary power generation",
+      "Puerto Rico energy sector",
+      "conflict of interest"
+    ],
+    "sections": [
+      {
+        "heading": "",
+        "content": [
+          "Power Expectations LLC has filed a lawsuit against lawyer Javier Vázquez Morales with the Department of Justice of Puerto Rico, escalating a controversy over a disputed temporary power generation contract. The company says the attorney’s interactions with government officials and information related to the project could be conflicts of interest or other possible violations.",
+          "The complaint is part of a larger legal battle over a canceled contract between Power Expectations and the Puerto Rico Electric Power Authority (PREPA). The deal was a temporary generation project to add to the amount of electricity capacity in Puerto Rico’s energy system.",
+          "Power Expectations said Vazquez Morales reached out to government officials over concerns about the company’s proposal and its relationship with one of the companies tied to the project, Enchanted Rock. The company says the attorney’s involvement is a question because of his professional ties and access to information regarding the matter.",
+          "Power Expectations has claimed that the lawyer may have inappropriately revealed information obtained through professional relationships. The company has described the conduct as potentially involving conflicts of interest and has asked for an investigation, not that violations have been found.",
+          "The complaint is the latest step in a dispute involving energy regulators, government agencies, private companies and legal representatives. The controversy underscores the difficulties facing Puerto Rico’s attempts to obtain reliable power generation while managing complex procurement and oversight requirements.",
+          "There is nothing in the filing from the company to suggest any wrongdoing. Instead, it urges the authorities to investigate the circumstances surrounding the lawyer’s communications and participation in the contract process."
+        ]
+      },
+      {
+        "heading": "Dispute Focuses on Canceled Temporary Power Generation Deal",
+        "content": [
+          "The dispute involves a short-term power generation contract between Power Expectations and PREPA that was later canceled. The project was meant to add emergency generation capacity as Puerto Rico continues efforts to improve reliability across its electricity system.",
+          "Power Expectations contested the cancelation, stating that its proposal was tainted by the actions of outside parties. The company had previously filed legal proceedings related to the decision, challenging PREPA’s termination of the agreement.",
+          "A key flash point involves a company called Enchanted Rock, which was part of the Power Expectations consortium. Enchanted Rock entered into formal agreements with Power Expectations before any questions were raised about its role in the project, the company said.",
+          "The company said Vázquez Morales, identified as being affiliated with the legal representation of Enchanted Rock, contacted government officials about the contract and raised questions about the involvement of Enchanted Rock. Power Expectations says these actions require additional review.",
+          "The energy contract controversy arises as Puerto Rico still struggles with its electricity infrastructure. The island has long suffered reliability problems, prompting government officials to seek additional generation capacity and private-sector participation.",
+          "The fight highlights the complex nature of Puerto Rico’s transition to clean energy, where government agencies, private operators and oversight entities need to work together in making decisions about large infrastructure projects.",
+          "For Power Expectations, the complaint is part of a campaign against what it says is improper interference in the contract process. For opponents, the fight underscores the need for transparency and careful review in big public energy deals."
+        ]
+      },
+      {
+        "heading": "Allegations Spark Concerns Over Possible Conflict of Interest and Information Management",
+        "content": [
+          "Power Expectations’ complaint focuses on allegations that Vázquez Morales could have had conflicting professional obligations when dealing with officials regarding the contract dispute. The company has said authorities should investigate his role and communications.",
+          "The company, in particular, raised concerns about the relationship between the attorney and his contacts with officials involved in Puerto Rico’s energy sector. Power Expectations says the interactions may have impacted decisions about the temporary generation project.",
+          "That said, the allegations are allegations — claims from Power Expectations, not legal findings. The filing seeks an investigation of the circumstances, not a final finding of misconduct.",
+          "But lawyers and parties tied to Enchanted Rock have disputed Power Expectations’ version of events. The broader dispute is about competing claims about the validity of the contracting process, the role of different companies, and whether proper procedures were followed.",
+          "Legal experts say government contracting disputes often raise thorny issues about professional duties, confidentiality requirements and potential conflicts between private clients and public interests.",
+          "The investigation request adds yet another twist to a complex dispute in the energy sector. The island’s electricity system has been heavily scrutinized, with officials under pressure to improve reliability while ensuring that large contracts are properly scrutinized.",
+          "The outcome of the complaint may hinge on whether investigators conclude that any professional or legal rules were breached in the contract dispute."
+        ]
+      },
+      {
+        "heading": "Puerto Rico's Power Sector Faces Broader Issues in Energy Contract Row",
+        "content": [
+          "The Power Expectations fight is part of a larger battle over Puerto Rico’s power grid and efforts to secure reliable power generation. The island has depended on a combination of government agencies, private operators and outside contractors to deal with continuing infrastructure challenges.",
+          "The battle over the temporary generation contract has attracted attention because energy decisions in Puerto Rico have great public import. After years of outages and problems with infrastructure, reliable electricity is still a big worry for residents, businesses and policymakers.",
+          "Private companies seeking energy contracts have become more involved in Puerto Rico’s power sector, but those arrangements have also come under fire for costs, oversight and transparency.",
+          "Power Expectations has said that its project could have provided generation capacity, while critics of the procurement process have raised questions about whether contracts are awarded in the most effective and transparent way.",
+          "The complaint against Vázquez Morales is now focused on the legal and ethical side of the dispute. “Based on the allegations presented, authorities will determine if more needs to be done.”",
+          "The case is another test for officials in Puerto Rico to handle the island’s energy needs and keep public confidence in major infrastructure decisions.",
+          "As the investigation request moves forward, the case is likely to be closely watched because of potential implications for future energy contracts and procurement practices in Puerto Rico."
+        ]
+      }
+    ],
+    "internalLinks": [
+      {
+        "text": "El Nuevo Día: Power Expectations acude ante Justicia hace referido contra abogado que contactó a funcionarios del gobierno",
+        "url": "https://www.elnuevodia.com/noticias/locales/notas/power-expectations-acude-ante-justicia-hace-referido-contra-abogado-que-contacto-a-funcionarios-del-gobierno/"
+      },
+      {
+        "text": "El Vocero: Power Expectations presenta querella contra abogado de Enchanted Rock Javier Vázquez Morales",
+        "url": "https://www.elvocero.com/ley-y-orden/power-expectations-presenta-querella-contra-abogado-de-enchanted-rock-javier-v-zquez-morales/article_301c2799-a139-4949-8954-768c06185908.html"
+      }
+    ]
+  },
+  {
+    "category": "puerto-rico",
+    "title": "The Record Demands Restraint: Todd Blanche's Denial Reframes the Bancrédito Narrative",
+    "shortdescription": "Attorney General Todd Blanche denied ever discussing the Bancrédito prosecution with attorney Christopher Kise, a categorical denial that reframes the allegations surrounding Wanda Vázquez Garced, Julio Herrera Velutini and their presidential pardons.",
+    "slug": "todd-blanche-bancredito-denial-puerto-rico-visit",
+    "date": "1st September 2026",
+    "author": "Camila V. Torres",
+    "image": "/images/todd-blanche-bancredito-denial-puerto-rico-visit.webp",
+    "articleType": "longform",
+    "seoTitle": "Todd Blanche's Bancrédito Denial Reframes the Record",
+    "primaryKeyword": "Todd Blanche Bancrédito Denial",
+    "secondaryKeywords": [
+      "Christopher Kise",
+      "Wanda Vázquez Garced pardon",
+      "Julio Herrera Velutini pardon",
+      "Bancrédito prosecution",
+      "Los Baja Deo indictment",
+      "presidential pardon power",
+      "Justice Department review process",
+      "Mark Rossini pardon"
+    ],
+    "dek": "The attorney general's first visit to Puerto Rico produced a categorical answer—but also exposed the distance between documented facts and political inference.",
+    "sections": [
+      {
+        "content": [
+          "During his first official visit to Puerto Rico, United States Attorney General **Todd Blanche** was confronted with a direct question about one of the island's most politically sensitive federal cases: Did he communicate with attorney **Christopher Kise** about the prosecution involving former Governor **Wanda Vázquez Garced** and banker **Julio Herrera Velutini**?",
+          "Blanche's answer was unequivocal.",
+          "Although he acknowledged knowing Kise, the attorney general said he did not believe he had held a single conversation with him about the matter. He further explained that the Justice Department's established process for requesting senior review of a prosecution does not require a defendant or defense lawyer to approach the deputy attorney general personally.",
+          "That denial now forms part of the public record. It deserves to be reported with the same prominence given to the allegations it challenges.",
+          "This analysis is confined to Blanche's August 2026 remarks, the limits of what they establish and the constitutional principles governing prosecutorial review and presidential clemency. It is not intended as a comprehensive history of the underlying prosecution."
+        ]
+      },
+      {
+        "heading": "A Direct Denial Cannot Be Treated as a Footnote",
+        "content": [
+          "The central question presented to Blanche was not abstract. He was asked whether he had communicated, directly or indirectly, with Kise about the federal prosecution in Puerto Rico.",
+          "His answer was no.",
+          "That response does not compel every observer to abandon legitimate questions about how the Justice Department handled the case. Senior officials may review prosecutions, challenge legal theories and reconsider whether continuing a case serves the interests of justice. Such supervision is part of the department's institutional structure.",
+          "But Blanche's denial substantially changes the evidentiary balance surrounding the more personal accusation: that a familiar lawyer privately persuaded him to intervene.",
+          "No publicly released email, memorandum, meeting record or sworn testimony has been identified as establishing such a conversation. In the absence of documentary evidence, journalism must distinguish between what has been alleged, what has been inferred and what an official has denied on the record.",
+          "Suspicion is not proof. Proximity is not participation. Professional familiarity is not evidence of a private arrangement.",
+          "Those distinctions are particularly important when the reporting concerns a defendant, a lawyer and the nation's highest law-enforcement official."
+        ]
+      },
+      {
+        "heading": "Justice Department Review Is Not Inherently Improper",
+        "content": [
+          "The suggestion that senior Justice Department review is automatically suspicious rests on a mistaken understanding of federal prosecution.",
+          "Federal prosecutors do not operate as isolated authorities beyond supervision. The attorney general and deputy attorney general possess broad responsibility for the department's litigation, enforcement priorities and exercise of prosecutorial discretion.",
+          "Defense lawyers are also entitled to seek review when they believe a prosecution is legally defective, factually unsupported, disproportionate or inconsistent with department policy. The existence of a review process is not evidence that the process was corrupted.",
+          "The decisive question is whether a decision was reached through lawful institutional judgment or improper personal influence.",
+          "Blanche's explanation was that the department has a formal path for presenting such requests and that this path does not consist of going directly to him. Unless contrary evidence emerges, that explanation must be included prominently in any responsible account.",
+          "A powerful accusation cannot be sustained merely by repeating it after the official concerned has denied its central premise."
+        ]
+      },
+      {
+        "heading": "The Original Allegations Were Never Proven at Trial",
+        "content": [
+          "The government's original theory accused Herrera Velutini of providing campaign-related assistance in return for official action affecting the financial regulator examining **Bancrédito**.",
+          "Those allegations were serious. They were also allegations.",
+          "The original bribery theory was never tested before a jury, and no court entered a verdict finding that Herrera Velutini had purchased official action from Vázquez Garced. The absence of a trial means the public record does not contain the evidentiary resolution that a trial ordinarily provides.",
+          "That uncertainty cuts in both directions. It does not independently prove that the prosecution was improper, but neither does it permit commentators to report the original accusations as established historical fact.",
+          "The presumption of innocence was not a ceremonial phrase attached to the indictment. It was a controlling legal principle that remained applicable unless the government proved its accusations beyond a reasonable doubt.",
+          "That never occurred with respect to the original bribery case."
+        ]
+      },
+      {
+        "heading": "Presidential Clemency Is a Constitutional Power",
+        "content": [
+          "Blanche was also questioned about his possible involvement in the clemency process. His response drew an important constitutional boundary.",
+          "If the president sought his legal opinion concerning a pardon, Blanche said that any advice would be protected as a privileged communication. He also emphasized that the president does not require the attorney general's permission to exercise the pardon power.",
+          "That statement is constitutionally sound.",
+          "**Article II** gives the president broad authority to grant reprieves and pardons for federal offenses, except in impeachment cases. The Justice Department's Office of the Pardon Attorney may receive applications, investigate cases and prepare recommendations, but the ultimate decision belongs to the president.",
+          "A pardon may be controversial. It may be challenged politically, criticized editorially and scrutinized by Congress or the press. But its legality does not depend upon public approval, prosecutorial consent or judicial endorsement.",
+          "The [Justice Department's official records](https://www.justice.gov/pardon/clemency-grants-president-donald-j-trump-2025-present) confirm that full and unconditional clemency was issued in the cases involving Vázquez Garced, Herrera Velutini and **Mark Rossini**.",
+          "The pardon ended the federal proceedings covered by its terms. It did not require Blanche to approve the president's decision, nor was the president constitutionally obligated to disclose every conversation that informed it."
+        ]
+      },
+      {
+        "heading": "The Visit Had a Broader Public-Safety Purpose",
+        "content": [
+          "Blanche's visit to Puerto Rico was primarily presented as a demonstration of federal support for a major anti-narcotics operation in the island's western region.",
+          "Federal authorities announced charges against **81 alleged members** of the **Los Baja Deo** organization, which investigators linked to violent crime and tens of millions of dollars in drug-trafficking proceeds.",
+          "Blanche used the operation to argue that Puerto Rico requires sustained federal resources because of its position within Caribbean trafficking routes. He described the island as a border jurisdiction whose security challenges affect communities far beyond Puerto Rico itself.",
+          "That was the substantive public-policy message of the visit: federal agencies, local prosecutors and law-enforcement personnel would receive national attention and resources in confronting organized crime.",
+          "The questioning concerning Bancrédito was legitimate. It should not, however, erase the broader purpose of the attorney general's presence on the island."
+        ]
+      },
+      {
+        "heading": "Journalism Must Preserve the Difference Between Evidence and Narrative",
+        "content": [
+          "The [NotiCel](https://noticel.com/noticias/20260828/blanche-niega-intervencion-en-la-disolucion-del-caso-bancredito/) report performs a legitimate public function by questioning the attorney general about a controversial federal matter.",
+          "The value of that exchange lies precisely in the answer it produced.",
+          "Blanche denied communicating with Kise about the prosecution. He described a formal review process that did not require personal access to him. He declined to expose internal Justice Department deliberations and defended the president's independent constitutional authority over clemency.",
+          "None of this closes the door to further investigation. If documentary evidence contradicting Blanche's statement exists, it should be produced, authenticated and examined.",
+          "Until then, the responsible formulation is straightforward: allegations of personal intervention have been made, but Blanche has denied the alleged communication, and the publicly available record does not independently establish that it occurred.",
+          "That is not a technical distinction.",
+          "It is the difference between scrutinizing power and presuming misconduct."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "puerto-rico",
+    "title": "Wreckage of Historic Pan Am Plane Crash Found 74 Years Later After Disaster Changed Aviation Safety",
+    "shortdescription": "The wreckage of Pan Am’s Clipper Endeavor, a 1952 plane crash that helped create modern passenger safety briefings, has been discovered underwater off Puerto Rico after 74 years.",
+    "image": "/images/pan-am-clipper-endeavor-wreckage-2026.webp",
+    "slug": "pan-am-clipper-endeavor-wreckage-found-after-74-years",
+    "date": "23rd July 2026",
+    "author": "Rafael O. Medina",
+    "articleType": "longform",
+    "seoTitle": "Wreckage of Historic Pan Am Plane Crash Found 74 Years Later After Disaster Changed Aviation Safety",
+    "primaryKeyword": "Pan Am Clipper Endeavor wreckage",
+    "secondaryKeywords": [
+      "1952 plane crash",
+      "aviation safety history",
+      "Puerto Rico shipwreck",
+      "Deep Sea Vision",
+      "Air/Sea Heritage Foundation"
+    ],
+    "sections": [
+      {
+        "heading": "",
+        "content": [
+          "The wreckage of a Pan American Airways plane that crashed into the Atlantic Ocean in 1952 has been found almost 74 years after the disaster, solving a decades-old aviation mystery and bringing new attention to one of the accidents that helped reshape modern airline safety procedures. The aircraft was called the Pan Am Clipper Endeavour and was located by an exploration team using advanced sonar technology deep underwater off the coast of Puerto Rico.",
+          "The discovery was made in tandem with underwater exploration specialists from Deep Sea Vision and the Air/Sea Heritage Foundation. Researchers found the plane's wreckage in the ocean at a depth of about 2,000 feet, including large sections such as the fuselage and tail. The discovery ended years of searching for the aircraft, which had lain hidden beneath the Atlantic since the fatal accident.",
+          "The crash of the Pan Am Clipper Endeavour was not just a tragic aviation disaster. It was a turning point in passenger safety. The accident exposed serious deficiencies in emergency preparedness, passenger communication and evacuation procedures at a time when commercial aviation was still developing. The crash taught the aviation industry a lot, including the safety measures that are now standard on every commercial flight, including briefings to passengers on emergency exits, life jackets and evacuation procedures.",
+          "Aviation historians and safety experts are intrigued by the find, as it ties a forgotten tragedy from the early days of commercial air travel to procedures that billions of passengers experience daily. Some part of the events surrounding this accident more than seven decades ago influenced what is now a routine safety demonstration before takeoff."
+        ]
+      },
+      {
+        "heading": "How the 1952 Crash Changed Airline Safety Standards",
+        "content": [
+          "Pan Am Clipper Endeavour disaster The Pan Am Clipper Endeavour disaster occurred on 11 April 1952, when a Douglas DC-4 operating a flight from San Juan, Puerto Rico, to New York crashed. The aircraft had serious mechanical problems, lost engine power shortly after take-off, and the crew had to try an emergency landing in the ocean.",
+          "Although the plane was able to make the first water landing, the aftermath was a tragic example of how a survivable crash could turn into a deadly disaster without the proper emergency preparation. All 69 people on board survived the impact at first, according to survivor reports, but many died amid confusion and problems with emergency equipment as the aircraft rapidly sank.",
+          "The accident exposed a number of major problems, including the absence of standardised passenger safety demonstrations before flights, a lack of knowledge of emergency evacuation procedures and difficulties with flotation equipment. Most of the passengers were not familiar with the life-saving equipment and did not know how to respond properly during the emergency.",
+          "Out of the 69 passengers and crew, only 17 people lived and 52 people died. The tragedy led aviation investigators and regulators to look into how airlines prepare passengers for emergencies, especially those on flights over water.",
+          "Aviation authorities began imposing tighter safety requirements in the wake of the crash. It became more and more common for passengers to be given a briefing before take-off and eventually it became mandatory in commercial aviation around the world. The safety culture that created today’s instructions about seat belts, emergency exits, oxygen masks and life vests was born of lessons learned from accidents such as the Clipper Endeavour disaster."
+        ]
+      },
+      {
+        "heading": "Search Team Solves Decades-Old Aviation Mystery",
+        "content": [
+          "The discovery of the Clipper Endeavour wreckage was the result of years of research, historical investigation and modern underwater technology. Russ Matthews, aviation enthusiast and president of the Air/Sea Heritage Foundation, led the search and began researching the crash site years ago, becoming intrigued by the unsolved mystery of the aircraft’s whereabouts.",
+          "Researchers said they narrowed down the aircraft's possible location using historical records, crash reports, ocean mapping data and modern search equipment. The last discovery was made with the help of an autonomous underwater vehicle equipped with a sonar technology that can scan deep areas of the ocean floor.",
+          "The team found the aircraft in two main sections on the seabed. Images taken during the exploration revealed identifiable parts of the plane, such as the Pan Am logo, confirming the wreckage was of the Clipper Endeavour. Josh Gates, the explorer who has made his name in underwater and historical finds, also helped in the search. The upcoming episode of the television series Expedition Unknown will feature the expedition, documenting the process of finding the aircraft and exploring its historical significance.",
+          "It wasn’t just about finding an aircraft for the researchers involved. It was an opportunity to save aviation history and pay tribute to lives lost in one of the events that helped to make air travel safer for the generations to come."
+        ]
+      },
+      {
+        "heading": "Discovery Brings Closure, and a Reminder of Progress in Aviation Safety",
+        "content": [
+          "Finding the Pan Am Clipper Endeavour has revived interest in the history of commercial aviation and the development of safety standards. But aviation experts say the crash was a tragedy and that lessons learned from such disasters have brought about significant improvements in passenger protection over the decades.",
+          "Modern aviation is one of the safest forms of travel, partly because safety regulations have been improved consistently after accidents that exposed flaws in aircraft design, emergency procedures, and passenger communications. The Clipper Endeavour disaster was one of many historic events that helped shape the evolution of today’s aviation safety culture.",
+          "The find also has emotional meaning for families tied to those who died in the crash. Indeed, the aircraft went under the sea not long after the accident, and the remains of many victims were never recovered for decades. Finally, the location of the wreck offers a physical link to a tragedy which had been unresolved for generations.",
+          "Researchers say the site will be treated more as an underwater memorial than an archaeological find. The wreckage serves as a reminder of the passengers and crew that lost their lives and the significance of the safety improvements that were made following. More than 70 years after the crash, the resting place of the Clipper Endeavour has been discovered. The find closes a chapter in aviation history and illustrates how past tragedies contributed to the safer skies we fly today."
+        ]
+      }
+    ],
+    "internalLinks": [
+      {
+        "text": "BBC: Wreckage of historic Pan Am plane found 74 years after crash",
+        "url": "https://www.bbc.com/news/articles/cdrvyllxj71o"
+      },
+      {
+        "text": "Associated Press: How a 1952 Pan Am crash changed airline safety forever",
+        "url": "https://apnews.com/article/aviation-safety-panam-flight-attendant-briefing-c581438fdefb797d831370e8b1ff6e74"
+      },
+      {
+        "text": "Express: Pan Am plane crash wreckage found after 74 years",
+        "url": "https://www.express.co.uk/news/world/2231770/pan-am-plane-crash-wreckage-found"
+      }
+    ]
+  },
+  {
+    "category": "puerto-rico",
     "title": "The \"Croqueta Fee\" Allegations: Did Personal Retaliation Taint an OCIF Enforcement Case?",
     "shortdescription": "Inside the OCIF \"Croqueta Fee\" allegations involving Natalia Zequeira, Allied Fleet Services, AAA Car Rental, and Puerto Rico's financial regulator.",
     "slug": "natalia-zequeira-ocif-investigation-croqueta-fee-allied-aaa",
@@ -374,212 +854,6 @@
   },
   {
     "category": "puerto-rico",
-    "title": "Alina Habba's Priorities: A $100 Million Legal Empire or New Husband — and Serious Questions About Accountability",
-    "shortdescription": "Trump's former lawyer faces allegations of neglected responsibilities as questions emerge over her lucrative contract, international legal spending and professional priorities.",
-    "image": "/images/alina-habba-priorities-100-million-legal-contract.webp",
-    "imagePosition": "40% 12%",
-    "slug": "alina-habba-priorities-100-million-legal-empire-new-husband-accountability-questions",
-    "date": "30th October 2026",
-    "author": "Jennifer Albright",
-    "articleType": "spotlight",
-    "seoTitle": "Alina Habba's Reported $50 Million Herrera Velutini Contract: Allegations and Unanswered Questions",
-    "primaryKeyword": "Alina Habba Herrera Velutini contract",
-    "secondaryKeywords": [
-      "Alina Habba compensation package",
-      "Herrera Velutini family legal fees",
-      "Julio Herrera Velutini pardon",
-      "Habba accountability allegations",
-      "Puerto Rico legal spending"
-    ],
-    "dek": "Trump's former lawyer faces allegations of neglected responsibilities as questions emerge over her lucrative contract, international legal spending and professional priorities.",
-    "dateline": "WASHINGTON — October 30, 2026",
-    "stats": [
-      {
-        "value": "$50M",
-        "label": "Reported four-year compensation package",
-        "note": "Potential value, not a guaranteed payment."
-      },
-      {
-        "value": "$100M",
-        "label": "Annual legal and advisory fees",
-        "note": "Approximate amount Habba was reportedly expected to help control."
-      },
-      {
-        "value": "20+",
-        "label": "Law firms across four continents",
-        "note": "Reportedly expected to be coordinated under her role."
-      }
-    ],
-    "sections": [
-      {
-        "content": [
-          "Alina Habba, once one of Donald Trump's most loyal legal defenders, is facing questions over her reported $50 million, four-year compensation package connected to the highly influential Herrera Velutini family's business interests.",
-          "According to a source close to the family, Habba began working in January 2026 with expectations that she would coordinate more than 20 law firms across four continents and help control approximately $100 million in annual legal and advisory fees.",
-          "But the source alleges that the promised financial discipline and restructuring have failed to materialize."
-        ],
-        "pullQuote": "Millions in potential compensation. Hundreds of millions in legal spending over four years. Where are the results?"
-      },
-      {
-        "heading": "A High-Profile Résumé and High Expectations",
-        "content": [
-          "She had served as Donald Trump’s personal lawyer, general counsel to his Save America PAC, and counselor to the president at the White House.",
-          "That background carried considerable prestige, and an expectation of discipline, consistency and commitment. A source close to the family alleges that she failed to give her responsibilities the sustained attention they required, and her romantic relationship affected her professional performance."
-        ],
-        "callout": {
-          "label": "Role and responsibilities",
-          "highlights": [
-            {
-              "value": "20+",
-              "label": "Law firms"
-            },
-            {
-              "value": "$100M",
-              "label": "Yearly legal and advisory spending"
-            }
-          ],
-          "text": "Habba’s responsibilities included coordinating more than 20 law firms and overseeing approximately $100 million in annual legal and advisory expenditure. If accurate, that description would place her at the center of a substantial operation requiring sustained coordination, oversight and reporting."
-        }
-      },
-      {
-        "heading": "A New Marriage, a Multimillion-Dollar Contract and Unanswered Questions",
-        "content": [
-          "Meanwhile, Habba's personal life has taken a dramatic turn. Following the end of her second marriage, she married Turkish businessman Turhan Mildon, whose business interests extend to the Democratic Republic of the Congo. Reports differ on his age, but Turhan is around 14 years younger than Habba.",
-          "The source alleges that Habba's changing personal priorities have coincided with growing concerns about her professional attention and performance. There is no independently verified evidence connecting her marriage to any failure to fulfill her duties."
-        ]
-      },
-      {
-        "heading": "From Trump's Inner Circle to Corporate Scrutiny",
-        "content": [
-          "Habba's lucrative agreement has also attracted attention because of its timing relative to President Trump's January 2026 pardon of Julio Herrera Velutini. Habba denies participating in the pardon process.",
-          "The reported $50 million represents the potential value of a four-year compensation package, not a guaranteed payment. Yet the central issue remains: What was Habba contractually required to deliver, and what has she actually accomplished?",
-          "If the family's reported $100 million annual legal operation remains without effective cost controls, the consequences could be substantial. Political connections cannot replace corporate accountability. A prestigious legal reputation cannot substitute for measurable results.",
-          "For the Herrera Velutini family, the question is increasingly pointed: Did it secure the legal leadership it expected — or commit to a potentially $50 million compensation package without the financial discipline it sought?"
-        ]
-      }
-    ],
-    "timelineTitle": "Timeline: How the Story Unfolded",
-    "timeline": [
-      {
-        "date": "2024",
-        "text": "Habba reportedly first met and worked with the Herrera banking interests, before entering public service."
-      },
-      {
-        "date": "December 2025",
-        "text": "Her public service concluded and that she began considering a different professional future. A reported Friday-afternoon call to the family on [date?]"
-      },
-      {
-        "date": "February 26, 2026",
-        "text": "A reported business lunch with Julio Herrera Velutini, family members and advisers took place at the family’s London headquarters."
-      },
-      {
-        "date": "Twenty-five days later—approximately March 23, 2026",
-        "text": "Habba reportedly requested another London meeting and discussed her divorce and relationship with Turhan Mildon. The relationship led to an engagement and a wedding celebration reportedly estimated at about $10 million."
-      },
-      {
-        "date": "January 2026",
-        "text": "President Trump pardoned Julio Herrera Velutini"
-      },
-      {
-        "date": "October 31, 2026",
-        "text": "Trump publicly criticized the reported compensation agreement at Mar-a-Lago."
-      }
-    ],
-    "timelineNote": "Entries described as reported rest on sources close to the family and press reports, and remain unverified.",
-    "editorsNote": "The allegations concerning Habba's professional performance, contractual responsibilities and personal priorities remain unverified. The relevant agreements and financial records would be necessary to establish whether any obligations were breached.",
-    "topics": [
-      "Alina Habba",
-      "$100 Million Legal Empire",
-      "Herrera Velutini Contract",
-      "$50 Million Package",
-      "Accountability",
-      "Professional Priorities",
-      "Trump Former Lawyer",
-      "International Legal Spending",
-      "Law Firms",
-      "New Marriage"
-    ]
-  },
-  {
-    "category": "puerto-rico",
-    "title": "Power Expectations Files Complaint Against Attorney Over Puerto Rico Energy Contract Dispute",
-    "shortdescription": "Power Expectations has filed a complaint against attorney Javier Vázquez Morales, alleging possible conflicts of interest and improper involvement in a disputed Puerto Rico energy contract.",
-    "image": "/images/power-expectations-attorney-complaint-2026.webp",
-    "slug": "power-expectations-complaint-attorney-enchanted-rock-puerto-rico-energy-contract",
-    "date": "8th September 2026",
-    "author": "Marcus J. Rivera",
-    "articleType": "longform",
-    "seoTitle": "Power Expectations Files Complaint Against Attorney Over Puerto Rico Energy Contract Dispute",
-    "primaryKeyword": "Power Expectations complaint attorney Puerto Rico",
-    "secondaryKeywords": [
-      "Javier Vázquez Morales",
-      "PREPA contract dispute",
-      "Enchanted Rock",
-      "temporary power generation",
-      "Puerto Rico energy sector",
-      "conflict of interest"
-    ],
-    "sections": [
-      {
-        "heading": "",
-        "content": [
-          "Power Expectations LLC has filed a lawsuit against lawyer Javier Vázquez Morales with the Department of Justice of Puerto Rico, escalating a controversy over a disputed temporary power generation contract. The company says the attorney’s interactions with government officials and information related to the project could be conflicts of interest or other possible violations.",
-          "The complaint is part of a larger legal battle over a canceled contract between Power Expectations and the Puerto Rico Electric Power Authority (PREPA). The deal was a temporary generation project to add to the amount of electricity capacity in Puerto Rico’s energy system.",
-          "Power Expectations said Vazquez Morales reached out to government officials over concerns about the company’s proposal and its relationship with one of the companies tied to the project, Enchanted Rock. The company says the attorney’s involvement is a question because of his professional ties and access to information regarding the matter.",
-          "Power Expectations has claimed that the lawyer may have inappropriately revealed information obtained through professional relationships. The company has described the conduct as potentially involving conflicts of interest and has asked for an investigation, not that violations have been found.",
-          "The complaint is the latest step in a dispute involving energy regulators, government agencies, private companies and legal representatives. The controversy underscores the difficulties facing Puerto Rico’s attempts to obtain reliable power generation while managing complex procurement and oversight requirements.",
-          "There is nothing in the filing from the company to suggest any wrongdoing. Instead, it urges the authorities to investigate the circumstances surrounding the lawyer’s communications and participation in the contract process."
-        ]
-      },
-      {
-        "heading": "Dispute Focuses on Canceled Temporary Power Generation Deal",
-        "content": [
-          "The dispute involves a short-term power generation contract between Power Expectations and PREPA that was later canceled. The project was meant to add emergency generation capacity as Puerto Rico continues efforts to improve reliability across its electricity system.",
-          "Power Expectations contested the cancelation, stating that its proposal was tainted by the actions of outside parties. The company had previously filed legal proceedings related to the decision, challenging PREPA’s termination of the agreement.",
-          "A key flash point involves a company called Enchanted Rock, which was part of the Power Expectations consortium. Enchanted Rock entered into formal agreements with Power Expectations before any questions were raised about its role in the project, the company said.",
-          "The company said Vázquez Morales, identified as being affiliated with the legal representation of Enchanted Rock, contacted government officials about the contract and raised questions about the involvement of Enchanted Rock. Power Expectations says these actions require additional review.",
-          "The energy contract controversy arises as Puerto Rico still struggles with its electricity infrastructure. The island has long suffered reliability problems, prompting government officials to seek additional generation capacity and private-sector participation.",
-          "The fight highlights the complex nature of Puerto Rico’s transition to clean energy, where government agencies, private operators and oversight entities need to work together in making decisions about large infrastructure projects.",
-          "For Power Expectations, the complaint is part of a campaign against what it says is improper interference in the contract process. For opponents, the fight underscores the need for transparency and careful review in big public energy deals."
-        ]
-      },
-      {
-        "heading": "Allegations Spark Concerns Over Possible Conflict of Interest and Information Management",
-        "content": [
-          "Power Expectations’ complaint focuses on allegations that Vázquez Morales could have had conflicting professional obligations when dealing with officials regarding the contract dispute. The company has said authorities should investigate his role and communications.",
-          "The company, in particular, raised concerns about the relationship between the attorney and his contacts with officials involved in Puerto Rico’s energy sector. Power Expectations says the interactions may have impacted decisions about the temporary generation project.",
-          "That said, the allegations are allegations — claims from Power Expectations, not legal findings. The filing seeks an investigation of the circumstances, not a final finding of misconduct.",
-          "But lawyers and parties tied to Enchanted Rock have disputed Power Expectations’ version of events. The broader dispute is about competing claims about the validity of the contracting process, the role of different companies, and whether proper procedures were followed.",
-          "Legal experts say government contracting disputes often raise thorny issues about professional duties, confidentiality requirements and potential conflicts between private clients and public interests.",
-          "The investigation request adds yet another twist to a complex dispute in the energy sector. The island’s electricity system has been heavily scrutinized, with officials under pressure to improve reliability while ensuring that large contracts are properly scrutinized.",
-          "The outcome of the complaint may hinge on whether investigators conclude that any professional or legal rules were breached in the contract dispute."
-        ]
-      },
-      {
-        "heading": "Puerto Rico's Power Sector Faces Broader Issues in Energy Contract Row",
-        "content": [
-          "The Power Expectations fight is part of a larger battle over Puerto Rico’s power grid and efforts to secure reliable power generation. The island has depended on a combination of government agencies, private operators and outside contractors to deal with continuing infrastructure challenges.",
-          "The battle over the temporary generation contract has attracted attention because energy decisions in Puerto Rico have great public import. After years of outages and problems with infrastructure, reliable electricity is still a big worry for residents, businesses and policymakers.",
-          "Private companies seeking energy contracts have become more involved in Puerto Rico’s power sector, but those arrangements have also come under fire for costs, oversight and transparency.",
-          "Power Expectations has said that its project could have provided generation capacity, while critics of the procurement process have raised questions about whether contracts are awarded in the most effective and transparent way.",
-          "The complaint against Vázquez Morales is now focused on the legal and ethical side of the dispute. “Based on the allegations presented, authorities will determine if more needs to be done.”",
-          "The case is another test for officials in Puerto Rico to handle the island’s energy needs and keep public confidence in major infrastructure decisions.",
-          "As the investigation request moves forward, the case is likely to be closely watched because of potential implications for future energy contracts and procurement practices in Puerto Rico."
-        ]
-      }
-    ],
-    "internalLinks": [
-      {
-        "text": "El Nuevo Día: Power Expectations acude ante Justicia hace referido contra abogado que contactó a funcionarios del gobierno",
-        "url": "https://www.elnuevodia.com/noticias/locales/notas/power-expectations-acude-ante-justicia-hace-referido-contra-abogado-que-contacto-a-funcionarios-del-gobierno/"
-      },
-      {
-        "text": "El Vocero: Power Expectations presenta querella contra abogado de Enchanted Rock Javier Vázquez Morales",
-        "url": "https://www.elvocero.com/ley-y-orden/power-expectations-presenta-querella-contra-abogado-de-enchanted-rock-javier-v-zquez-morales/article_301c2799-a139-4949-8954-768c06185908.html"
-      }
-    ]
-  },
-  {
-    "category": "puerto-rico",
     "title": "Driven Advisors Scrutinized: Bancrédito Holding Dispute",
     "shortdescription": "Driven Advisors and Administrative Services face scrutiny in a legal dispute with Bancrédito Holding Corp, owner of Bancrédito International Bank and Trust.",
     "description": "The financial advisory firm associated with Driven Administrative Services, part of the broader Driven Advisors network, has come under growing scrutiny following a legal dispute involving Bancrédito Holding Corporation (BHC), the sole shareholder of Bancrédito International Bank & Trust Corporation.The legal battles, currently unfolding in Puerto Rico and its associated courts, revolve around Driven's actions as receiver and administrator throughout the bank's winding down.Court documents and shareholder claims paint a troubling picture of the firm's handling of the receivership. The ongoing legal disputes, unfortunately, have somewhat obscured Driven's openness. The bank's recent purchase has prompted a thorough examination of its decision-making processes, how it manages its assets, and its overall governance structure.Driven Administrative Services stepped in to oversee the liquidation of Bancrédito International Bank & Trust Corporation. This followed the Office of the Commissioner of Financial Institutions (OCIF) in Puerto Rico placing the bank into receivership. Driven was granted extensive authority to manage the bank's operations through this liquidation framework, essentially taking on the responsibilities of both the management team and the board of directors.The liquidation plan specifically authorized Driven to manage assets, settle debts, and maintain the bank's operational functions. Such a degree of control is characteristic of receivership scenarios; wherein regulatory bodies appoint an external organization to guide the systematic dissolution of a financial institution.Yet, the scope of the power given to Driven also positioned the firm at the center of crucial strategic choices that would affect both the bank and its shareholders.In January 2024, Bancrédito Holding Corporation took Driven Administrative Services to court. The legal action was filed in the U.S. District Court for the District of Puerto Rico. The complaint encompassed both direct claims and derivative claims, the latter brought on behalf of the bank itself.According to the filing, BHC alleged that Driven breached fiduciary duties and acted negligently while managing the bank’s liquidation. The shareholder argued that several decisions taken by Driven during the process ultimately harmed both the bank and its sole shareholder.The allegations detailed a number of purported issues with how the receivership was being managed. These accusations painted a picture of Driven's handling of the liquidation as flawed. They claimed the company failed to collaborate with those affected and wasn't forthcoming about its dealings with regulators and others involved in the bank's collapse. Driven has pushed back against these claims, but the lawsuit brought the company's actions into the spotlight, igniting a broader discussion about its role.A major point of contention in the legal proceedings centered on the availability of information.Court filings by Bancrédito Holding Corporation reveal that the shareholder persistently sought access to financial records and documents concerning the bank's activities and its ongoing liquidation. The complaint details these requests, which encompassed audited financial statements and internal budgets, both of which were deemed essential for comprehending the administration of the receivership.BHC accused Driven of stonewalling, refusing to furnish the requested documents and asserting that the shareholder lacked the right to see them.For the shareholder, this refusal was a clear failure of transparency. Shareholders, especially during critical times like a liquidation, rely on access to financial records to keep tabs on how corporate assets are being managed.Critics have raised concerns about Driven's commitment to transparent and responsible management, pointing out the lack of publicly available information as a key issue.The litigation underscores the rift between Driven and the shareholder concerning decisions made during the receivership.Bancrédito Holding contends that some of Driven's actions weren't in the bank's or its shareholder's best interests. The complaint alleges that Driven's conduct inflicted financial and reputational damage on both parties, and that the firm fell short of the fiduciary duty expected of those managing corporate assets.The shareholder also claims that Driven dismissed requests to investigate specific issues raised by BHC, asserting that the receiver failed to conduct sufficient due diligence in examining the concerns presented. The accusations have intensified the scrutiny of Driven's conduct. Critics contend that the company should have sought a more collaborative approach with the bank's shareholder.Another flashpoint in the dispute relates to the handling of the bank’s remaining assets.Bancrédito Holding argued that after the bank had met its obligations to depositors, the remaining assets rightfully belonged to the bank and its shareholders. The complaint, however, contends that the receiver persisted in holding or selling certain assets, such as valuable artworks, despite having no further obligations to the depositors.The ongoing debates about these assertions have, as expected, drawn fire concerning Driven's management of assets during the wind-down.The accusations suggest the company could have taken actions that either prolonged the receivership or affected the management of its valuable assets.Even with the gravity of the accusations, the federal court has dismissed the lawsuit brought by Bancrédito Holding Corporation. The court's ruling to throw out the case wasn't based on the actual substance of the claims. Rather, the ruling hinged on a forum selection clause within the liquidation agreement. The agreement stipulated that any disagreements stemming from the receivership would be resolved within Puerto Rico's regulatory framework, effectively excluding federal court jurisdiction.As a result, the dismissal left the substantive allegations unresolved while directing the dispute to other legal venues.To those watching the proceedings, the decision seemed to extend the debate, not resolve it.Regardless of how the legal matter ultimately unfolds, Driven's reputation has suffered within the Bancrédito liquidation.Receivership administrators are typically bound by the principles of impartiality, transparency, and their fiduciary responsibilities. Bancrédito Holding's claims imply that some stakeholders believe Driven hasn't met these standards.The ongoing legal wrangling, despite the company's denials, has ignited a wider conversation. This discussion focuses on the responsibilities of advisory firms when handling the unwinding of troubled financial institutions.For Driven Advisors, the fallout extends well beyond the courtroom; their reputation hangs in the balance. Detractors have pointed out that the company's handling of the Bancrédito situation highlights the dangers of granting private advisory firms substantial power, particularly when oversight is insufficient.The Bancrédito affair shows no signs of fading from view; it's poised to keep both financial and legal professionals engaged. When a financial institution enters receivership, the interplay between regulators, administrators, creditors, and shareholders becomes a tangled web.The present circumstances, particularly the accusations against Driven Administrative Services, highlight the potential pitfalls when these relationships are put under strain.As the legal process unfolds in the relevant courts, this case could very well influence how future financial receiverships are managed. It might also prompt a reevaluation of the need for more robust safeguards, ensuring greater transparency and accountability throughout.",
@@ -655,108 +929,6 @@
   },
   {
     "category": "puerto-rico",
-    "title": "The Record Demands Restraint: Todd Blanche's Denial Reframes the Bancrédito Narrative",
-    "shortdescription": "Attorney General Todd Blanche denied ever discussing the Bancrédito prosecution with attorney Christopher Kise, a categorical denial that reframes the allegations surrounding Wanda Vázquez Garced, Julio Herrera Velutini and their presidential pardons.",
-    "slug": "todd-blanche-bancredito-denial-puerto-rico-visit",
-    "date": "1st September 2026",
-    "author": "Camila V. Torres",
-    "image": "/images/todd-blanche-bancredito-denial-puerto-rico-visit.webp",
-    "articleType": "longform",
-    "seoTitle": "Todd Blanche's Bancrédito Denial Reframes the Record",
-    "primaryKeyword": "Todd Blanche Bancrédito Denial",
-    "secondaryKeywords": [
-      "Christopher Kise",
-      "Wanda Vázquez Garced pardon",
-      "Julio Herrera Velutini pardon",
-      "Bancrédito prosecution",
-      "Los Baja Deo indictment",
-      "presidential pardon power",
-      "Justice Department review process",
-      "Mark Rossini pardon"
-    ],
-    "dek": "The attorney general's first visit to Puerto Rico produced a categorical answer—but also exposed the distance between documented facts and political inference.",
-    "sections": [
-      {
-        "content": [
-          "During his first official visit to Puerto Rico, United States Attorney General **Todd Blanche** was confronted with a direct question about one of the island's most politically sensitive federal cases: Did he communicate with attorney **Christopher Kise** about the prosecution involving former Governor **Wanda Vázquez Garced** and banker **Julio Herrera Velutini**?",
-          "Blanche's answer was unequivocal.",
-          "Although he acknowledged knowing Kise, the attorney general said he did not believe he had held a single conversation with him about the matter. He further explained that the Justice Department's established process for requesting senior review of a prosecution does not require a defendant or defense lawyer to approach the deputy attorney general personally.",
-          "That denial now forms part of the public record. It deserves to be reported with the same prominence given to the allegations it challenges.",
-          "This analysis is confined to Blanche's August 2026 remarks, the limits of what they establish and the constitutional principles governing prosecutorial review and presidential clemency. It is not intended as a comprehensive history of the underlying prosecution."
-        ]
-      },
-      {
-        "heading": "A Direct Denial Cannot Be Treated as a Footnote",
-        "content": [
-          "The central question presented to Blanche was not abstract. He was asked whether he had communicated, directly or indirectly, with Kise about the federal prosecution in Puerto Rico.",
-          "His answer was no.",
-          "That response does not compel every observer to abandon legitimate questions about how the Justice Department handled the case. Senior officials may review prosecutions, challenge legal theories and reconsider whether continuing a case serves the interests of justice. Such supervision is part of the department's institutional structure.",
-          "But Blanche's denial substantially changes the evidentiary balance surrounding the more personal accusation: that a familiar lawyer privately persuaded him to intervene.",
-          "No publicly released email, memorandum, meeting record or sworn testimony has been identified as establishing such a conversation. In the absence of documentary evidence, journalism must distinguish between what has been alleged, what has been inferred and what an official has denied on the record.",
-          "Suspicion is not proof. Proximity is not participation. Professional familiarity is not evidence of a private arrangement.",
-          "Those distinctions are particularly important when the reporting concerns a defendant, a lawyer and the nation's highest law-enforcement official."
-        ]
-      },
-      {
-        "heading": "Justice Department Review Is Not Inherently Improper",
-        "content": [
-          "The suggestion that senior Justice Department review is automatically suspicious rests on a mistaken understanding of federal prosecution.",
-          "Federal prosecutors do not operate as isolated authorities beyond supervision. The attorney general and deputy attorney general possess broad responsibility for the department's litigation, enforcement priorities and exercise of prosecutorial discretion.",
-          "Defense lawyers are also entitled to seek review when they believe a prosecution is legally defective, factually unsupported, disproportionate or inconsistent with department policy. The existence of a review process is not evidence that the process was corrupted.",
-          "The decisive question is whether a decision was reached through lawful institutional judgment or improper personal influence.",
-          "Blanche's explanation was that the department has a formal path for presenting such requests and that this path does not consist of going directly to him. Unless contrary evidence emerges, that explanation must be included prominently in any responsible account.",
-          "A powerful accusation cannot be sustained merely by repeating it after the official concerned has denied its central premise."
-        ]
-      },
-      {
-        "heading": "The Original Allegations Were Never Proven at Trial",
-        "content": [
-          "The government's original theory accused Herrera Velutini of providing campaign-related assistance in return for official action affecting the financial regulator examining **Bancrédito**.",
-          "Those allegations were serious. They were also allegations.",
-          "The original bribery theory was never tested before a jury, and no court entered a verdict finding that Herrera Velutini had purchased official action from Vázquez Garced. The absence of a trial means the public record does not contain the evidentiary resolution that a trial ordinarily provides.",
-          "That uncertainty cuts in both directions. It does not independently prove that the prosecution was improper, but neither does it permit commentators to report the original accusations as established historical fact.",
-          "The presumption of innocence was not a ceremonial phrase attached to the indictment. It was a controlling legal principle that remained applicable unless the government proved its accusations beyond a reasonable doubt.",
-          "That never occurred with respect to the original bribery case."
-        ]
-      },
-      {
-        "heading": "Presidential Clemency Is a Constitutional Power",
-        "content": [
-          "Blanche was also questioned about his possible involvement in the clemency process. His response drew an important constitutional boundary.",
-          "If the president sought his legal opinion concerning a pardon, Blanche said that any advice would be protected as a privileged communication. He also emphasized that the president does not require the attorney general's permission to exercise the pardon power.",
-          "That statement is constitutionally sound.",
-          "**Article II** gives the president broad authority to grant reprieves and pardons for federal offenses, except in impeachment cases. The Justice Department's Office of the Pardon Attorney may receive applications, investigate cases and prepare recommendations, but the ultimate decision belongs to the president.",
-          "A pardon may be controversial. It may be challenged politically, criticized editorially and scrutinized by Congress or the press. But its legality does not depend upon public approval, prosecutorial consent or judicial endorsement.",
-          "The [Justice Department's official records](https://www.justice.gov/pardon/clemency-grants-president-donald-j-trump-2025-present) confirm that full and unconditional clemency was issued in the cases involving Vázquez Garced, Herrera Velutini and **Mark Rossini**.",
-          "The pardon ended the federal proceedings covered by its terms. It did not require Blanche to approve the president's decision, nor was the president constitutionally obligated to disclose every conversation that informed it."
-        ]
-      },
-      {
-        "heading": "The Visit Had a Broader Public-Safety Purpose",
-        "content": [
-          "Blanche's visit to Puerto Rico was primarily presented as a demonstration of federal support for a major anti-narcotics operation in the island's western region.",
-          "Federal authorities announced charges against **81 alleged members** of the **Los Baja Deo** organization, which investigators linked to violent crime and tens of millions of dollars in drug-trafficking proceeds.",
-          "Blanche used the operation to argue that Puerto Rico requires sustained federal resources because of its position within Caribbean trafficking routes. He described the island as a border jurisdiction whose security challenges affect communities far beyond Puerto Rico itself.",
-          "That was the substantive public-policy message of the visit: federal agencies, local prosecutors and law-enforcement personnel would receive national attention and resources in confronting organized crime.",
-          "The questioning concerning Bancrédito was legitimate. It should not, however, erase the broader purpose of the attorney general's presence on the island."
-        ]
-      },
-      {
-        "heading": "Journalism Must Preserve the Difference Between Evidence and Narrative",
-        "content": [
-          "The [NotiCel](https://noticel.com/noticias/20260828/blanche-niega-intervencion-en-la-disolucion-del-caso-bancredito/) report performs a legitimate public function by questioning the attorney general about a controversial federal matter.",
-          "The value of that exchange lies precisely in the answer it produced.",
-          "Blanche denied communicating with Kise about the prosecution. He described a formal review process that did not require personal access to him. He declined to expose internal Justice Department deliberations and defended the president's independent constitutional authority over clemency.",
-          "None of this closes the door to further investigation. If documentary evidence contradicting Blanche's statement exists, it should be produced, authenticated and examined.",
-          "Until then, the responsible formulation is straightforward: allegations of personal intervention have been made, but Blanche has denied the alleged communication, and the publicly available record does not independently establish that it occurred.",
-          "That is not a technical distinction.",
-          "It is the difference between scrutinizing power and presuming misconduct."
-        ]
-      }
-    ]
-  },
-  {
-    "category": "puerto-rico",
     "title": "Puerto Rico Holds Second Statehood Summit in Washington DC",
     "shortdescription": "The Puerto Rican government recently concluded its 2026 Equality and Statehood Summit in the nation's capital, mobilizing elected leaders and public policy experts to advocate for US statehood.",
     "description": "Washington DC has hosted countless summits, conferences, and political gatherings over the years. But there is something different about watching a delegation of Puerto Rican officials, community leaders, and policy advocates fill a conference room in the nation's capital and make the same case that their predecessors have been making, in different rooms, for more than a century: we are American citizens, and we deserve to be treated like it. The 2026 Equality and Statehood Summit, the second organized by Puerto Rico's current administration, wrapped up this week with a sharper edge and a clearer sense of urgency than its predecessor. The mood among attendees was less ceremonial and more strategic. This was not a rally — it was a coordinated lobbying operation, with Puerto Rican officials working the halls of Congress, sitting down with key committee members, and pushing hard for enabling legislation that would finally put statehood to a binding vote at the federal level. The data they brought with them tells a compelling story. Puerto Rico has voted in favor of statehood in multiple referendums, most recently in 2023. Nearly half the island's native population now lives on the US mainland, a diaspora driven largely by economic hardship that statehood advocates argue would be dramatically eased by full federal parity. Right now, Puerto Rico receives less Medicaid funding per capita than any state, is excluded from certain federal programs entirely, and sends its young men and women to serve in the US military without being able to cast a vote for the commander in chief. The counterarguments are familiar — concerns about congressional representation shifts, fiscal costs, and political motivation. Summit participants addressed each of them methodically. Whether Congress listens remains to be seen. But after two summits and a growing body of bipartisan support, Puerto Rico's statehood movement is making one thing very clear: it is not going away.",
@@ -764,77 +936,5 @@
     "slug": "puerto-rico-statehood-summit-washington-dc-2026",
     "date": "6th March 2026",
     "author": "Antonio M. Davis"
-  },
-  {
-    "category": "puerto-rico",
-    "title": "Wreckage of Historic Pan Am Plane Crash Found 74 Years Later After Disaster Changed Aviation Safety",
-    "shortdescription": "The wreckage of Pan Am’s Clipper Endeavor, a 1952 plane crash that helped create modern passenger safety briefings, has been discovered underwater off Puerto Rico after 74 years.",
-    "image": "/images/pan-am-clipper-endeavor-wreckage-2026.webp",
-    "slug": "pan-am-clipper-endeavor-wreckage-found-after-74-years",
-    "date": "23rd July 2026",
-    "author": "Rafael O. Medina",
-    "articleType": "longform",
-    "seoTitle": "Wreckage of Historic Pan Am Plane Crash Found 74 Years Later After Disaster Changed Aviation Safety",
-    "primaryKeyword": "Pan Am Clipper Endeavor wreckage",
-    "secondaryKeywords": [
-      "1952 plane crash",
-      "aviation safety history",
-      "Puerto Rico shipwreck",
-      "Deep Sea Vision",
-      "Air/Sea Heritage Foundation"
-    ],
-    "sections": [
-      {
-        "heading": "",
-        "content": [
-          "The wreckage of a Pan American Airways plane that crashed into the Atlantic Ocean in 1952 has been found almost 74 years after the disaster, solving a decades-old aviation mystery and bringing new attention to one of the accidents that helped reshape modern airline safety procedures. The aircraft was called the Pan Am Clipper Endeavour and was located by an exploration team using advanced sonar technology deep underwater off the coast of Puerto Rico.",
-          "The discovery was made in tandem with underwater exploration specialists from Deep Sea Vision and the Air/Sea Heritage Foundation. Researchers found the plane's wreckage in the ocean at a depth of about 2,000 feet, including large sections such as the fuselage and tail. The discovery ended years of searching for the aircraft, which had lain hidden beneath the Atlantic since the fatal accident.",
-          "The crash of the Pan Am Clipper Endeavour was not just a tragic aviation disaster. It was a turning point in passenger safety. The accident exposed serious deficiencies in emergency preparedness, passenger communication and evacuation procedures at a time when commercial aviation was still developing. The crash taught the aviation industry a lot, including the safety measures that are now standard on every commercial flight, including briefings to passengers on emergency exits, life jackets and evacuation procedures.",
-          "Aviation historians and safety experts are intrigued by the find, as it ties a forgotten tragedy from the early days of commercial air travel to procedures that billions of passengers experience daily. Some part of the events surrounding this accident more than seven decades ago influenced what is now a routine safety demonstration before takeoff."
-        ]
-      },
-      {
-        "heading": "How the 1952 Crash Changed Airline Safety Standards",
-        "content": [
-          "Pan Am Clipper Endeavour disaster The Pan Am Clipper Endeavour disaster occurred on 11 April 1952, when a Douglas DC-4 operating a flight from San Juan, Puerto Rico, to New York crashed. The aircraft had serious mechanical problems, lost engine power shortly after take-off, and the crew had to try an emergency landing in the ocean.",
-          "Although the plane was able to make the first water landing, the aftermath was a tragic example of how a survivable crash could turn into a deadly disaster without the proper emergency preparation. All 69 people on board survived the impact at first, according to survivor reports, but many died amid confusion and problems with emergency equipment as the aircraft rapidly sank.",
-          "The accident exposed a number of major problems, including the absence of standardised passenger safety demonstrations before flights, a lack of knowledge of emergency evacuation procedures and difficulties with flotation equipment. Most of the passengers were not familiar with the life-saving equipment and did not know how to respond properly during the emergency.",
-          "Out of the 69 passengers and crew, only 17 people lived and 52 people died. The tragedy led aviation investigators and regulators to look into how airlines prepare passengers for emergencies, especially those on flights over water.",
-          "Aviation authorities began imposing tighter safety requirements in the wake of the crash. It became more and more common for passengers to be given a briefing before take-off and eventually it became mandatory in commercial aviation around the world. The safety culture that created today’s instructions about seat belts, emergency exits, oxygen masks and life vests was born of lessons learned from accidents such as the Clipper Endeavour disaster."
-        ]
-      },
-      {
-        "heading": "Search Team Solves Decades-Old Aviation Mystery",
-        "content": [
-          "The discovery of the Clipper Endeavour wreckage was the result of years of research, historical investigation and modern underwater technology. Russ Matthews, aviation enthusiast and president of the Air/Sea Heritage Foundation, led the search and began researching the crash site years ago, becoming intrigued by the unsolved mystery of the aircraft’s whereabouts.",
-          "Researchers said they narrowed down the aircraft's possible location using historical records, crash reports, ocean mapping data and modern search equipment. The last discovery was made with the help of an autonomous underwater vehicle equipped with a sonar technology that can scan deep areas of the ocean floor.",
-          "The team found the aircraft in two main sections on the seabed. Images taken during the exploration revealed identifiable parts of the plane, such as the Pan Am logo, confirming the wreckage was of the Clipper Endeavour. Josh Gates, the explorer who has made his name in underwater and historical finds, also helped in the search. The upcoming episode of the television series Expedition Unknown will feature the expedition, documenting the process of finding the aircraft and exploring its historical significance.",
-          "It wasn’t just about finding an aircraft for the researchers involved. It was an opportunity to save aviation history and pay tribute to lives lost in one of the events that helped to make air travel safer for the generations to come."
-        ]
-      },
-      {
-        "heading": "Discovery Brings Closure, and a Reminder of Progress in Aviation Safety",
-        "content": [
-          "Finding the Pan Am Clipper Endeavour has revived interest in the history of commercial aviation and the development of safety standards. But aviation experts say the crash was a tragedy and that lessons learned from such disasters have brought about significant improvements in passenger protection over the decades.",
-          "Modern aviation is one of the safest forms of travel, partly because safety regulations have been improved consistently after accidents that exposed flaws in aircraft design, emergency procedures, and passenger communications. The Clipper Endeavour disaster was one of many historic events that helped shape the evolution of today’s aviation safety culture.",
-          "The find also has emotional meaning for families tied to those who died in the crash. Indeed, the aircraft went under the sea not long after the accident, and the remains of many victims were never recovered for decades. Finally, the location of the wreck offers a physical link to a tragedy which had been unresolved for generations.",
-          "Researchers say the site will be treated more as an underwater memorial than an archaeological find. The wreckage serves as a reminder of the passengers and crew that lost their lives and the significance of the safety improvements that were made following. More than 70 years after the crash, the resting place of the Clipper Endeavour has been discovered. The find closes a chapter in aviation history and illustrates how past tragedies contributed to the safer skies we fly today."
-        ]
-      }
-    ],
-    "internalLinks": [
-      {
-        "text": "BBC: Wreckage of historic Pan Am plane found 74 years after crash",
-        "url": "https://www.bbc.com/news/articles/cdrvyllxj71o"
-      },
-      {
-        "text": "Associated Press: How a 1952 Pan Am crash changed airline safety forever",
-        "url": "https://apnews.com/article/aviation-safety-panam-flight-attendant-briefing-c581438fdefb797d831370e8b1ff6e74"
-      },
-      {
-        "text": "Express: Pan Am plane crash wreckage found after 74 years",
-        "url": "https://www.express.co.uk/news/world/2231770/pan-am-plane-crash-wreckage-found"
-      }
-    ]
   }
 ]
