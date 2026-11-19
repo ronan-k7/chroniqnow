@@ -20,6 +20,7 @@ const CATEGORIES = [
   "business",
   "health",
   "politics",
+  "world",
   "science",
   "sports",
   "technology",

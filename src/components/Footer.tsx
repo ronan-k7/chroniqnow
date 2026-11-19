@@ -8,6 +8,7 @@ const mainLinks: FooterLink[] = [
   { href: "/business", label: "BUSINESS", title: "Business" },
   { href: "/health", label: "HEALTH", title: "Health" },
   { href: "/politics", label: "POLITICS", title: "Politics" },
+  { href: "/world", label: "WORLD", title: "World" },
   { href: "/science", label: "SCIENCE", title: "Science" },
   { href: "/sports", label: "SPORTS", title: "Sports" },
   { href: "/technology", label: "TECHNOLOGY", title: "Technology" },

@@ -10,6 +10,7 @@ import type { ArticleWithCategory, Article } from "@/types/homepage";
 
 import businessJson from "@/data/business.json";
 import politicsJson from "@/data/politics.json";
+import worldJson from "@/data/world.json";
 import healthJson from "@/data/health.json";
 import sportsJson from "@/data/sports.json";
 import scienceJson from "@/data/science.json";
@@ -26,6 +27,10 @@ export default function HomePage() {
   const politicsSection: CategoryData = {
     category: "politics",
     articles: politicsJson as Article[],
+  };
+  const worldSection: CategoryData = {
+    category: "world",
+    articles: worldJson as unknown as Article[],
   };
   const healthSection: CategoryData = {
     category: "health",
@@ -59,6 +64,7 @@ const puertoricoSection: CategoryData = {
           latestArticles={latestArticles}
         />
         <HomeSections data={politicsSection} />
+        <FiveCardsSection data={worldSection} />
         <HomeSections data={healthSection} />
         <FiveCardsSection data={sportsSection} />
         <FiveCardsSection data={puertoricoSection} />

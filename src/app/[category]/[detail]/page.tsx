@@ -204,6 +204,7 @@ export async function generateStaticParams() {
     "business",
     "health",
     "politics",
+    "world",
     "science",
     "sports",
     "puerto-rico",
