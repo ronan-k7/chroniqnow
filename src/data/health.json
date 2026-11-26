@@ -1,6 +1,98 @@
 [
   {
     "category": "health",
+    "title": "US Loses Measles Elimination Status as Cases Top 6,000 and Wisconsin Reports Third Death",
+    "shortdescription": "PAHO has formally withdrawn US measles elimination status after 26 years, as the CDC counts 6,039 cases and nine deaths in 2026 and Wisconsin confirms a third outbreak death.",
+    "image": "/images/us-loses-measles-elimination-status-paho-cases-top-6000-2026.webp",
+    "slug": "us-loses-measles-elimination-status-paho-cases-top-6000-2026",
+    "date": "26th November 2026",
+    "author": "Hope M. Pender",
+    "articleType": "longform",
+    "seoTitle": "US Loses Measles Elimination Status After 26 Years as CDC Cases Pass 6,000 and Deaths Mount",
+    "primaryKeyword": "US measles elimination status",
+    "secondaryKeywords": [
+      "PAHO measles decision",
+      "CDC measles cases 2026",
+      "measles deaths United States",
+      "Wisconsin measles outbreak",
+      "MMR vaccine coverage",
+      "measles outbreak United States",
+      "Bolivia Mexico measles"
+    ],
+    "sections": [
+      {
+        "heading": "",
+        "content": [
+          "The United States has formally lost the measles elimination status it held for 26 years, the Pan American Health Organization (PAHO) announced on November 17, as cases keep climbing in the country’s worst outbreak in decades. New federal data posted Wednesday put the 2026 total at 6,039 confirmed cases, with nine deaths on the Centers for Disease Control and Prevention’s official count.",
+          "Bolivia and Mexico lost their status in the same decision. Under PAHO’s rules, a country forfeits elimination when the same measles virus lineage circulates without interruption for 12 months or longer. PAHO now considers measles endemic in the United States again. Experts do not expect the decision alone to trigger major federal policy changes, though some hope it will push state and local health departments to act.",
+          "The news landed in the same week that Wisconsin health officials reported a third death linked to the outbreak in that state, an adult, as families across the country prepare for holiday gatherings and travel."
+        ]
+      },
+      {
+        "heading": "What PAHO Decided and Why",
+        "content": [
+          "PAHO’s regional verification commission met November 10–13 and concluded that endemic transmission had been re-established in Bolivia, Mexico and the United States. PAHO Director Jarbas Barbosa accepted the recommendation and announced it at a November 17 media briefing. The United States first declared measles eliminated in 2000.",
+          "Barbosa called the outcome “a serious warning for our Region, but it is not an irreversible setback.” The Americas as a whole lost their collective elimination status in November 2025 after Canada’s prolonged outbreak, and Canada has since interrupted the chain of transmission linked to that outbreak. Across the region, PAHO counted 58,213 confirmed measles cases and 82 deaths as of November 13, compared with 12,806 cases over the same period last year.",
+          "To regain the designation, the United States must submit a corrective action plan and then show it has been free of the virus for 12 months, PAHO officials said. Dr. Daniel Salas, who runs PAHO’s immunization program, said the plan is expected in the coming weeks."
+        ]
+      },
+      {
+        "heading": "The Latest CDC Numbers",
+        "content": [
+          "The CDC’s weekly update, posted Wednesday ahead of the federal holiday, counted 6,039 confirmed measles cases as of November 24, including 18 among international visitors. Cases were reported by 47 jurisdictions, and the agency has logged 43 new outbreaks this year, defined as three or more related cases. About 97 percent of 2026 cases, or 5,829 of the total, are linked to outbreaks.",
+          "The total is more than 2.6 times the 2,289 cases confirmed in all of 2025 and more than 21 times the 285 cases recorded in 2024. It is also 627 cases higher than the 5,412 the CDC had confirmed as of November 12. Since the start of 2025, about 7,700 people in the United States have been infected and 13 have died, according to Reuters reporting on the PAHO announcement.",
+          "The CDC notes that its count includes only confirmed cases notified by jurisdictions, so state health department totals can run higher. The agency says its next scheduled data update is December 4."
+        ]
+      },
+      {
+        "heading": "A Gap Between Federal and State Death Counts",
+        "content": [
+          "The CDC lists nine measles deaths for 2026 and says that figure is subject to change. Counting state reports, Reuters tallied at least 14 measles-associated deaths this year: nine in Pennsylvania, three in Wisconsin, and one each in Virginia and New York.",
+          "The discrepancy follows a change in method. Under Health Secretary Robert F. Kennedy Jr., the CDC now relies on national cause-of-death statistics rather than reports from state health authorities, which has caused the federal and state tallies to diverge, Reuters reported."
+        ]
+      },
+      {
+        "heading": "Wisconsin: A Third Death and a Widening Outbreak",
+        "content": [
+          "Wisconsin’s Department of Health Services reported Tuesday that an adult resident of Lafayette County had died, the third death tied to the state’s outbreak. The agency released no further details to protect the person’s privacy. An infant and a child, both from Grant County, died earlier this month, and those were the state’s first measles deaths since 1990.",
+          "As of November 24, the state had counted 918 cases since August across 24 counties, with 920 for 2026 as a whole, including 88 confirmed since November 20. Nineteen people have been hospitalized since August, and 913 cases, or 99.2 percent, involved people who were unvaccinated or whose vaccination status is unknown.",
+          "Public radio station WPR reported that 14 people who are or were pregnant have contracted measles in the state and that one case of congenital measles, in which the virus passes from mother to baby, has been confirmed. Wisconsin has asked the CDC for additional Epi-Aid staff, and an exposure at the UnityPoint Health–Meriter emergency department on November 15 was also reported.",
+          "Dr. Ryan Westergaard, the state epidemiologist for communicable diseases, said indoor social gatherings speed outbreaks and pointed to holiday gatherings and travel as a concern. Wisconsin has administered more than 55,000 MMR doses since August and is recommending early doses for at-risk babies as young as six months."
+        ]
+      },
+      {
+        "heading": "The Vaccination Gap Behind the Surge",
+        "content": [
+          "Public health experts point to falling vaccination coverage as the main driver. Kindergarten MMR coverage slipped from about 95 percent in the 2019–2020 school year to about 92 percent in 2025–2026, leaving nearly 300,000 kindergartners unprotected, according to figures cited by ABC News. PAHO says at least 95 percent coverage with both doses is needed in every community to keep measles from spreading.",
+          "Two doses of MMR vaccine are about 97 percent effective, the CDC says, and one dose is about 93 percent effective. The outbreak is not limited to children: Al Jazeera reported that roughly 40 percent of current US cases are in adults older than 20.",
+          "Reuters noted that Kennedy has for years expressed doubts about the safety of measles vaccines without scientific evidence. After the PAHO announcement, Kennedy said in a post on X that the government would work to regain elimination status and that he continues to recommend MMR vaccination. CDC Director Dr. Erica Schwartz said in a statement, “The measles elimination designation is not what protects Americans, vaccination does,” and the agency says it has provided about $100 million in additional funding to state and local health departments since August."
+        ]
+      },
+      {
+        "heading": "What Happens Next and What Families Can Do",
+        "content": [
+          "The first concrete step is the corrective action plan. PAHO’s commission urged countries to close immunity gaps using its risk assessment tool, step up active case finding every three months, vaccinate and protect health workers, and make sure outbreak response teams have timely resources.",
+          "Matt Ferrari, director of Penn State’s Center for Infectious Disease Dynamics, said, “This should be a humbling statement for the United States,” and said states may need to rethink vaccination timing. Daniel Jernigan, a former director of the CDC’s National Center for Emerging and Zoonotic Infectious Diseases, said parents of babies under one year old will need to be more cautious about crowds and air travel.",
+          "Health officials advise anyone unsure of their vaccination status to check records with their provider or state immunization registry. People with a fever and rash should call ahead before visiting a clinic or hospital so others are not exposed. Symptoms typically begin 10 to 21 days after infection, with early signs including high fever, cough, runny nose and red, watery eyes, and a rash appearing three to five days later."
+        ]
+      },
+      {
+        "heading": "Sources",
+        "content": [
+          "• [Pan American Health Organization – PAHO urges countries to step up efforts to stop measles outbreaks and move towards elimination in the Americas (November 17, 2026)](https://www.paho.org/node/105661)",
+          "• [Centers for Disease Control and Prevention – Measles Cases and Outbreaks (data as of November 24, 2026)](https://www.cdc.gov/measles/data-research/index.html)",
+          "• [Reuters via Devdiscourse – US loses measles elimination status after nearly three decades (November 17, 2026)](https://www.devdiscourse.com/article/international/4008547-us-loses-measles-elimination-status-after-nearly-three-decades)",
+          "• [Reuters via WHBL – US CDC reports nine measles-related deaths in 2026 (November 25, 2026)](https://whbl.com/2026/11/25/us-cdc-reports-nine-measles-related-deaths-in-2026)",
+          "• [ABC News – US officially loses measles elimination status, PAHO says (November 17–18, 2026)](https://abc7ny.com/story/us-officially-loses-measles-elimination-status-paho-says/20048136/)",
+          "• [Al Jazeera – US officially loses measles-free status after 26 years in historic setback (November 17, 2026)](https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak)",
+          "• [Wisconsin Department of Health Services – Wisconsin DHS Reports Death Connected to Ongoing Outbreak, Provides Update on Statewide Measles Response (November 24, 2026)](https://www.dhs.wisconsin.gov/news/releases/112426.htm)",
+          "• [WPR – Third Wisconsinite dies of measles as cases ramp up (November 24, 2026)](https://www.wpr.org/news/third-wisconsinite-dies-of-measles)"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "health",
     "title": "Infant Bleeding From Vitamin K Deficiency Surges as More US Parents Decline Newborn Shot",
     "shortdescription": "A JAMA Pediatrics study of more than 11 million infants finds vitamin K deficiency bleeding rose about 347 percent since 2017 as more parents decline the routine newborn shot.",
     "image": "/images/infant-vitamin-k-deficiency-bleeding-surge-parents-decline-newborn-shot-2026.webp",
